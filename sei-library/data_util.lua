@@ -30,7 +30,7 @@ end
 function Util.add_categories_to_machines(categories, machines)
 	for _, name in pairs(machines) do
 		if data.raw["assembling-machine"][name] then
-			machine = data.raw["assembling-machine"][name]
+			local machine = data.raw["assembling-machine"][name]
 			for _, category in pairs(categories) do
 				if not Util.table_contains(machine.crafting_categories, category) then
 					table.insert(machine.crafting_categories, category)
@@ -67,7 +67,7 @@ end
 function Util.set_category_for_recipes(category, recipes)
 	for _, recipe in pairs(recipes) do
 		if data.raw.recipe[recipe] then
-			data.raw.recipe[recipe].category = category
+			data.raw.recipe[recipe].categories = { category }
 		end
 	end
 end
