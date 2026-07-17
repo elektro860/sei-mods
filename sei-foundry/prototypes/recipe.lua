@@ -4,7 +4,7 @@ data:extend({
     {
         type = "recipe",
         name = data_util.prefix.."foundry",
-        category = "crafting-with-fluid",
+        categories = { "crafting-with-fluid" },
         enabled = false,
         ingredients =
             {{type = "item", name = "se-heavy-composite", amount = 20},
