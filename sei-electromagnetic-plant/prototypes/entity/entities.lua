@@ -6,7 +6,7 @@ local path_util = require("__sei-library__.path_util")
 
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
-local space_age_sounds = require("__sei-library__.prototypes.entity.sounds")
+local space_age_sounds = require("__sei-electromagnetic-plant__.prototypes.entity.sounds")
 
 data:extend({
 	{
