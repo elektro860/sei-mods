@@ -1,15 +1,16 @@
 {
   "name": "sei-electromagnetic-plant",
-  "version": "1.0.12",
+  "version": "1.1.0",
   "title": "Space Exploration Integration: Electromagnetic Plant",
   "author": "xkyouchoux",
   "description": "Integrates the electromagnetic plant into space exploration.",
   "dependencies": [
-    "base >= 2.0.0",
+    "base >= 2.1.0",
     "space-exploration",
-    "sei-library >= 1.0.17",
+    "sei-library >= 1.1.0",
     "? Krastorio2 >= 2.0",
-    "! um-standalone-electromagnetic-plant"],
+    "! um-standalone-electromagnetic-plant"
+  ],
   "freezing_required": true,
-  "factorio_version": "2.0"
+  "factorio_version": "2.1"
 }
