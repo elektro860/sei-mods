@@ -10,19 +10,20 @@ end
 
 function Util.add_additional_category_to_recipes(category, recipes)
 	if not (category and data.raw["recipe-category"][category]) then
+		log("Invalid category " .. category)
 		return
 	end
 	for _, name in pairs(recipes) do
 		local recipe = data.raw["recipe"][name]
 		if recipe then
-      local categories = recipe.categories
-      if not categories then
-        recipe.categories = { category }
-        else
-        if not Util.table_contains(categories, category) then
-          table.insert(categories, category)
-        end
-      end
+			local categories = recipe.categories
+			if not categories then
+				recipe.categories = { "crafting", category }
+			else
+				if not Util.table_contains(categories, category) then
+					table.insert(recipe.categories, category)
+				end
+			end
 		end
 	end
 end
@@ -102,4 +103,3 @@ function Util.add_recipes_to_recipe_productivity(recipe_to_match, recipes)
 end
 
 return Util
-
