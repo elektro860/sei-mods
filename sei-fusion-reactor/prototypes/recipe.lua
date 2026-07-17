@@ -4,7 +4,7 @@ data:extend({
     {
         type = "recipe",
         name = "fusion-power-cell",
-        category = "cryogenics",
+        categories = { "cryogenics" },
         subgroup = "fuel",
         order = "c[lithium]-d[fusion-power-cell]",
         auto_recycle = false,
@@ -29,7 +29,7 @@ data:extend({
     {
         type = "recipe",
         name = "flash-coolant-cold",
-        category = "cryogenic-cooling",
+        categories = { "cryogenic-cooling" },
         subgroup = "thermofluid",
         order = "a[thermofluid]-c[cold]-c[flash]",
         auto_recycle = false,
