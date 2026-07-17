@@ -1,10 +1,8 @@
-local path_util = require("__sei-library__.path_util")
-
 data:extend({
     {
         type = "technology",
         name = "cryogenic-plant",
-        icon = path_util.space_age_path.."graphics/technology/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant__/graphics/technology/cryogenic-plant.png",
         icon_size = 256,
         effects =
         {

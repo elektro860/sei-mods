@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "cryogenic-plant-explosion",
-        icon = path_util.space_age_path.."graphics/icons/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant__/graphics/technology/cryogenic-plant.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",

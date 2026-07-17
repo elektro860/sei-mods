@@ -4,7 +4,7 @@ data:extend({
     {
         type = "corpse",
         name = "cryogenic-plant-remnants",
-        icon = path_util.space_age_path.."graphics/icons/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant__/graphics/technology/cryogenic-plant.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",

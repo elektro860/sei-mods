@@ -5,7 +5,7 @@ data:extend({
     {
         type = "item",
         name = "cryogenic-plant",
-        icon = path_util.space_age_path.."graphics/icons/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant__/graphics/icons/cryogenic-plant.png",
         subgroup = "chemistry",
         order = "e[chemical-plant]-a[cryogenic-plant]",
         inventory_move_sound = item_sounds.mechanical_large_inventory_move,
