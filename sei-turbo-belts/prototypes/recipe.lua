@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "turbo-transport-belt",
-		categories = { "metallurgy", "crafting-with-fluid" },
+		categories = { "crafting-with-fluid" },
 		enabled = false,
 		ingredients = {
 			{ type = "item", name = "se-iridium-plate", amount = 2 },
@@ -16,7 +16,7 @@ data:extend({
 		type = "recipe",
 		name = "turbo-underground-belt",
 		energy_required = 2,
-		categories = { "metallurgy", "crafting-with-fluid" },
+		categories = { "crafting-with-fluid" },
 		enabled = false,
 		ingredients = {
 			{ type = "item", name = "se-iridium-plate", amount = 10 },
@@ -29,7 +29,7 @@ data:extend({
 	{
 		type = "recipe",
 		name = "turbo-splitter",
-		categories = { "metallurgy", "crafting-with-fluid" },
+		categories = { "crafting-with-fluid" },
 		enabled = false,
 		energy_required = 2,
 		ingredients = {

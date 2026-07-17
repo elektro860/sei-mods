@@ -37,12 +37,12 @@ local turbo_specs = {
 		},
 	},
 	recipe = {
-		categories = { "crafting-with-fluid", "metallurgy" },
+		categories = { "crafting-with-fluid" },
 		ingredients = ingredients,
 		energy_required = 2,
 	},
 	unlubricated_recipe = {
-		categories = { "crafting-with-fluid", "metallurgy" },
+		categories = { "crafting-with-fluid" },
 		ingredients = ingredients,
 		energy_required = 10,
 	},
