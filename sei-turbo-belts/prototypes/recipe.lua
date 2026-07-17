@@ -1,0 +1,56 @@
+data:extend({
+	{
+		type = "recipe",
+		name = "turbo-transport-belt",
+		categories = { "metallurgy", "crafting-with-fluid" },
+		enabled = false,
+		ingredients = {
+			{ type = "item", name = "se-iridium-plate", amount = 2 },
+			{ type = "item", name = "express-transport-belt", amount = 1 },
+			{ type = "fluid", name = "lubricant", amount = 20 },
+		},
+		results = { { type = "item", name = "turbo-transport-belt", amount = 1 } },
+		auto_recycle = true,
+	},
+	{
+		type = "recipe",
+		name = "turbo-underground-belt",
+		energy_required = 2,
+		categories = { "metallurgy", "crafting-with-fluid" },
+		enabled = false,
+		ingredients = {
+			{ type = "item", name = "se-iridium-plate", amount = 10 },
+			{ type = "item", name = "express-underground-belt", amount = 2 },
+			{ type = "fluid", name = "lubricant", amount = 40 },
+		},
+		results = { { type = "item", name = "turbo-underground-belt", amount = 2 } },
+		auto_recycle = true,
+	},
+	{
+		type = "recipe",
+		name = "turbo-splitter",
+		categories = { "metallurgy", "crafting-with-fluid" },
+		enabled = false,
+		energy_required = 2,
+		ingredients = {
+			{ type = "item", name = "se-iridium-plate", amount = 4 },
+			{ type = "item", name = "express-splitter", amount = 1 },
+			{ type = "item", name = "processing-unit", amount = 2 },
+			{ type = "fluid", name = "lubricant", amount = 80 },
+		},
+		results = { { type = "item", name = "turbo-splitter", amount = 1 } },
+		auto_recycle = true,
+	},
+	{
+		type = "recipe",
+		name = "turbo-loader",
+		enabled = false,
+		hidden = true,
+		energy_required = 20,
+		ingredients = {
+			{ type = "item", name = "turbo-transport-belt", amount = 5 },
+			{ type = "item", name = "express-loader", amount = 1 },
+		},
+		results = { { type = "item", name = "turbo-loader", amount = 1 } },
+	},
+})
