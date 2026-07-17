@@ -3,7 +3,7 @@ local path_util = require("__sei-library__.path_util")
 local function item_sound(filename, volume)
     return
     {
-        filename = path_util.space_age_path.."sound/item/"..filename,
+        filename = "__sei-library__/sound/item/"..filename,
         volume = volume,
         aggregation = {max_count = 1, remove = true},
     }

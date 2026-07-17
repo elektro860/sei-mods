@@ -14,13 +14,13 @@ data:extend({
     {
         type = "item",
         name = "spoilage",
-        icon = path_util.space_age_path.."graphics/icons/spoilage.png",
+        icon = "__sei-library__/graphics/icons/spoilage.png",
         pictures =
         {
-            { size = 64, filename = path_util.space_age_path.."graphics/icons/spoilage.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = path_util.space_age_path.."graphics/icons/spoilage-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = path_util.space_age_path.."graphics/icons/spoilage-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = path_util.space_age_path.."graphics/icons/spoilage-3.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library__/graphics/icons/spoilage.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library__/graphics/icons/spoilage-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library__/graphics/icons/spoilage-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library__/graphics/icons/spoilage-3.png", scale = 0.5, mipmap_count = 4 },
         },
         fuel_value = "250kJ",
         fuel_category = "chemical",
@@ -39,7 +39,7 @@ data:extend({
     {
         type = "recipe",
         name = "spoilage-reprocessing",
-        icons = data_util.sub_icons(data.raw.item["se-vitamelange-nugget"].icon, path_util.space_age_path.."graphics/icons/spoilage.png"),
+        icons = data_util.sub_icons(data.raw.item["se-vitamelange-nugget"].icon, "__sei-library__/graphics/icons/spoilage.png"),
         category = "space-biochemical",
         enabled = false,
         energy_required = 3,

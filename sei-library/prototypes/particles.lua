@@ -10,7 +10,7 @@ particle_animations.get_railgun_shell_particle = function(options)
     {
         sheet =
         {
-        filename = path_util.space_age_path.."graphics/particle/railgun-shell-particle/railgun-shell.png",
+        filename = "__sei-library__/graphics/particle/railgun-shell-particle/railgun-shell.png",
         width = 42,
         height = 40,
         shift = util.by_pixel( 1.0, -1.5),
@@ -27,28 +27,28 @@ particle_animations.get_old_tungsten_ore_particle_pictures = function(options)
     return
     {
         {
-        filename = path_util.space_age_path.."graphics/particle/tungsten-ore-particle/tungsten-ore-particle-1.png",
+        filename = "__sei-library__/graphics/particle/tungsten-ore-particle/tungsten-ore-particle-1.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/tungsten-ore-particle/tungsten-ore-particle-2.png",
+        filename = "__sei-library__/graphics/particle/tungsten-ore-particle/tungsten-ore-particle-2.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/tungsten-ore-particle/tungsten-ore-particle-3.png",
+        filename = "__sei-library__/graphics/particle/tungsten-ore-particle/tungsten-ore-particle-3.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/tungsten-ore-particle/tungsten-ore-particle-4.png",
+        filename = "__sei-library__/graphics/particle/tungsten-ore-particle/tungsten-ore-particle-4.png",
         priority = "extra-high",
         width = 32,
         height = 32,
@@ -61,28 +61,28 @@ particle_animations.get_old_calcite_particle_pictures = function(options)
     return
     {
         {
-        filename = path_util.space_age_path.."graphics/particle/calcite-particle/calcite-particle-1.png",
+        filename = "__sei-library__/graphics/particle/calcite-particle/calcite-particle-1.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/calcite-particle/calcite-particle-2.png",
+        filename = "__sei-library__/graphics/particle/calcite-particle/calcite-particle-2.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/calcite-particle/calcite-particle-3.png",
+        filename = "__sei-library__/graphics/particle/calcite-particle/calcite-particle-3.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/calcite-particle/calcite-particle-4.png",
+        filename = "__sei-library__/graphics/particle/calcite-particle/calcite-particle-4.png",
         priority = "extra-high",
         width = 32,
         height = 32,
@@ -95,28 +95,28 @@ particle_animations.get_old_holmium_ore_particle_pictures = function(options)
     return
     {
         {
-        filename = path_util.space_age_path.."graphics/particle/holmium-ore-particle/holmium-ore-particle-1.png",
+        filename = "__sei-library__/graphics/particle/holmium-ore-particle/holmium-ore-particle-1.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/holmium-ore-particle/holmium-ore-particle-2.png",
+        filename = "__sei-library__/graphics/particle/holmium-ore-particle/holmium-ore-particle-2.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/holmium-ore-particle/holmium-ore-particle-3.png",
+        filename = "__sei-library__/graphics/particle/holmium-ore-particle/holmium-ore-particle-3.png",
         priority = "extra-high",
         width = 32,
         height = 32,
         scale = 0.5
         },
         {
-        filename = path_util.space_age_path.."graphics/particle/holmium-ore-particle/holmium-ore-particle-4.png",
+        filename = "__sei-library__/graphics/particle/holmium-ore-particle/holmium-ore-particle-4.png",
         priority = "extra-high",
         width = 32,
         height = 32,
@@ -1873,7 +1873,7 @@ for _, particle_name in ipairs(blood_particles) do
     {
         sheet =
         {
-        filename = path_util.space_age_path.."graphics/particle/gleba-blood-particle/gleba-blood-particle.png",
+        filename = "__sei-library__/graphics/particle/gleba-blood-particle/gleba-blood-particle.png",
         line_length = 12,
         width = 32,
         height = 24,
@@ -1907,7 +1907,7 @@ for _, particle_name in ipairs(blood_particles) do
     {
         sheet =
         {
-        filename = path_util.space_age_path.."graphics/particle/lava-particle/vulcanus-lava-particle.png",
+        filename = "__sei-library__/graphics/particle/lava-particle/vulcanus-lava-particle.png",
         line_length = 12,
         width = 32,
         height = 24,
