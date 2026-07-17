@@ -5,7 +5,7 @@ data:extend({
     {
         type = "corpse",
         name = data_util.prefix.."foundry-remnants",
-        icon = path_util.space_age_path.."graphics/icons/foundry.png",
+        icon = "__sei-foundry__/graphics/icons/foundry.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "smelting-machine-remnants",
@@ -20,7 +20,7 @@ data:extend({
         remove_on_tile_placement = false,
         animation =
         {
-        filename = path_util.space_age_path.."graphics/entity/foundry/foundry-remnants.png",
+        filename = "__sei-foundry__/graphics/entity/foundry/foundry-remnants.png",
         line_length = 1,
         width = 494,
         height = 478,

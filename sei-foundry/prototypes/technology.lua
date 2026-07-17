@@ -7,7 +7,7 @@ data:extend({
         name = data_util.prefix.."foundry",
         localised_name = data_util.prefix == "sei-" and {"technology-name.sei-foundry-bzfoundry"} or {"technology-name.sei-foundry"},
         localised_description = {"technology-description.sei-foundry"},
-        icon = path_util.space_age_path.."graphics/technology/foundry.png",
+        icon = "__sei-foundry__/graphics/technology/foundry.png",
         icon_size = 256,
         effects = {
             {

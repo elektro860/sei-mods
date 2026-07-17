@@ -6,7 +6,7 @@ data:extend({
     {
         type = "item",
         name = data_util.prefix.."foundry",
-        icon = path_util.space_age_path.."graphics/icons/foundry.png",
+        icon = "__sei-foundry__/graphics/icons/foundry.png",
         subgroup = "smelting-machine",
         order = "d[foundry]",
         inventory_move_sound = item_sounds.steam_inventory_move,
