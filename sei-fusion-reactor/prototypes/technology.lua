@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "fusion-reactor",
-        icon = path_util.space_age_path.."graphics/technology/fusion-reactor.png",
+        icon = "__sei-fusion-reactor__/graphics/technology/fusion-reactor.png",
         icon_size = 256,
         effects =
         {

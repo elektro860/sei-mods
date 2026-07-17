@@ -8,7 +8,7 @@ data:extend({
         type = "fusion-generator",
         name = "fusion-generator",
         factoriopedia_description = {"factoriopedia-description.fusion-generator"},
-        icon = path_util.space_age_path.."graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {mining_time = 0.2, result = "fusion-generator"},
         max_health = 1000,
@@ -32,7 +32,7 @@ data:extend({
         {
             sound =
             {
-                filename = path_util.space_age_path.."sound/entity/fusion/fusion-generator.ogg",
+                filename = "__sei-fusion-reactor__/sound/entity/fusion/fusion-generator.ogg",
                 volume = 0.15,
                 speed_smoothing_window_size = 60,
                 advanced_volume_control = {attenuation = "exponential"},
@@ -93,7 +93,7 @@ data:extend({
         type = "fusion-reactor",
         name = "fusion-reactor",
         factoriopedia_description = {"factoriopedia-description.fusion-reactor"},
-        icon = path_util.space_age_path.."graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {mining_time = 0.2, result = "fusion-reactor"},
         max_health = 1000,
@@ -131,7 +131,7 @@ data:extend({
         graphics_set = require ("__sei-fusion-reactor__.prototypes.entity.fusion-system-pictures").reactor_graphics_set,
         working_sound =
         {
-            sound = {filename = path_util.space_age_path.."sound/entity/fusion/fusion-reactor.ogg", volume = 0.6, modifiers = volume_multiplier("main-menu", 1.44)},
+            sound = {filename = "__sei-fusion-reactor__/sound/entity/fusion/fusion-reactor.ogg", volume = 0.6, modifiers = volume_multiplier("main-menu", 1.44)},
             use_doppler_shift = false,
             match_volume_to_activity = true,
             max_sounds_per_prototype = 2,

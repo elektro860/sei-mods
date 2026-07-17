@@ -5,7 +5,7 @@ data:extend({
     {
         type = "item",
         name = "fusion-power-cell",
-        icon = path_util.space_age_path.."graphics/icons/fusion-power-cell.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-power-cell.png",
         subgroup = "chemical",
         order = "a[chemical]-g[fusion-power-cell]",
         inventory_move_sound = item_sounds.reactor_inventory_move,
@@ -19,7 +19,7 @@ data:extend({
     {
         type = "item",
         name = "fusion-reactor",
-        icon = path_util.space_age_path.."graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
         subgroup = "energy",
         order = "g[fusion-energy]-a[reactor]",
         inventory_move_sound = item_sounds.reactor_inventory_move,
@@ -32,7 +32,7 @@ data:extend({
     {
         type = "item",
         name = "fusion-generator",
-        icon = path_util.space_age_path.."graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
         subgroup = "energy",
         order = "g[fusion-energy]-b[generator]",
         inventory_move_sound = item_sounds.reactor_inventory_move,

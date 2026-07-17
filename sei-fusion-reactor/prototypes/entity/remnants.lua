@@ -4,7 +4,7 @@ data:extend({
     {
         type = "corpse",
         name = "fusion-reactor-remnants",
-        icon = path_util.space_age_path.."graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "energy-remnants",
@@ -25,7 +25,7 @@ data:extend({
     {
         type = "corpse",
         name = "fusion-generator-remnants",
-        icon = path_util.space_age_path.."graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "energy-remnants",

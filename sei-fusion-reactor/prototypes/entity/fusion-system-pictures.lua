@@ -79,7 +79,7 @@ local function reactor_connection_pictures(num, plasma_uv_shift)
         },
         fusion_effect_uv_map =
         {
-        filename = path_util.space_age_path.."graphics/entity/fusion-reactor/fusion-reactor-connection-" .. num .. "-plasma-UV.png",
+        filename = "__sei-fusion-reactor__/graphics/entity/fusion-reactor/fusion-reactor-connection-" .. num .. "-plasma-UV.png",
         width = 64,
         height = 64,
         shift = plasma_uv_shift,
@@ -187,7 +187,7 @@ return
         default_fuel_glow_color = {1,0,0.4,1},
         fusion_effect_uv_map =
         {
-        filename = path_util.space_age_path.."graphics/entity/fusion-reactor/plasma-UV.png",
+        filename = "__sei-fusion-reactor__/graphics/entity/fusion-reactor/plasma-UV.png",
         width = 384,
         height = 384,
         shift = {0,0},

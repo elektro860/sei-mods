@@ -4,7 +4,7 @@ data:extend({
     {
         type = "sprite",
         name = "tooltip-category-fusion-plasma",
-        filename = path_util.space_age_path.."graphics/icons/tooltips/tooltip-category-fusion-plasma.png",
+        filename = "__sei-fusion-reactor__/graphics/icons/tooltips/tooltip-category-fusion-plasma.png",
         priority = "extra-high-no-scale",
         width = 40,
         height = 40,

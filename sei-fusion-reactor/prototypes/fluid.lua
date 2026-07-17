@@ -4,7 +4,7 @@ data:extend({
     {
         type = "fluid",
         name = "fusion-plasma",
-        icon = path_util.space_age_path.."graphics/icons/fluid/fusion-plasma.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fluid/fusion-plasma.png",
         subgroup = "stream",
         order = "p-a",
         default_temperature = 1000000,

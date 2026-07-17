@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "fusion-reactor-explosion",
-        icon = path_util.space_age_path.."graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "energy-explosions",
@@ -85,7 +85,7 @@ data:extend({
     {
         type = "explosion",
         name = "fusion-generator-explosion",
-        icon = path_util.space_age_path.."graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "energy-explosions",
