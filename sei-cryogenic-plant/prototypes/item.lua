@@ -12,7 +12,7 @@ data:extend({
         pick_sound = item_sounds.mechanical_large_inventory_pickup,
         drop_sound = item_sounds.mechanical_large_inventory_move,
         place_result = "cryogenic-plant",
-        stack_size = 10,
+        stack_size = 20,
         weight = 200 * kg
     },
 })
