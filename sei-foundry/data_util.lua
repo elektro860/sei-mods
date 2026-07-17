@@ -28,7 +28,7 @@ function result.create_casting_recipe(params)
                 icon_size = params.icons[2].icon_size,
                 draw_background = params.icons[2].draw_background,
             })) or nil,
-        category = "metallurgy",
+        categories = { "metallurgy" },
         enabled = false,
         allow_productivity = recipe.allow_productivity,
         order = params.order or (recipe.order and recipe.order.."-casting") or (item.order and item.order.."-casting"),
