@@ -8,6 +8,7 @@
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
     "sei-library",
+    "? aai-loaders",
     "! space-age"
   ],
   "freezing_required": true,
