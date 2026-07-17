@@ -4,7 +4,7 @@ data:extend({
     {
         type = "recipe",
         name = "electromagnetic-plant",
-        category = "crafting",
+        categories = { "crafting" },
         energy_required = 10,
         ingredients =
         {
