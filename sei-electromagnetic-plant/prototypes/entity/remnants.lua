@@ -6,7 +6,7 @@ data:extend({
     {
         type = "corpse",
         name = "electromagnetic-plant-remnants",
-        icon = path_util.space_age_path.."graphics/icons/electromagnetic-plant.png",
+        icon = "__sei-electromagnetic-plant__/graphics/icons/electromagnetic-plant.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",

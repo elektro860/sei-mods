@@ -8,7 +8,7 @@ data:extend({
         name = "electromagnetic-plant",
         localised_name = {"technology-name.sei-electromagnetic-plant"},
         localised_description = {"technology-description.sei-electromagnetic-plant"},
-        icon = path_util.space_age_path.."graphics/technology/electromagnetic-plant.png",
+        icon = "__sei-electromagnetic-plant__/graphics/technology/electromagnetic-plant.png",
         icon_size = 256,
         effects =
         {

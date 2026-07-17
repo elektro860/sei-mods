@@ -7,7 +7,7 @@ data:extend({
     {
         type = "item",
         name = "electromagnetic-plant",
-        icon = path_util.space_age_path.."graphics/icons/electromagnetic-plant.png",
+        icon = "__sei-electromagnetic-plant__/graphics/icons/electromagnetic-plant.png",
         subgroup = "assembling",
         order = "g[electromagnetic-plant]",
         inventory_move_sound = item_sounds.electric_large_inventory_move,

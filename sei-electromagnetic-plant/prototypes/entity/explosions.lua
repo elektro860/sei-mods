@@ -8,7 +8,7 @@ data:extend({
     {
         type = "explosion",
         name = "electromagnetic-plant-explosion",
-        icon = path_util.space_age_path.."graphics/icons/electromagnetic-plant.png",
+        icon = "__sei-electromagnetic-plant__/graphics/icons/electromagnetic-plant.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",
