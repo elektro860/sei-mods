@@ -1,15 +1,16 @@
 {
   "name": "sei-rocket-turret",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "title": "Space Exploration Integration: Rocket Turret",
   "author": "xkyouchoux",
   "description": "Adds rocket turret into space exploration.",
   "dependencies": [
-    "base >= 2.0.0",
-    "space-exploration >= 0.7",
-    "sei-library >= 1.0.9",
+    "base >= 2.1.0",
+    "space-exploration >= 0.7.60",
+    "sei-library >= 1.1.0",
     "? Krastorio2",
-    "! space-age"],
+    "! space-age"
+  ],
   "space_travel_required": true,
-  "factorio_version": "2.0"
+  "factorio_version": "2.1"
 }
