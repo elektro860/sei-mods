@@ -6,7 +6,7 @@ data:extend({
     {
         type = "explosion",
         name = "biochamber-explosion",
-        icon = path_util.space_age_path.."graphics/icons/biochamber.png",
+        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",

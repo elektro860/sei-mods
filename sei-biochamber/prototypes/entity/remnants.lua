@@ -4,7 +4,7 @@ data:extend({
     {
         type = "corpse",
         name = "biochamber-remnants",
-        icon = path_util.space_age_path.."graphics/icons/biochamber.png",
+        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",

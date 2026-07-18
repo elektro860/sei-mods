@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "biochamber",
-        icon = path_util.space_age_path.."graphics/technology/biochamber.png",
+        icon = "__sei-biochamber__/graphics/technology/biochamber.png",
         icon_size = 256,
         effects =
         {

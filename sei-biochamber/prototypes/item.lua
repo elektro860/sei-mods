@@ -8,7 +8,7 @@ data:extend({
     {
         type = "item",
         name = "biochamber",
-        icon = path_util.space_age_path.."graphics/icons/biochamber.png",
+        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
         subgroup = "chemistry",
         order = "f[biochamber]-[biochamber]",
         inventory_move_sound = item_sounds.fluid_inventory_move,
@@ -20,7 +20,7 @@ data:extend({
     {
         type = "item",
         name = "nutrients",
-        icon = path_util.space_age_path.."graphics/icons/nutrients.png",
+        icon = "__sei-biochamber__/graphics/icons/nutrients.png",
         subgroup = "agriculture-processes",
         order = "c[nutrients]-b[nutrients]",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,

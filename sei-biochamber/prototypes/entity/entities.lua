@@ -8,7 +8,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "biochamber",
-        icon = path_util.space_age_path.."graphics/icons/biochamber.png",
+        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
         flags = {"placeable-neutral","placeable-player", "player-creation"},
         minable = {mining_time = 0.1, result = "biochamber"},
         fast_replaceable_group = "biochamber",
@@ -32,7 +32,7 @@ data:extend({
         close_sound = {filename = "__base__/sound/open-close/fluid-close.ogg", volume = 0.54},
         working_sound =
         {
-        sound = {filename = path_util.space_age_path.."sound/entity/biochamber/biochamber-loop.ogg", volume = 0.4},
+        sound = {filename = "__sei-biochamber__/sound/entity/biochamber/biochamber-loop.ogg", volume = 0.4},
         max_sounds_per_prototype = 3,
         fade_in_ticks = 4,
         fade_out_ticks = 20

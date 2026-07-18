@@ -5,7 +5,7 @@ data:extend({
     {
         type = "recipe",
         name = "biochamber",
-        category = "crafting-with-fluid",
+        categories = { "crafting-with-fluid" },
         energy_required = 10,
         ingredients = {
             {type = "item", name = "steel-plate", amount = 25},
@@ -36,7 +36,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-bloom",
-        category = "organic",
+        categories = { "organic" },
         order = "c[nutrients]-c[nutrients]-c[bloom]",
         energy_required = 4,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw.item["se-vitamelange-bloom"].icon),
@@ -51,7 +51,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-spice",
-        category = "organic",
+        categories = { "organic" },
         order = "c[nutrients]-c[nutrients]-d[spice]",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw.item["se-vitamelange-spice"].icon),
@@ -66,7 +66,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-extract",
-        category = "organic",
+        categories = { "organic" },
         order = "c[nutrients]-c[nutrients]-d[extract]",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw.item["se-vitamelange-extract"].icon),
@@ -96,7 +96,7 @@ data:extend({
     {
         type = "recipe",
         name = "bioplastic",
-        category = "organic",
+        categories = { "organic" },
         order = data.raw.item["plastic-bar"].order .. "-bio",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["plastic-bar"].icon, data.raw.fluid["se-bio-sludge"].icon),
@@ -112,7 +112,7 @@ data:extend({
     {
         type = "recipe",
         name = "biosulfur",
-        category = "organic",
+        categories = { "organic" },
         order = data.raw.item["sulfur"].order .. "-bio",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["sulfur"].icon, data.raw.fluid["se-bio-sludge"].icon),
@@ -128,11 +128,10 @@ data:extend({
     {
         type = "recipe",
         name = "fish-breeding",
-        icon = path_util.space_age_path.."graphics/icons/fish-breeding.png",
-        category = "organic",
+        icon = "__sei-biochamber__/graphics/icons/fish-breeding.png",
+        categories = { "organic" },
         subgroup = "agriculture-processes",
         order = "b[agriculture]-a[fish-breeding]",
-        reset_freshness_on_craft = true,
         auto_recycle = false,
         energy_required = 6,
         enabled = false,
@@ -142,7 +141,7 @@ data:extend({
             {type = "item", name = "nutrients", amount = 100},
             {type = "fluid", name = "water", amount = 100}
         },
-        results = {{type="item", name="raw-fish", amount=3, ignored_by_stats = 2, ignored_by_productivity = 2}},
+        results = {{type="item", name="raw-fish", amount=3, reset_freshness_on_craft = true, ignored_by_stats = 2, ignored_by_productivity = 2}},
         allow_productivity = false,
         allow_quality = false,
         crafting_machine_tint =
@@ -156,7 +155,7 @@ data:extend({
         type = "recipe",
         name = "biolubricant",
         icons = data_util.sub_icons(data.raw.fluid["lubricant"].icon, data.raw.item["se-vitamelange-nugget"].icon),
-        category = "organic",
+        categories = { "organic" },
         subgroup = "oil",
         order = "a[oil]-f[lube]-c[biolubricant]",
         auto_recycle = false,
