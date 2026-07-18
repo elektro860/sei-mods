@@ -10,7 +10,7 @@ data:extend({
         name = "bioflux",
         localised_name = {"item-name.bioflux"},
         localised_description = {"item-description.bioflux"},
-        icon = path_util.space_age_path.."graphics/icons/bioflux.png",
+        icon = "__sei-captive-biters__/graphics/icons/bioflux.png",
         subgroup = "chemical",
         order = "a[organic-processing]-a[bioflux]",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
@@ -50,7 +50,7 @@ data:extend({
     {
         type = "item",
         name = "captive-biter-spawner",
-        icon = path_util.space_age_path.."graphics/icons/captive-biter-spawner.png",
+        icon = "__sei-captive-biters__/graphics/icons/captive-biter-spawner.png",
         subgroup = "chemistry",
         order = "z-c-biter-nest",
         inventory_move_sound = item_sounds.mechanical_inventory_move,
@@ -62,7 +62,7 @@ data:extend({
     {
         type = "ammo",
         name = "capture-robot-rocket",
-        icon = path_util.space_age_path.."graphics/icons/capture-bot.png",
+        icon = "__sei-captive-biters__/graphics/icons/capture-bot.png",
         ammo_category = "capture-rocket",
         ammo_type =
         {
@@ -90,13 +90,13 @@ data:extend({
     {
         type = "item",
         name = "biter-egg",
-        icon = path_util.space_age_path.."graphics/icons/biter-egg.png",
+        icon = "__sei-captive-biters__/graphics/icons/biter-egg.png",
         pictures =
         {
-        { size = 64, filename = path_util.space_age_path.."graphics/icons/biter-egg.png", scale = 0.5, mipmap_count = 4 },
-        { size = 64, filename = path_util.space_age_path.."graphics/icons/biter-egg-1.png", scale = 0.5, mipmap_count = 4 },
-        { size = 64, filename = path_util.space_age_path.."graphics/icons/biter-egg-2.png", scale = 0.5, mipmap_count = 4 },
-        { size = 64, filename = path_util.space_age_path.."graphics/icons/biter-egg-3.png", scale = 0.5, mipmap_count = 4 },
+        { size = 64, filename = "__sei-captive-biters__/graphics/icons/biter-egg.png", scale = 0.5, mipmap_count = 4 },
+        { size = 64, filename = "__sei-captive-biters__/graphics/icons/biter-egg-1.png", scale = 0.5, mipmap_count = 4 },
+        { size = 64, filename = "__sei-captive-biters__/graphics/icons/biter-egg-2.png", scale = 0.5, mipmap_count = 4 },
+        { size = 64, filename = "__sei-captive-biters__/graphics/icons/biter-egg-3.png", scale = 0.5, mipmap_count = 4 },
         },
         fuel_category = "chemical",
         fuel_value = "6MJ",

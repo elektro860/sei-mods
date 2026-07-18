@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "captive-spawner-explosion-1",
-        icon = path_util.space_age_path.."graphics/icons/captive-biter-spawner.png",
+        icon = "__sei-captive-biters__/graphics/icons/captive-biter-spawner.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",
@@ -151,7 +151,7 @@ data:extend({
     {
         type = "explosion",
         name = "captive-spawner-explosion-2",
-        icon = path_util.space_age_path.."graphics/icons/captive-biter-spawner.png",
+        icon = "__sei-captive-biters__/graphics/icons/captive-biter-spawner.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",
@@ -257,7 +257,7 @@ data:extend({
     {
         type = "explosion",
         name = "capture-robot-explosion",
-        icon = path_util.space_age_path.."graphics/icons/capture-bot.png",
+        icon = "__sei-captive-biters__/graphics/icons/capture-bot.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "capsule-explosions",

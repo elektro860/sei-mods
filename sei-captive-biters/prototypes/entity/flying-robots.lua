@@ -47,7 +47,7 @@ local robots =
         type = "capture-robot",
         name = "capture-robot",
         hidden = true,
-        icon = path_util.space_age_path.."graphics/icons/capture-bot.png",
+        icon = "__sei-captive-biters__/graphics/icons/capture-bot.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map", "not-repairable"},
         resistances =
         {

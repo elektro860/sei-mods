@@ -19,7 +19,7 @@ data:extend({
     {
         type = "recipe",
         name = "bioflux",
-        icon = path_util.space_age_path.."graphics/icons/bioflux.png",
+        icon = "__sei-captive-biters__/graphics/icons/bioflux.png",
         categories = { "chemistry" },
         additional_categories = mods["sei-biochamber"] and {"organic"} or nil,
         enabled = false,
@@ -56,7 +56,7 @@ data:extend({
     {
         type = "recipe",
         name = "biter-egg",
-        icon = path_util.space_age_path.."graphics/icons/biter-egg.png",
+        icon = "__sei-captive-biters__/graphics/icons/biter-egg.png",
         categories = { "captive-spawner-process" },
         hide_from_player_crafting = true,
         auto_recycle = false,

@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "captivity",
-        icon = path_util.space_age_path.."graphics/technology/captivity.png",
+        icon = "__sei-captive-biters__/graphics/technology/captivity.png",
         icon_size = 256,
         effects =
         {
@@ -52,7 +52,7 @@ data:extend({
     {
         type = "technology",
         name = "captive-biter-spawner",
-        icon = path_util.space_age_path.."graphics/technology/captive-biter-spawner.png",
+        icon = "__sei-captive-biters__/graphics/technology/captive-biter-spawner.png",
         icon_size = 256,
         effects =
         {

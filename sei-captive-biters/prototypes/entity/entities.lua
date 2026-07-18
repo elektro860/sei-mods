@@ -9,7 +9,7 @@ data:extend({
     {
         type = "assembling-machine",
         name = "captive-biter-spawner",
-        icon = path_util.space_age_path.."graphics/icons/captive-biter-spawner.png",
+        icon = "__sei-captive-biters__/graphics/icons/captive-biter-spawner.png",
         subgroup = "chemistry",
         flags = {"placeable-neutral", "placeable-player", "player-creation", "not-repairable", "not-deconstructable", "no-logistic-connection"},
         collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
@@ -92,8 +92,8 @@ data:extend({
         sound = {category = "enemy", filename = "__base__/sound/creatures/spawner.ogg", volume = 0.6 },
         sound_accents =
         {
-            {sound = {variations = path_util.sa_sound_variations("sound/entity/spawner/spawner-respirator-push", 3, 0.3), audible_distance_modifier = 0.6}, frame = 1},
-            {sound = {variations = path_util.sa_sound_variations("sound/entity/spawner/spawner-respirator-pull", 3, 0.3), audible_distance_modifier = 0.6}, frame = 17},
+            {sound = {variations = path_util.sa_sound_variations("__sei-captive-biters__/sound/entity/spawner/spawner-respirator-push", 3, 0.3), audible_distance_modifier = 0.6}, frame = 1},
+            {sound = {variations = path_util.sa_sound_variations("__sei-captive-biters__/sound/entity/spawner/spawner-respirator-pull", 3, 0.3), audible_distance_modifier = 0.6}, frame = 17},
         },
         },
         crafting_categories = {"captive-spawner-process"},
