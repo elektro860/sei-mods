@@ -1,3 +1,4 @@
+require("prototypes.sounds")
 require("prototypes.active-triggers")
 require("prototypes.entity.turrets")
 require("prototypes.entity.remnants")

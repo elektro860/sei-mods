@@ -2,7 +2,7 @@ local path_util = require("__sei-library__.path_util")
 
 local beam_blend_mode = "additive"
 local beam_non_light_flags = { "trilinear-filtering" }
-local space_age_sounds = require("__sei-library__.prototypes.entity.sounds")
+local space_age_sounds = require("__sei-tesla-turret__.prototypes.sounds")
 
 function get_beam_sprite(token)
     return

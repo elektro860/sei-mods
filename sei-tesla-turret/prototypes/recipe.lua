@@ -4,7 +4,7 @@ data:extend({
     {
         type = "recipe",
         name = "tesla-turret",
-        category = "space-electromagnetics",
+        categories = { "space-electromagnetics" },
         energy_required = 30,
         ingredients = {
             {type = "item", name = "se-tesla-gun", amount = 1},
