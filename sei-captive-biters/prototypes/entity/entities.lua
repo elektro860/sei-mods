@@ -11,7 +11,7 @@ data:extend({
         name = "captive-biter-spawner",
         icon = path_util.space_age_path.."graphics/icons/captive-biter-spawner.png",
         subgroup = "chemistry",
-        flags = {"placeable-neutral", "placeable-player", "player-creation", "not-repairable", "not-deconstructable"},
+        flags = {"placeable-neutral", "placeable-player", "player-creation", "not-repairable", "not-deconstructable", "no-logistic-connection"},
         collision_box = {{-2.2, -2.2}, {2.2, 2.2}},
         selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
         create_ghost_on_death = false,
@@ -122,6 +122,5 @@ data:extend({
         energy_usage = "100kW",
         module_slots = 0,
         allowed_effects = {},
-        enable_logistic_control_behavior = false
     },
 })
