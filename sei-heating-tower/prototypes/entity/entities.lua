@@ -6,7 +6,7 @@ data:extend({
     {
         type = "reactor",
         name = "heating-tower",
-        icon  = path_util.space_age_path.."graphics/icons/heating-tower.png",
+        icon  = "__sei-heating-tower__/graphics/icons/heating-tower.png",
         flags = {"placeable-neutral", "player-creation"},
         minable = {mining_time = 0.5, result = "heating-tower"},
         max_health = 500,
@@ -138,7 +138,7 @@ data:extend({
         close_sound = sounds.steam_close,
         working_sound =
         {
-        sound = {filename = path_util.space_age_path.."sound/entity//heating-tower/heating-tower-loop.ogg", volume = 0.5},
+        sound = {filename = "__sei-heating-tower__/sound/entity//heating-tower/heating-tower-loop.ogg", volume = 0.5},
         max_sounds_per_prototype = 2,
         fade_in_ticks = 4,
         fade_out_ticks = 20

@@ -6,7 +6,7 @@ data:extend({
     {
         type = "explosion",
         name = "heating-tower-explosion",
-        icon = path_util.space_age_path.."graphics/icons/heating-tower.png",
+        icon = "__sei-heating-tower__/graphics/icons/heating-tower.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "energy-explosions",

@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "heating-tower",
-        icon = path_util.space_age_path.."graphics/technology/heating-tower.png",
+        icon = "__sei-heating-tower__/graphics/technology/heating-tower.png",
         icon_size = 256,
         effects =
         {

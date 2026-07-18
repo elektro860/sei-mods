@@ -5,7 +5,7 @@ data:extend({
     {
         type = "item",
         name = "heating-tower",
-        icon = path_util.space_age_path.."graphics/icons/heating-tower.png",
+        icon = "__sei-heating-tower__/graphics/icons/heating-tower.png",
         subgroup = "energy",
         order = "c[heating-tower]",
         inventory_move_sound = item_sounds.steam_inventory_move,
