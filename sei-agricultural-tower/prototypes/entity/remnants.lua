@@ -4,7 +4,7 @@ data:extend({
     {
         type = "corpse",
         name = "agricultural-tower-remnants",
-        icon = path_util.space_age_path.."graphics/icons/agricultural-tower.png",
+        icon = "__sei-agricultural-tower__/graphics/icons/agricultural-tower.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",
@@ -19,7 +19,7 @@ data:extend({
         remove_on_tile_placement = false,
         animation =
         {
-        filename = path_util.space_age_path.."graphics/entity/agricultural-tower/agricultural-tower-remnants.png",
+        filename = "__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-remnants.png",
         line_length = 1,
         width = 250,
         height = 250,

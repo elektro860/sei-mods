@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "agricultural-tower-explosion",
-        icon = path_util.space_age_path.."graphics/icons/agricultural-tower.png",
+        icon = "__sei-agricultural-tower__/graphics/icons/agricultural-tower.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",

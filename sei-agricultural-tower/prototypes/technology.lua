@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "agriculture",
-        icon = path_util.space_age_path.."graphics/technology/agriculture.png",
+        icon = "__sei-agricultural-tower__/graphics/technology/agriculture.png",
         icon_size = 256,
         effects =
         {
