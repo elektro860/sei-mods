@@ -82,7 +82,7 @@ data:extend({
     {
         type = "recipe",
         name = "yumako-processing",
-        icon = path_util.space_age_path.."graphics/icons/yumako-mash.png",
+        icon = "__sei-gleba-fruits__/graphics/icons/yumako-mash.png",
         additional_categories = {"organic"},
         subgroup = "agriculture-products",
         order = "a[organic-processing]-b[yumako-mash]-b[processing]",
@@ -104,7 +104,7 @@ data:extend({
     {
         type = "recipe",
         name = "jellynut-processing",
-        icon = path_util.space_age_path.."graphics/icons/jelly.png",
+        icon = "__sei-gleba-fruits__/graphics/icons/jelly.png",
         additional_categories = {"organic"},
         subgroup = "agriculture-products",
         order = "a[organic-processing]-c[jelly]-b[processing]",
@@ -152,7 +152,7 @@ data:extend({
     {
         type = "recipe",
         name = "yumako-processing-vita",
-        icons = data_util.sub_icons(path_util.space_age_path.."graphics/icons/yumako-mash.png", data.raw["fluid"]["se-vitalic-acid"]),
+        icons = data_util.sub_icons("__sei-gleba-fruits__/graphics/icons/yumako-mash.png", data.raw["fluid"]["se-vitalic-acid"]),
         category = "crafting-with-fluid",
         additional_categories = {"organic"},
         subgroup = "agriculture-products",
@@ -179,7 +179,7 @@ data:extend({
     {
         type = "recipe",
         name = "jellynut-processing-vita",
-        icons = data_util.sub_icons(path_util.space_age_path.."graphics/icons/jelly.png", data.raw["fluid"]["se-vitalic-acid"]),
+        icons = data_util.sub_icons("__sei-gleba-fruits__/graphics/icons/jelly.png", data.raw["fluid"]["se-vitalic-acid"]),
         category = "crafting-with-fluid",
         additional_categories = {"organic"},
         subgroup = "agriculture-products",

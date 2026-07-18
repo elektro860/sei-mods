@@ -93,12 +93,12 @@ local landfill_trigger_effect = function()
 end
 
 walking_sounds_semi_wet = {
-    variations = path_util.sa_sound_variations("sound/walking/semi-wet-rock", 10, 0.7),
+    variations = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/walking/semi-wet-rock", 10, 0.7),
     advanced_volume_control = default_tile_sounds_advanced_volume_control(),
 }
 
 local landing_sounds_semi_wet = {
-    variations = path_util.sa_sound_variations("sound/entity/mech-armor/mech-armor-land-semi-wet", 3, 1.0, volume_multiplier("main-menu", 2.9)),
+    variations = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/entity/mech-armor/mech-armor-land-semi-wet", 3, 1.0, volume_multiplier("main-menu", 2.9)),
     advanced_volume_control = default_tile_sounds_advanced_volume_control(),
 }
 
@@ -130,8 +130,8 @@ data:extend({
 
         sprite_usage_surface = "any",
         variants = tile_variations_template_with_transitions_and_effect_map(
-        path_util.space_age_path.."graphics/terrain/artificial-yumako-soil.png",
-        path_util.space_age_path.."graphics/terrain/effect-maps/water-gleba-mask.png",
+        "__sei-gleba-fruits__/graphics/terrain/artificial-yumako-soil.png",
+        "__sei-gleba-fruits__/graphics/terrain/effect-maps/water-gleba-mask.png",
         {
             max_size = 4,
             [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -165,8 +165,8 @@ data:extend({
 
         sprite_usage_surface = "any",
         variants = tile_variations_template_with_transitions_and_effect_map(
-        path_util.space_age_path.."graphics/terrain/overgrowth-yumako-soil.png",
-        path_util.space_age_path.."graphics/terrain/effect-maps/water-gleba-mask.png",
+        "__sei-gleba-fruits__/graphics/terrain/overgrowth-yumako-soil.png",
+        "__sei-gleba-fruits__/graphics/terrain/effect-maps/water-gleba-mask.png",
         {
             max_size = 4,
             [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -200,7 +200,7 @@ data:extend({
 
         sprite_usage_surface = "any",
         variants = tile_variations_template_with_transitions(
-        path_util.space_age_path.."graphics/terrain/artificial-jellynut-soil.png",
+        "__sei-gleba-fruits__/graphics/terrain/artificial-jellynut-soil.png",
         {
             max_size = 4,
             [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
@@ -234,7 +234,7 @@ data:extend({
 
         sprite_usage_surface = "any",
         variants = tile_variations_template_with_transitions(
-        path_util.space_age_path.."graphics/terrain/overgrowth-jellynut-soil.png",
+        "__sei-gleba-fruits__/graphics/terrain/overgrowth-jellynut-soil.png",
         {
             max_size = 4,
             [1] = { weights = {0.085, 0.085, 0.085, 0.085, 0.087, 0.085, 0.065, 0.085, 0.045, 0.045, 0.045, 0.045, 0.005, 0.025, 0.045, 0.045 } },
