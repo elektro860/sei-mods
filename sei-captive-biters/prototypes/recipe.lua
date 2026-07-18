@@ -1,6 +1,11 @@
 local path_util = require("__sei-library__.path_util")
 local data_util = require("__sei-library__.data_util")
 
+local categories = { "chemistry" }
+if mods['sei-biochamber'] then
+  table.insert(categories, 'organic')
+end
+
 data:extend({
     {
         type = "recipe",
@@ -20,8 +25,7 @@ data:extend({
         type = "recipe",
         name = "bioflux",
         icon = "__sei-captive-biters__/graphics/icons/bioflux.png",
-        categories = { "chemistry" },
-        additional_categories = mods["sei-biochamber"] and {"organic"} or nil,
+        categories = categories,
         enabled = false,
         allow_productivity = true,
         energy_required = 6,

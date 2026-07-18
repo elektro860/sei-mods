@@ -6,7 +6,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-bioflux",
-        category = "organic",
+        categories = { "organic" },
         order = "c[nutrients]-c[nutrients]-f[bioflux]",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw["capsule"]["bioflux"].icon),
@@ -21,7 +21,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-biter-egg",
-        additional_categories = {"organic"},
+        categories = {"organic"},
         order = "c[nutrients]-c[nutrients]-h[biter-egg]",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw.item["biter-egg"].icon),

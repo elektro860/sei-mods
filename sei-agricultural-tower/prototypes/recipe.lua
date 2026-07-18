@@ -1,5 +1,10 @@
 local data_util = require("__sei-library__.data_util")
 
+local categories = { "crafting-with-fluid" }
+if mods['sei-biochamber'] then
+  table.insert(categories, 'organic')
+end
+
 data:extend({
     {
         type = "recipe",
@@ -21,8 +26,7 @@ data:extend({
         icon = "__base__/graphics/icons/wood-processing.png",
         subgroup = "agriculture-seeds",
         order = "a[seeds]-a[wood-processing]",
-        categories = { "crafting-with-fluid" },
-        additional_categories = mods["sei-biochamber"] and {"organic"} or nil,
+        categories = categories,
         enabled = false,
         allow_productivity = true,
         energy_required = 2,
@@ -48,8 +52,7 @@ data:extend({
         icons = data_util.sub_icons("__base__/graphics/icons/wood-processing.png", data.raw["item"][SEItemNames.get_sand_name()].icon),
         subgroup = "agriculture-seeds",
         order = "a[seeds]-a[wood-processing]-sand",
-        categories = { "crafting-with-fluid" },
-        additional_categories = mods["sei-biochamber"] and {"organic"} or nil,
+        categories = categories,
         enabled = false,
         allow_productivity = true,
         energy_required = 4,

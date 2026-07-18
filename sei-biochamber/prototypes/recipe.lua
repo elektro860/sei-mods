@@ -21,7 +21,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-nuggets",
-        additional_categories = {"organic"},
+        categories = {"organic"},
         order = "c[nutrients]-c[nutrients]-b[nugget]",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw.item["se-vitamelange-nugget"].icon),
@@ -81,7 +81,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-fish",
-        additional_categories = {"organic"},
+        categories = {"organic"},
         order = "c[nutrients]-c[nutrients]-g[fish]",
         energy_required = 2,
         icons = data_util.sub_icons(data.raw.item["nutrients"].icon, data.raw.capsule["raw-fish"].icon),

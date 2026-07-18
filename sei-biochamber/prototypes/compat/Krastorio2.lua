@@ -6,7 +6,7 @@ data:extend({
     {
         type = "recipe",
         name = "fertilizer-with-nutrients",
-        category = "organic",
+        categories = { "organic" },
         order = data.raw.recipe["se-kr-fertilizer-with-nutrients"].order .. "-bio",
         energy_required = 4,
         icons = data_util.sub_icons(data.raw.item["kr-fertilizer"].icon, data.raw.item["nutrients"].icon),
