@@ -79,15 +79,13 @@ data_util.replace_or_add_ingredient("biochamber", "steel-plate", "carbon-fiber",
 data_util.conditional_modify({
     type = "recipe",
     name = "biosulfur",
-    category = "chemistry",
-    additional_categories = {"organic"}
+    categories = { "chemistry", "organic" },
 })
 
 data_util.conditional_modify({
     type = "recipe",
     name = "bioplastic",
-    category = "chemistry",
-    additional_categories = {"organic"},
+    categories = { "chemistry", "organic" },
     ingredients = {
         {type = "item", name = "bioflux", amount = 1},
         {type = "item", name = "yumako-mash", amount = 4},
@@ -97,8 +95,7 @@ data_util.conditional_modify({
 data_util.conditional_modify({
     type = "recipe",
     name = "biolubricant",
-    category = "chemistry",
-    additional_categories = {"organic"},
+    categories = { "chemistry", "organic" },
     icons = data_util.sub_icons(data.raw["fluid"]["lubricant"].icon, data.raw["capsule"]["jelly"].icon),
     ingredients = {
         {type = "item", name = "jelly", amount = 60},

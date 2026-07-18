@@ -5,8 +5,7 @@ data:extend({
     {
         type = "recipe",
         name = "bioflux",
-        category = "chemistry",
-        additional_categories = {"organic"},
+        categories = { "chemistry", "organic" },
         subgroup = "agriculture-products",
         enabled = false,
         allow_productivity = true,
@@ -28,7 +27,7 @@ data:extend({
         type = "recipe",
         name = "yumako-seed-genetic-breeding",
         icons = data_util.sub_icons(data.raw["item"]["yumako-seed"].icon, data.raw["item"]["se-genetic-data"]),
-        category = "space-genetics",
+        categories = { "space-genetics" },
         subgroup = "agriculture-seeds",
         order = "a[seeds]-b[yumako-seed]-b[breeding]",
         enabled = false,
@@ -55,7 +54,7 @@ data:extend({
         type = "recipe",
         name = "jellynut-seed-genetic-breeding",
         icons = data_util.sub_icons(data.raw["item"]["jellynut-seed"].icon, data.raw["item"]["se-genetic-data"]),
-        category = "space-genetics",
+        categories = { "space-genetics" },
         subgroup = "agriculture-seeds",
         order = "a[seeds]-c[jellynut-seed]-b[breeding]",
         enabled = false,
@@ -83,7 +82,7 @@ data:extend({
         type = "recipe",
         name = "yumako-processing",
         icon = "__sei-gleba-fruits__/graphics/icons/yumako-mash.png",
-        additional_categories = {"organic"},
+        categories = {"organic"},
         subgroup = "agriculture-products",
         order = "a[organic-processing]-b[yumako-mash]-b[processing]",
         enabled = false,
@@ -92,7 +91,7 @@ data:extend({
         ingredients = {{type = "item", name = "yumako", amount = 1}},
         results =
         {
-            {type = "item", name = "yumako-seed", amount = 1, probability = 0.01},
+            {type = "item", name = "yumako-seed", amount = 1, independent_probability = 0.01},
             {type = "item", name = "yumako-mash", amount = 2}
         },
         crafting_machine_tint =
@@ -105,7 +104,7 @@ data:extend({
         type = "recipe",
         name = "jellynut-processing",
         icon = "__sei-gleba-fruits__/graphics/icons/jelly.png",
-        additional_categories = {"organic"},
+        categories = {"organic"},
         subgroup = "agriculture-products",
         order = "a[organic-processing]-c[jelly]-b[processing]",
         enabled = false,
@@ -117,7 +116,7 @@ data:extend({
         },
         results =
         {
-            {type = "item", name = "jellynut-seed", amount = 1, probability = 0.01},
+            {type = "item", name = "jellynut-seed", amount = 1, independent_probability = 0.01},
             {type = "item", name = "jelly", amount = 4}
         },
         crafting_machine_tint =
@@ -153,8 +152,7 @@ data:extend({
         type = "recipe",
         name = "yumako-processing-vita",
         icons = data_util.sub_icons("__sei-gleba-fruits__/graphics/icons/yumako-mash.png", data.raw["fluid"]["se-vitalic-acid"]),
-        category = "crafting-with-fluid",
-        additional_categories = {"organic"},
+        categories = { "crafting-with-fluid", "organic" },
         subgroup = "agriculture-products",
         order = "a[organic-processing]-b[yumako-mash]-c[processing-vita]",
         enabled = false,
@@ -167,7 +165,7 @@ data:extend({
         },
         results =
         {
-            {type = "item", name = "yumako-seed", amount = 1, probability = 0.50},
+            {type = "item", name = "yumako-seed", amount = 1, independent_probability = 0.50},
             {type = "item", name = "yumako-mash", amount = 40},
         },
         crafting_machine_tint =
@@ -180,8 +178,7 @@ data:extend({
         type = "recipe",
         name = "jellynut-processing-vita",
         icons = data_util.sub_icons("__sei-gleba-fruits__/graphics/icons/jelly.png", data.raw["fluid"]["se-vitalic-acid"]),
-        category = "crafting-with-fluid",
-        additional_categories = {"organic"},
+        categories = { "crafting-with-fluid", "organic" },
         subgroup = "agriculture-products",
         order = "a[organic-processing]-c[jelly]-c[processing-vita]",
         enabled = false,
@@ -195,7 +192,7 @@ data:extend({
         },
         results =
         {
-            {type = "item", name = "jellynut-seed", amount = 1, probability = 0.50},
+            {type = "item", name = "jellynut-seed", amount = 1, independent_probability = 0.50},
             {type = "item", name = "jelly", amount = 80},
         },
         crafting_machine_tint =
@@ -207,7 +204,7 @@ data:extend({
     {
         type = "recipe",
         name = "artificial-yumako-soil",
-        category = "space-manufacturing",
+        categories = { "space-manufacturing" },
         enabled = false,
         energy_required = 2,
         ingredients =
@@ -222,7 +219,7 @@ data:extend({
     {
         type = "recipe",
         name = "artificial-jellynut-soil",
-        category = "space-manufacturing",
+        categories = { "space-manufacturing" },
         enabled = false,
         energy_required = 2,
         ingredients =
@@ -237,7 +234,7 @@ data:extend({
     {
         type = "recipe",
         name = "overgrowth-yumako-soil",
-        category = "space-manufacturing",
+        categories = { "space-manufacturing" },
         enabled = false,
         energy_required = 2,
         ingredients =
@@ -254,7 +251,7 @@ data:extend({
     {
         type = "recipe",
         name = "overgrowth-jellynut-soil",
-        category = "space-manufacturing",
+        categories = { "space-manufacturing" },
         enabled = false,
         energy_required = 2,
         ingredients =
@@ -271,7 +268,7 @@ data:extend({
     {
         type = "recipe",
         name = "nutrients-from-yumako-mash",
-        category = "organic",
+        categories = { "organic" },
         subgroup = "agriculture-processes",
         enabled = false,
         allow_productivity = true,
@@ -290,8 +287,7 @@ data:extend({
     {
         type = "recipe",
         name = "carbon-fiber",
-        category = "crafting-with-fluid",
-        additional_categories = {"organic"},
+        categories = { "crafting-with-fluid", "organic" },
         subgroup = "agriculture-products",
         order = "a[organic-products]-h[carbon-fiber]",
         auto_recycle = false,
@@ -324,7 +320,7 @@ data:extend({
                 icon_size = data.raw["item"]["rocket-fuel"].icon_size, scale = 0.5
             }
         ),
-        category = "fuel-refining",
+        categories = { "fuel-refining" },
         subgroup = "fuel",
         order = "a[fuel]-c[rocket-fuel]-d[rocket-fuel]",
         enabled = false,
