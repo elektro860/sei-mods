@@ -4,7 +4,7 @@ data:extend({
     {
         type = "corpse",
         name = "rocket-turret-remnants",
-        icon = path_util.space_age_path.."graphics/icons/rocket-turret.png",
+        icon = "__sei-rocket-turret__/graphics/icons/rocket-turret.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "defensive-structure-remnants",

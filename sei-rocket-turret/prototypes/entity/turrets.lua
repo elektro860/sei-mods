@@ -1,7 +1,6 @@
 local path_util = require("__sei-library__.path_util")
 
 local sounds = require("__base__.prototypes.entity.sounds")
-local space_age_sounds = require("__sei-library__.prototypes.entity.sounds")
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 
 local util = require('util')
@@ -106,7 +105,7 @@ data:extend({
     {
         type = "ammo-turret",
         name = "rocket-turret",
-        icon = path_util.space_age_path.."graphics/icons/rocket-turret.png",
+        icon = "__sei-rocket-turret__/graphics/icons/rocket-turret.png",
         flags = {"placeable-player", "player-creation"},
         minable = {mining_time = 0.5, result = "rocket-turret"},
         max_health = 400,
@@ -120,24 +119,24 @@ data:extend({
         preparing_speed = 0.08,
         preparing_sound =
         {
-        variations = path_util.sa_sound_variations("sound/entity/rocket-turret/rocket-turret-activate", 2, 0.4),
+        variations = path_util.sa_sound_variations("__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-activate", 2, 0.4),
         aggregation = {max_count = 2, remove = true, count_already_playing = true},
         },
         folding_sound =
         {
-        variations = path_util.sa_sound_variations("sound/entity/rocket-turret/rocket-turret-deactivate", 2, 0.5),
+        variations = path_util.sa_sound_variations("__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-deactivate", 2, 0.5),
         aggregation = {max_count = 2, remove = true, count_already_playing = true},
         },
         rotating_sound =
         {
         sound =
         {
-            variations = {filename = path_util.space_age_path.."sound/entity/rocket-turret/rocket-turret-rotation-loop.ogg", volume = 0.15},
+            variations = {filename = "__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-rotation-loop.ogg", volume = 0.15},
             aggregation = {max_count = 2, remove = true, count_already_playing = true},
         },
         stopped_sound =
         {
-            variations = {filename = path_util.space_age_path.."sound/entity/rocket-turret/rocket-turret-rotation-stop.ogg", volume = 0.5},
+            variations = {filename = "__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-rotation-stop.ogg", volume = 0.5},
             aggregation = {max_count = 1, remove = true, count_already_playing = true},
         },
         minimal_change_per_tick = 0.001,
@@ -204,7 +203,7 @@ data:extend({
         range = 36,
         sound =
         {
-            variations = path_util.sa_sound_variations("sound/ammo/rocket-turret-launcher", 7, 0.7, volume_multiplier("main-menu", 1.8)),
+            variations = path_util.sa_sound_variations("__sei-rocket-turret__/sound/ammo/rocket-turret-launcher", 7, 0.7, volume_multiplier("main-menu", 1.8)),
             aggregation = { max_count = 4, remove = true, count_already_playing = true },
         },
         projectile_creation_offsets =

@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "rocket-turret",
-        icon = path_util.space_age_path.."graphics/technology/rocket-turret.png",
+        icon = "__sei-rocket-turret__/graphics/technology/rocket-turret.png",
         icon_size = 256,
         effects = {
             {

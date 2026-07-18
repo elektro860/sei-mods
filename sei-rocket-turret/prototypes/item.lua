@@ -5,7 +5,7 @@ data:extend({
     {
         type = "item",
         name = "rocket-turret",
-        icon = path_util.space_age_path.."graphics/icons/rocket-turret.png",
+        icon = "__sei-rocket-turret__/graphics/icons/rocket-turret.png",
         subgroup = "turret",
         order = "b[turret]-e[rocket-turret]-a[turret]",
         inventory_move_sound = item_sounds.turret_inventory_move,
