@@ -197,7 +197,7 @@ data:extend({
     {
         type = "electric-turret",
         name = "tesla-turret",
-        icon = path_util.space_age_path.."graphics/icons/tesla-turret.png",
+        icon = "__sei-tesla-turret__/graphics/icons/tesla-turret.png",
         flags = {"placeable-player", "placeable-enemy", "player-creation"},
         minable = {mining_time = 0.5, result = "tesla-turret"},
         fast_replaceable_group = "tesla-turret",
@@ -217,7 +217,7 @@ data:extend({
         close_sound = sounds.turret_close,
         working_sound =
         {
-        sound = {filename = path_util.space_age_path.."sound/entity/tesla-turret/tesla-turret-base.ogg", volume = 0.3},
+        sound = {filename = "__sei-tesla-turret__/sound/entity/tesla-turret/tesla-turret-base.ogg", volume = 0.3},
         use_doppler_shift = false,
         fade_in_ticks = 4,
         fade_out_ticks = 20,

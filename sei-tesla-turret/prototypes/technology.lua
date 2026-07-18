@@ -4,7 +4,7 @@ data:extend({
     {
         type = "technology",
         name = "tesla-turret",
-        icon = path_util.space_age_path.."graphics/technology/tesla-weapons.png",
+        icon = "__sei-tesla-turret__/graphics/technology/tesla-weapons.png",
         icon_size = 256,
         effects = {
             {

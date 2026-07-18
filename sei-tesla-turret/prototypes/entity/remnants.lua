@@ -4,7 +4,7 @@ data:extend({
     {
         type = "corpse",
         name = "tesla-turret-remnants",
-        icon = path_util.space_age_path.."graphics/icons/tesla-turret.png",
+        icon = "__sei-tesla-turret__/graphics/icons/tesla-turret.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "defensive-structure-remnants",
