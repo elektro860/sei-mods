@@ -6,4 +6,4 @@ require("prototypes.item")
 require("prototypes.recipe")
 require("prototypes.technology")
 
-se_delivery_cannon_recipes["tree-seed"] = {name="tree-seed"}
+se_delivery_cannon_recipes["tree-seed"] = { name = "tree-seed" }

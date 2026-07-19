@@ -11,5 +11,5 @@ require("prototypes.Krastorio2")
 local data_util = require("__sei-library-2__.data_util")
 
 if settings.startup["sei-cryogenic-plant-2-required-for-progression"].value then
-    data_util.tech_add_prerequisites("se-processing-cryonite", {"cryogenic-plant"})
+  data_util.tech_add_prerequisites("se-processing-cryonite", { "cryogenic-plant" })
 end

@@ -1,6 +1,6 @@
 data:extend({
-    {
-        type = "recipe-category",
-        name = "cryogenic-cooling"
-    }
+  {
+    type = "recipe-category",
+    name = "cryogenic-cooling",
+  },
 })

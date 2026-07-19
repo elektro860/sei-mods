@@ -4,9 +4,9 @@ data_util.replace_or_add_ingredient("se-capsule-small-biter", "biter-egg", "bite
 data_util.replace_or_add_ingredient("se-capsule-small-spitter", "biter-egg", "biter-egg", 1)
 
 data_util.add_recipes_to_recipe_productivity("se-bio-sludge", {
-    "se-bio-sludge-from-biter-egg"
+  "se-bio-sludge-from-biter-egg",
 })
 
 data_util.add_recipes_to_recipe_productivity("se-nutrient-gel", {
-    "se-nutrient-gel-biter-egg"
+  "se-nutrient-gel-biter-egg",
 })

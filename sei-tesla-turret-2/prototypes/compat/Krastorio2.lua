@@ -1,4 +1,6 @@
-if not mods["Krastorio2"] then return end
+if not mods["Krastorio2"] then
+  return
+end
 
 local data_util = require("__sei-library-2__.data_util")
 

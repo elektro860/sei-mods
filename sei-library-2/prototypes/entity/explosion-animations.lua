@@ -4,8 +4,7 @@ local explosion_animations = require("__base__/prototypes/entity/explosion-anima
 local util = require("util")
 
 explosion_animations.asteroid_explosion_chunk = function(options)
-  return
-  {
+  return {
     {
       filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-chunk.png",
       draw_as_glow = true,
@@ -15,16 +14,15 @@ explosion_animations.asteroid_explosion_chunk = function(options)
       height = 90,
       frame_count = 31,
       animation_speed = 0.6,
-      shift = util.by_pixel( -0.5, 0.5),
+      shift = util.by_pixel(-0.5, 0.5),
       scale = 0.7,
       tint = options and options.tint,
-    }
+    },
   }
 end
 
 explosion_animations.asteroid_explosion_small = function(options)
-  return
-  {
+  return {
     {
       filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-small.png",
       draw_as_glow = true,
@@ -34,16 +32,15 @@ explosion_animations.asteroid_explosion_small = function(options)
       height = 142,
       frame_count = 31,
       animation_speed = 0.6,
-      shift = util.by_pixel( -1.5, 0.0),
+      shift = util.by_pixel(-1.5, 0.0),
       scale = 0.8,
       tint = options and options.tint,
-    }
+    },
   }
 end
 
 explosion_animations.asteroid_explosion_medium = function(options)
-  return
-  {
+  return {
     {
       filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-medium.png",
       draw_as_glow = true,
@@ -56,13 +53,12 @@ explosion_animations.asteroid_explosion_medium = function(options)
       shift = util.by_pixel(0.0, 5.0),
       scale = 0.8,
       tint = options and options.tint,
-    }
+    },
   }
 end
 
 explosion_animations.asteroid_explosion_big = function(options)
-  return
-  {
+  return {
     {
       filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-big.png",
       draw_as_glow = true,
@@ -72,16 +68,15 @@ explosion_animations.asteroid_explosion_big = function(options)
       height = 300,
       frame_count = 32,
       animation_speed = 0.5,
-      shift = util.by_pixel( -1.0, -0.5),
+      shift = util.by_pixel(-1.0, -0.5),
       scale = 0.8,
       tint = options and options.tint,
-    }
+    },
   }
 end
 
 explosion_animations.asteroid_explosion_huge = function(options)
-  return
-  {
+  return {
     {
       filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-huge.png",
       draw_as_glow = true,
@@ -94,13 +89,12 @@ explosion_animations.asteroid_explosion_huge = function(options)
       shift = util.by_pixel(4.5, -3.0),
       scale = 0.7,
       tint = options and options.tint,
-    }
+    },
   }
 end
 
 explosion_animations.magma_eruption = function()
-  return
-  {
+  return {
     {
       filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-1.png",
       draw_as_glow = true,
@@ -109,8 +103,8 @@ explosion_animations.magma_eruption = function()
       frame_count = 54,
       line_length = 6,
       animation_speed = 0.5,
-      shift = util.by_pixel( 9.0, 12.0),
-      scale = 0.5
+      shift = util.by_pixel(9.0, 12.0),
+      scale = 0.5,
     },
     {
       filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-2.png",
@@ -120,8 +114,8 @@ explosion_animations.magma_eruption = function()
       frame_count = 54,
       line_length = 6,
       animation_speed = 0.5,
-      shift = util.by_pixel( 8.5, 9.5),
-      scale = 0.5
+      shift = util.by_pixel(8.5, 9.5),
+      scale = 0.5,
     },
     {
       filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-3.png",
@@ -131,8 +125,8 @@ explosion_animations.magma_eruption = function()
       frame_count = 54,
       line_length = 6,
       animation_speed = 0.5,
-      shift = util.by_pixel( 7.5, 0.5),
-      scale = 0.5
+      shift = util.by_pixel(7.5, 0.5),
+      scale = 0.5,
     },
     {
       filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-4.png",
@@ -143,7 +137,7 @@ explosion_animations.magma_eruption = function()
       line_length = 6,
       animation_speed = 0.5,
       shift = util.by_pixel(-16.0, -13.5),
-      scale = 0.5
+      scale = 0.5,
     },
   }
 end

@@ -13,6 +13,6 @@ data_util.replace_or_add_ingredient("spidertron", "se-heavy-girder", "se-heavy-g
 data_util.replace_or_add_ingredient("spidertron", "processing-unit", "processing-unit", 12)
 data_util.replace_or_add_ingredient("spidertron", nil, "rocket-turret", 1)
 
-data_util.tech_add_prerequisites("spidertron", {"rocket-turret"})
+data_util.tech_add_prerequisites("spidertron", { "rocket-turret" })
 
-data_util.tech_add_prerequisites("stronger-explosives-7", {"rocket-turret"})
+data_util.tech_add_prerequisites("stronger-explosives-7", { "rocket-turret" })

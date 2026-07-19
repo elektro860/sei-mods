@@ -1,4 +1,6 @@
-if not mods["Krastorio2"] then return end
+if not mods["Krastorio2"] then
+  return
+end
 
 sei_capture_robot_categories = sei_capture_robot_categories or {}
 

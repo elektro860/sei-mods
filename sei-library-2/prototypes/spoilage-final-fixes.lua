@@ -1,7 +1,11 @@
-if SEI_SPACE_AGE then return end
+if SEI_SPACE_AGE then
+  return
+end
 
-for _,inserter in pairs(data.raw.inserter) do
-    if inserter.wait_for_full_hand then inserter.enter_drop_mode_if_held_stack_spoiled = true end
+for _, inserter in pairs(data.raw.inserter) do
+  if inserter.wait_for_full_hand then
+    inserter.enter_drop_mode_if_held_stack_spoiled = true
+  end
 end
 
 --[[for _,recipe in pairs(data.raw.recipe) do

@@ -1,25 +1,25 @@
 data:extend({
-    {
-        type = "int-setting",
-        name = "sei-biochamber-2-base-production-bonus",
-        setting_type = "startup",
-        default_value = 20,
-        minimum_value = 0,
-        maximum_value = 100,
-        order = "a",
-    },
-    {
-        type = "bool-setting",
-        name = "sei-biochamber-2-allow-space-recipes",
-        setting_type = "startup",
-        default_value = false,
-        order = "b",
-    },
-    {
-        type = "bool-setting",
-        name = "sei-biochamber-2-enable-spoilage",
-        setting_type = "startup",
-        default_value = false,
-        order = "c",
-    },
+  {
+    type = "int-setting",
+    name = "sei-biochamber-2-base-production-bonus",
+    setting_type = "startup",
+    default_value = 20,
+    minimum_value = 0,
+    maximum_value = 100,
+    order = "a",
+  },
+  {
+    type = "bool-setting",
+    name = "sei-biochamber-2-allow-space-recipes",
+    setting_type = "startup",
+    default_value = false,
+    order = "b",
+  },
+  {
+    type = "bool-setting",
+    name = "sei-biochamber-2-enable-spoilage",
+    setting_type = "startup",
+    default_value = false,
+    order = "c",
+  },
 })

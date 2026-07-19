@@ -11,5 +11,5 @@ require("__sei-turbo-belts-2__.prototypes.technology")
 -- data.raw.item["turbo-splitter"].subgroup = "splitter"
 
 if mods["aai-loaders"] then
-	require("prototypes.aai-loaders")
+  require("prototypes.aai-loaders")
 end

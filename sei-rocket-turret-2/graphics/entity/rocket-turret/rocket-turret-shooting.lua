@@ -1,8 +1,7 @@
-return
-{
+return {
   width = 160,
   height = 164,
-  shift = util.by_pixel( 0.0, -8.5),
+  shift = util.by_pixel(0.0, -8.5),
   line_length = 1,
   filenames = {
     "-1.png",
