@@ -1,4 +1,4 @@
-if not mods["sei-stack-inserters"] then
+if not mods["sei-stack-inserters-2"] then
   return
 end
 

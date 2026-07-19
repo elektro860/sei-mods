@@ -11,7 +11,7 @@
     "sei-captive-biters-2 >= 0.2.0",
     "sei-biochamber-2 >= 0.2.0",
     "sei-heating-tower-2 >= 1.1.0",
-    "? sei-stack-inserters",
+    "? sei-stack-inserters-2",
     "! space-age"
   ],
   "space_travel_required": true,
