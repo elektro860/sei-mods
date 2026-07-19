@@ -7,7 +7,7 @@ local sounds = require("__base__.prototypes.entity.sounds")
 data:extend({
 	{
 		type = "assembling-machine",
-		name = "foundry",
+		name = data_util.prefix.. "foundry",
 		icon = "__sei-foundry__/graphics/icons/foundry.png",
 		flags = { "placeable-neutral", "player-creation" },
 		minable = { mining_time = 0.2, result = "foundry" },
