@@ -1,8 +1,8 @@
 {
   "name": "sei-electromagnetic-plant-2",
   "version": "1.1.0",
-  "title": "Space Exploration Integration: Electromagnetic Plant",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Electromagnetic Plant 2.1",
+  "author": "Elektro860",
   "description": "Integrates the electromagnetic plant into space exploration.",
   "dependencies": [
     "base >= 2.1.0",

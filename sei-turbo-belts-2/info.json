@@ -1,8 +1,8 @@
 {
   "name": "sei-turbo-belts-2",
   "version": "1.1.0",
-  "title": "Space Exploration Integration: Turbo Belts",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Turbo Belts 2.1",
+  "author": "Elektro860",
   "description": "Adds turbo belts for space exploration.",
   "dependencies": [
     "base >= 2.1.0",

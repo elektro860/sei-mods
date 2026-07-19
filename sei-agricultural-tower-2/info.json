@@ -1,8 +1,8 @@
 {
   "name": "sei-agricultural-tower-2",
   "version": "1.1.0",
-  "title": "Space Exploration Integration: Agricultural Tower",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Agricultural Tower 2.1",
+  "author": "Elektro860",
   "description": "Adds tree seeds and agricultural tower into space exploration.",
   "dependencies": [
     "base >= 2.1.0",

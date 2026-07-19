@@ -1,8 +1,8 @@
 {
   "name": "sei-heating-tower-2",
   "version": "1.1.0",
-  "title": "Space Exploration Integration: Heating Tower",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Heating Tower 2.1",
+  "author": "Elektro860",
   "description": "Adds heating tower into space exploration.",
   "dependencies": [
     "base >= 2.1.0",

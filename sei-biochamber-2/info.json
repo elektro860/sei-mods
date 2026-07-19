@@ -1,8 +1,8 @@
 {
   "name": "sei-biochamber-2",
   "version": "0.2.0",
-  "title": "Space Exploration Integration: Biochamber",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Biochamber 2.1",
+  "author": "Elektro860",
   "description": "Adds the biochamber and nutrients into space exploration.",
   "dependencies": [
     "base >= 2.1.0",

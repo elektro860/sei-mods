@@ -1,8 +1,8 @@
 {
   "name": "sei-foundry-2",
   "version": "1.1.0",
-  "title": "Space Exploration Integration: Foundry",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Foundry 2.1",
+  "author": "Elektro860",
   "description": "Adds the foundry into space exploration.",
   "dependencies": [
     "base >= 2.1.0",

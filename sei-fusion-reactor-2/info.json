@@ -1,8 +1,8 @@
 {
   "name": "sei-fusion-reactor-2",
   "version": "1.2.0",
-  "title": "Space Exploration Integration: Fusion Reactor",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Fusion Reactor 2.1",
+  "author": "Elektro860",
   "description": "Adds fusion reactor into space exploration.",
   "dependencies": [
     "base >= 2.1.0",

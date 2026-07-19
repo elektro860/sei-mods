@@ -1,8 +1,8 @@
 {
   "name": "sei-gleba-fruits-2",
   "version": "0.2.0",
-  "title": "Space Exploration Integration: Gleba Fruits",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Gleba Fruits 2.1",
+  "author": "Elektro860",
   "description": "Adds jellynut and yumako into space exploration.",
   "dependencies": [
     "base >= 2.1.0",
@@ -12,7 +12,8 @@
     "sei-biochamber-2 >= 0.2.0",
     "sei-heating-tower-2 >= 1.1.0",
     "? sei-stack-inserters",
-    "! space-age"],
+    "! space-age"
+  ],
   "space_travel_required": true,
   "factorio_version": "2.1"
 }

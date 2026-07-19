@@ -1,8 +1,8 @@
 {
   "name": "sei-rocket-turret-2",
   "version": "1.1.0",
-  "title": "Space Exploration Integration: Rocket Turret",
-  "author": "xkyouchoux",
+  "title": "Space Exploration Integration: Rocket Turret 2.1",
+  "author": "Elektro860",
   "description": "Adds rocket turret into space exploration.",
   "dependencies": [
     "base >= 2.1.0",
