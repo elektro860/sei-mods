@@ -1,8 +1,8 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local categories = { "chemistry" }
-if mods['sei-biochamber'] then
+if mods['sei-biochamber-2'] then
   table.insert(categories, 'organic')
 end
 
@@ -24,7 +24,7 @@ data:extend({
     {
         type = "recipe",
         name = "bioflux",
-        icon = "__sei-captive-biters__/graphics/icons/bioflux.png",
+        icon = "__sei-captive-biters-2__/graphics/icons/bioflux.png",
         categories = categories,
         enabled = false,
         allow_productivity = true,
@@ -60,7 +60,7 @@ data:extend({
     {
         type = "recipe",
         name = "biter-egg",
-        icon = "__sei-captive-biters__/graphics/icons/biter-egg.png",
+        icon = "__sei-captive-biters-2__/graphics/icons/biter-egg.png",
         categories = { "captive-spawner-process" },
         hide_from_player_crafting = true,
         auto_recycle = false,

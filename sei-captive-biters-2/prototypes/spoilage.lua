@@ -1,6 +1,6 @@
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
-if settings.startup["sei-captive-biters-enable-biter-egg-spoil"].value or SEI_FORCE_SPOILAGE then
+if settings.startup["sei-captive-biters-2-enable-biter-egg-spoil"].value or SEI_FORCE_SPOILAGE then
     data_util.conditional_modify({
         type = "item",
         name = "captive-biter-spawner",
@@ -102,7 +102,7 @@ if settings.startup["sei-captive-biters-enable-biter-egg-spoil"].value or SEI_FO
 end
 
 
-if settings.startup["sei-captive-biters-enable-spoilage"].value or SEI_FORCE_SPOILAGE then
+if settings.startup["sei-captive-biters-2-enable-spoilage"].value or SEI_FORCE_SPOILAGE then
     data_util.conditional_modify({
         type = "capsule",
         name = "bioflux",

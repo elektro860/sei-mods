@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "rocket-turret-remnants",
-        icon = "__sei-rocket-turret__/graphics/icons/rocket-turret.png",
+        icon = "__sei-rocket-turret-2__/graphics/icons/rocket-turret.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "defensive-structure-remnants",
@@ -21,14 +21,14 @@ data:extend({
         {
         layers =
         {
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/remnants/rocket-turret-remnants",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/remnants/rocket-turret-remnants",
             {
                 line_length = 1,
                 direction_count = 1,
                 shift = util.by_pixel(0, 0),
                 scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/remnants/rocket-turret-remnants-mask",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/remnants/rocket-turret-remnants-mask",
             {
                 priority = "low",
                 line_length = 1,

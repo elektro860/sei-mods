@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "agricultural-tower-remnants",
-        icon = "__sei-agricultural-tower__/graphics/icons/agricultural-tower.png",
+        icon = "__sei-agricultural-tower-2__/graphics/icons/agricultural-tower.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",
@@ -19,7 +19,7 @@ data:extend({
         remove_on_tile_placement = false,
         animation =
         {
-        filename = "__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-remnants.png",
+        filename = "__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-remnants.png",
         line_length = 1,
         width = 250,
         height = 250,

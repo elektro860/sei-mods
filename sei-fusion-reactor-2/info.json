@@ -1,5 +1,5 @@
 {
-  "name": "sei-fusion-reactor",
+  "name": "sei-fusion-reactor-2",
   "version": "1.2.0",
   "title": "Space Exploration Integration: Fusion Reactor",
   "author": "xkyouchoux",
@@ -7,7 +7,7 @@
   "dependencies": [
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
-    "sei-cryogenic-plant >= 1.1.0",
+    "sei-cryogenic-plant-2 >= 1.1.0",
     "! space-age"
   ],
   "freezing_required": true,

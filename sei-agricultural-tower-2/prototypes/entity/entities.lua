@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 require("util")
 
@@ -9,7 +9,7 @@ data:extend({
 	{
 		type = "agricultural-tower",
 		name = "agricultural-tower",
-		icon = "__sei-agricultural-tower__/graphics/icons/agricultural-tower.png",
+		icon = "__sei-agricultural-tower-2__/graphics/icons/agricultural-tower.png",
 		flags = { "placeable-neutral", "placeable-player", "player-creation" },
 		minable = { mining_time = 0.2, result = "agricultural-tower" },
 		fast_replaceable_group = "agricultural-tower",
@@ -26,7 +26,7 @@ data:extend({
 			height = 10,
 		},
 		radius = 3,
-		crane = require("__sei-agricultural-tower__.prototypes.entity.agricultural-tower-crane"),
+		crane = require("__sei-agricultural-tower-2__.prototypes.entity.agricultural-tower-crane"),
 		planting_procedure_points = {
 			{ 0.0, 0.0, 0.75 },
 			{ 0.0, 0.0, 0.0 },
@@ -50,7 +50,7 @@ data:extend({
 		crane_energy_usage = "100kW",
 		working_sound = {
 			sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-hub-loop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-hub-loop.ogg",
 				volume = 0.7,
 				audible_distance_modifier = 0.7,
 			},
@@ -60,55 +60,55 @@ data:extend({
 		},
 		central_orienting_sound = {
 			sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-rotation-loop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-rotation-loop.ogg",
 				volume = 0.3,
 			},
 			stopped_sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-rotation-stop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-rotation-stop.ogg",
 				volume = 0.5,
 			},
 		},
 		central_orienting_sound_source = "hub",
 		arm_extending_sound = {
 			sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-arm-extend-loop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-arm-extend-loop.ogg",
 				volume = 0.25,
 			},
 			stopped_sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-arm-extend-stop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-arm-extend-stop.ogg",
 				volume = 0.6,
 			},
 		},
 		arm_extending_sound_source = "arm_central_joint",
 		grappler_orienting_sound = {
 			sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-grappler-orient-loop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-grappler-orient-loop.ogg",
 				volume = 0.25,
 			},
 			stopped_sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-grappler-orient-stop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-grappler-orient-stop.ogg",
 				volume = 0.4,
 			},
 		},
 		grappler_orienting_sound_source = "grappler-hub",
 		grappler_extending_sound = {
 			sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-grappler-extend-loop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-grappler-extend-loop.ogg",
 				volume = 0.4,
 			},
 			stopped_sound = {
-				filename = "__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-grappler-extend-stop.ogg",
+				filename = "__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-grappler-extend-stop.ogg",
 				volume = 0.45,
 			},
 		},
 		grappler_extending_sound_source = "grappler-hub",
 		planting_sound = sound_variations(
-			"__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-planting",
+			"__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-planting",
 			5,
 			0.7
 		),
 		harvesting_sound = sound_variations(
-			"__sei-agricultural-tower__/sound/entity/agricultural-tower/agricultural-tower-harvesting",
+			"__sei-agricultural-tower-2__/sound/entity/agricultural-tower/agricultural-tower-harvesting",
 			6,
 			0.6
 		),
@@ -150,7 +150,7 @@ data:extend({
 			animation = {
 				layers = {
 					util.sprite_load(
-						"__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-base",
+						"__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-base",
 						{
 							priority = "high",
 							frame_count = 1,
@@ -159,7 +159,7 @@ data:extend({
 						}
 					),
 					util.sprite_load(
-						"__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-anim",
+						"__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-anim",
 						{
 							priority = "high",
 							animation_speed = 0.25,
@@ -168,7 +168,7 @@ data:extend({
 						}
 					),
 					util.sprite_load(
-						"__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-base-shadow",
+						"__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-base-shadow",
 						{
 							priority = "high",
 							frame_count = 1,
@@ -188,7 +188,7 @@ data:extend({
 					always_draw = true,
 					fog_mask = { rect = { { -30, -30 }, { 30, -2.75 } }, falloff = 1 },
 					animation = util.sprite_load(
-						"__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-base",
+						"__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-base",
 						{
 							frame_count = 1,
 							scale = 0.5,
@@ -201,7 +201,7 @@ data:extend({
 					always_draw = true,
 					apply_recipe_tint = "primary",
 					animation = util.sprite_load(
-						"__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-base-plant-mask",
+						"__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-base-plant-mask",
 						{
 							priority = "high",
 							frame_count = 64,
@@ -217,7 +217,7 @@ data:extend({
 					effect = "flicker",
 					fadeout = true,
 					animation = util.sprite_load(
-						"__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-base-light",
+						"__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-base-light",
 						{
 							priority = "high",
 							frame_count = 64,
@@ -241,7 +241,7 @@ data:extend({
 			},
 			water_reflection = {
 				pictures = {
-					filename = "__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-base-reflection.png",
+					filename = "__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-base-reflection.png",
 					priority = "extra-high",
 					width = 24,
 					height = 36,

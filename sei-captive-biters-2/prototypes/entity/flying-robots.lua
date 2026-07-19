@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local hit_effects = require ("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -9,7 +9,7 @@ robot_animations.capture =
 {
     layers =
     {
-        path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/capture-robot-rocket/capture-robot-capture-anim",
+        path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/capture-robot-rocket/capture-robot-capture-anim",
         {
         animation_speed = 0.25,
         frame_count = 32,
@@ -18,7 +18,7 @@ robot_animations.capture =
         surface = "nauvis",
         usage = "enemy" -- is used around enemy sprites
         }),
-        path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/capture-robot-rocket/capture-robot-capture-anim-mask",
+        path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/capture-robot-rocket/capture-robot-capture-anim-mask",
         {
         animation_speed = 0.25,
         frame_count = 32,
@@ -28,7 +28,7 @@ robot_animations.capture =
         surface = "nauvis",
         usage = "enemy"
         }),
-        path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/capture-robot-rocket/capture-robot-capture-anim-shadow",
+        path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/capture-robot-rocket/capture-robot-capture-anim-shadow",
         {
         animation_speed = 0.25,
         frame_count = 32,
@@ -47,7 +47,7 @@ local robots =
         type = "capture-robot",
         name = "capture-robot",
         hidden = true,
-        icon = "__sei-captive-biters__/graphics/icons/capture-bot.png",
+        icon = "__sei-captive-biters-2__/graphics/icons/capture-bot.png",
         flags = {"placeable-player", "player-creation", "placeable-off-grid", "not-on-map", "not-repairable"},
         resistances =
         {

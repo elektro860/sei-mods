@@ -2,7 +2,7 @@ require("prototypes.space-age-updates")
 
 if SEI_SPACE_AGE then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local electromagnetics_recipes = {
     "small-electric-pole",
@@ -103,7 +103,7 @@ local electromagnetics_recipes = {
     "space-train-battery-pack"
 }
 
-if settings.startup["sei-electromagnetic-plant-allow-space-recipes"].value then
+if settings.startup["sei-electromagnetic-plant-2-allow-space-recipes"].value then
     data_util.concatenate_tables(electromagnetics_recipes, {
         "se-space-solar-panel",
         "se-space-solar-panel-2",

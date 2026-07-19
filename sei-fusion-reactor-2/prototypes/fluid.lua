@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "fluid",
         name = "fusion-plasma",
-        icon = "__sei-fusion-reactor__/graphics/icons/fluid/fusion-plasma.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fluid/fusion-plasma.png",
         subgroup = "stream",
         order = "p-a",
         default_temperature = 1000000,

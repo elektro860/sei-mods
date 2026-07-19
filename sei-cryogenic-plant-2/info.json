@@ -1,5 +1,5 @@
 {
-  "name": "sei-cryogenic-plant",
+  "name": "sei-cryogenic-plant-2",
   "version": "1.1.0",
   "title": "Space Exploration Integration: Cryogenic Plant",
   "author": "xkyouchoux",
@@ -7,7 +7,7 @@
   "dependencies": [
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
-    "sei-library >= 1.0.11",
+    "sei-library-2 >= 1.0.11",
     "? Krastorio2 >= 2.0",
     "! um-standalone-cryogenic-plant",
     "! space-age"

@@ -13,7 +13,7 @@ require("prototypes.compat.Krastorio2")
 require("prototypes.compat.sei-captive-biters")
 
 --added from space exploration
-se_delivery_cannon_recipes["nutrients"] = {name = "nutrients"}
+se_delivery_cannon_recipes["nutrients"] = { name = "nutrients" }
 
 data.raw.recipe["se-vitalic-epoxy"].order = "a[vitamelange]-h[vitalic-epoxy]-a[vitalic-epoxy]"
 data.raw.recipe["se-self-sealing-gel"].order = "a[vitamelange]-i[self-sealing-gel]-a[self-sealing-gel]"

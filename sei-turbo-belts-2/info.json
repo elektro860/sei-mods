@@ -1,5 +1,5 @@
 {
-  "name": "sei-turbo-belts",
+  "name": "sei-turbo-belts-2",
   "version": "1.1.0",
   "title": "Space Exploration Integration: Turbo Belts",
   "author": "xkyouchoux",
@@ -7,7 +7,7 @@
   "dependencies": [
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
-    "sei-library",
+    "sei-library-2",
     "? aai-loaders",
     "! space-age"
   ],

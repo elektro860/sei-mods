@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local explosion_animations = require("__base__/prototypes/entity/explosion-animations")
 local util = require("util")
@@ -7,7 +7,7 @@ explosion_animations.asteroid_explosion_chunk = function(options)
   return
   {
     {
-      filename = "__sei-library__/graphics/entity/asteroid-explosions/asteroid-explosion-chunk.png",
+      filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-chunk.png",
       draw_as_glow = true,
       priority = "high",
       line_length = 6,
@@ -26,7 +26,7 @@ explosion_animations.asteroid_explosion_small = function(options)
   return
   {
     {
-      filename = "__sei-library__/graphics/entity/asteroid-explosions/asteroid-explosion-small.png",
+      filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-small.png",
       draw_as_glow = true,
       priority = "high",
       line_length = 6,
@@ -45,7 +45,7 @@ explosion_animations.asteroid_explosion_medium = function(options)
   return
   {
     {
-      filename = "__sei-library__/graphics/entity/asteroid-explosions/asteroid-explosion-medium.png",
+      filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-medium.png",
       draw_as_glow = true,
       priority = "high",
       line_length = 6,
@@ -64,7 +64,7 @@ explosion_animations.asteroid_explosion_big = function(options)
   return
   {
     {
-      filename = "__sei-library__/graphics/entity/asteroid-explosions/asteroid-explosion-big.png",
+      filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-big.png",
       draw_as_glow = true,
       priority = "high",
       line_length = 6,
@@ -83,7 +83,7 @@ explosion_animations.asteroid_explosion_huge = function(options)
   return
   {
     {
-      filename = "__sei-library__/graphics/entity/asteroid-explosions/asteroid-explosion-huge.png",
+      filename = "__sei-library-2__/graphics/entity/asteroid-explosions/asteroid-explosion-huge.png",
       draw_as_glow = true,
       priority = "high",
       line_length = 6,
@@ -102,7 +102,7 @@ explosion_animations.magma_eruption = function()
   return
   {
     {
-      filename = "__sei-library__/graphics/entity/demolisher/magma-eruption/magma-eruption-1.png",
+      filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-1.png",
       draw_as_glow = true,
       width = 290,
       height = 358,
@@ -113,7 +113,7 @@ explosion_animations.magma_eruption = function()
       scale = 0.5
     },
     {
-      filename = "__sei-library__/graphics/entity/demolisher/magma-eruption/magma-eruption-2.png",
+      filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-2.png",
       draw_as_glow = true,
       width = 318,
       height = 428,
@@ -124,7 +124,7 @@ explosion_animations.magma_eruption = function()
       scale = 0.5
     },
     {
-      filename = "__sei-library__/graphics/entity/demolisher/magma-eruption/magma-eruption-3.png",
+      filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-3.png",
       draw_as_glow = true,
       width = 304,
       height = 398,
@@ -135,7 +135,7 @@ explosion_animations.magma_eruption = function()
       scale = 0.5
     },
     {
-      filename = "__sei-library__/graphics/entity/demolisher/magma-eruption/magma-eruption-4.png",
+      filename = "__sei-library-2__/graphics/entity/demolisher/magma-eruption/magma-eruption-4.png",
       draw_as_glow = true,
       width = 274,
       height = 384,

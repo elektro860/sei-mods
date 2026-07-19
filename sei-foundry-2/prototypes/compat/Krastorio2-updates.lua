@@ -1,6 +1,6 @@
 if not mods["Krastorio2"] then return end
 
-local data_util = require("__sei-foundry__.data_util")
+local data_util = require("__sei-foundry-2__.data_util")
 
 data:extend({
     data_util.create_casting_recipe({

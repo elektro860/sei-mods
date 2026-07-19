@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "technology",
         name = "agriculture",
-        icon = "__sei-agricultural-tower__/graphics/technology/agriculture.png",
+        icon = "__sei-agricultural-tower-2__/graphics/technology/agriculture.png",
         icon_size = 256,
         effects =
         {

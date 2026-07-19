@@ -2,7 +2,7 @@ data:extend({
     {
         type = "technology",
         name = "cryogenic-plant",
-        icon = "__sei-cryogenic-plant__/graphics/technology/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant-2__/graphics/technology/cryogenic-plant.png",
         icon_size = 256,
         effects =
         {

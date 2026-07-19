@@ -13,7 +13,7 @@ require("prototypes.spoilage")
 
 require("prototypes.compat.Krastorio2")
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 --added from space exploration
 se_delivery_cannon_recipes["bioflux"] = {name = "bioflux"}

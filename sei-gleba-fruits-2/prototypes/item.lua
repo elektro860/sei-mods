@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__sei-library__.prototypes.item_sounds")
+local space_age_item_sounds = require("__sei-library-2__.prototypes.item_sounds")
 local item_tints = require("__base__.prototypes.item-tints")
-local item_effects = require("__sei-gleba-fruits__.prototypes.item-effects")
+local item_effects = require("__sei-gleba-fruits-2__.prototypes.item-effects")
 
 local overgrowth_tiles = {}
 
@@ -21,13 +21,13 @@ data:extend({
         name = "yumako-seed",
         localised_name = {"item-name.yumako-seed"},
         localised_description = {"item-description.yumako-seed"},
-        icon = "__sei-gleba-fruits__/graphics/icons/yumako-seed.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/yumako-seed.png",
         pictures =
         {
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-seed-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-seed-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-seed-3.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-seed-4.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-seed-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-seed-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-seed-3.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-seed-4.png", scale = 0.5, mipmap_count = 4 },
         },
         subgroup = "agriculture-seeds",
         order = "a[seeds]-b[yumako-seed]-a[yumako-seed]",
@@ -46,13 +46,13 @@ data:extend({
         name = "jellynut-seed",
         localised_name = {"item-name.jellynut-seed"},
         localised_description = {"item-description.jellynut-seed"},
-        icon = "__sei-gleba-fruits__/graphics/icons/jellynut-seed.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/jellynut-seed.png",
         pictures =
         {
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-seed-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-seed-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-seed-3.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-seed-4.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-seed-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-seed-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-seed-3.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-seed-4.png", scale = 0.5, mipmap_count = 4 },
         },
         subgroup = "agriculture-seeds",
         order = "a[seeds]-c[jellynut-seed]-a[jellynut-seed]",
@@ -71,13 +71,13 @@ data:extend({
         name = "yumako",
         localised_name = {"item-name.yumako"},
         localised_description = {"item-description.yumako"},
-        icon = "__sei-gleba-fruits__/graphics/icons/yumako.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/yumako.png",
         pictures =
         {
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako.png",   scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/yumako-3.png", scale = 0.5, mipmap_count = 4 }
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako.png",   scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/yumako-3.png", scale = 0.5, mipmap_count = 4 }
         },
         subgroup = "agriculture-processes",
         order = "b[agriculture]-c[yumako]-a[yumako]",
@@ -95,13 +95,13 @@ data:extend({
         name = "jellynut",
         localised_name = {"item-name.jellynut"},
         localised_description = {"item-description.jellynut"},
-        icon = "__sei-gleba-fruits__/graphics/icons/jellynut.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/jellynut.png",
         pictures =
         {
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-gleba-fruits__/graphics/icons/jellynut-3.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-gleba-fruits-2__/graphics/icons/jellynut-3.png", scale = 0.5, mipmap_count = 4 },
         },
         subgroup = "agriculture-processes",
         order = "b[agriculture]-d[jellynut]-a[jellynut]",
@@ -119,7 +119,7 @@ data:extend({
         name = "yumako-mash",
         localised_name = {"item-name.yumako-mash"},
         localised_description = {"item-description.yumako-mash"},
-        icon = "__sei-gleba-fruits__/graphics/icons/yumako-mash.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/yumako-mash.png",
         subgroup = "agriculture-products",
         order = "a[organic-processing]-b[yumako-mash]-a[yumako-mash]",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
@@ -136,7 +136,7 @@ data:extend({
         name = "jelly",
         localised_name = {"item-name.jelly"},
         localised_description = {"item-description.jelly"},
-        icon = "__sei-gleba-fruits__/graphics/icons/jelly.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/jelly.png",
         subgroup = "agriculture-products",
         order = "a[organic-processing]-c[jelly]-a[jelly]",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
@@ -151,7 +151,7 @@ data:extend({
     {
         type = "item",
         name = "artificial-yumako-soil",
-        icon = "__sei-gleba-fruits__/graphics/icons/artificial-yumako-soil.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/artificial-yumako-soil.png",
         subgroup = "landfill",
         order = "c[landfill]-b[yumako-soil]-a[artificial]",
         inventory_move_sound = item_sounds.landfill_inventory_move,
@@ -169,7 +169,7 @@ data:extend({
     {
         type = "item",
         name = "overgrowth-yumako-soil",
-        icon = "__sei-gleba-fruits__/graphics/icons/overgrowth-yumako-soil.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/overgrowth-yumako-soil.png",
         subgroup = "landfill",
         order = "c[landfill]-b[yumako-soil]-b[overgrowth]",
         inventory_move_sound = item_sounds.landfill_inventory_move,
@@ -187,7 +187,7 @@ data:extend({
     {
         type = "item",
         name = "artificial-jellynut-soil",
-        icon = "__sei-gleba-fruits__/graphics/icons/artificial-jellynut-soil.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/artificial-jellynut-soil.png",
         subgroup = "landfill",
         order = "c[landfill]-c[jellynut-soil]-a[artificial]",
         inventory_move_sound = item_sounds.landfill_inventory_move,
@@ -205,7 +205,7 @@ data:extend({
     {
         type = "item",
         name = "overgrowth-jellynut-soil",
-        icon = "__sei-gleba-fruits__/graphics/icons/overgrowth-jellynut-soil.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/overgrowth-jellynut-soil.png",
         subgroup = "landfill",
         order = "c[landfill]-c[jellynut-soil]-a[overgrowth]",
         inventory_move_sound = item_sounds.landfill_inventory_move,
@@ -223,7 +223,7 @@ data:extend({
     {
         type = "item",
         name = "carbon-fiber",
-        icon = "__sei-gleba-fruits__/graphics/icons/carbon-fiber.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/carbon-fiber.png",
         subgroup = "agriculture-products",
         order = "a[organic-products]-e[carbon-fiber]",
         inventory_move_sound = item_sounds.resource_inventory_move,

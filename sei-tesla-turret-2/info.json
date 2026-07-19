@@ -1,5 +1,5 @@
 {
-  "name": "sei-tesla-turret",
+  "name": "sei-tesla-turret-2",
   "version": "1.1.0",
   "title": "Space Exploration Integration: Tesla Turret",
   "author": "xkyouchoux",
@@ -7,7 +7,7 @@
   "dependencies": [
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
-    "sei-library >= 1.1.0",
+    "sei-library-2 >= 1.1.0",
     "? Krastorio2 >= 2.0",
     "! space-age"
   ],

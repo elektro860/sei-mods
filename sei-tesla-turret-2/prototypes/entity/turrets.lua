@@ -1,7 +1,7 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local sounds = require("__base__.prototypes.entity.sounds")
-local space_age_sounds = require("__sei-library__.prototypes.entity.sounds")
+local space_age_sounds = require("__sei-library-2__.prototypes.entity.sounds")
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 
 local util = require('util')
@@ -13,7 +13,7 @@ local function tesla_turret_rising(inputs)
     return {
         layers =
         {
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-rising",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-rising",
             {
             priority = "medium",
             direction_count = 4,
@@ -23,7 +23,7 @@ local function tesla_turret_rising(inputs)
             line_length = 16,
             run_mode = inputs.run_mode or "forward",
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-rising-mask",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-rising-mask",
             {
             flags = {"mask"},
             apply_runtime_tint = true,
@@ -35,7 +35,7 @@ local function tesla_turret_rising(inputs)
             line_length = 16,
             run_mode = inputs.run_mode or "forward",
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-rising-emit",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-rising-emit",
             {
             priority = "medium",
             direction_count = 4,
@@ -47,7 +47,7 @@ local function tesla_turret_rising(inputs)
             line_length = 16,
             run_mode = inputs.run_mode or "forward",
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-rising-shadow",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-rising-shadow",
             {
             draw_as_shadow = true,
             priority = "medium",
@@ -67,7 +67,7 @@ local function tesla_turret_ready(inputs)
     return {
         layers =
         {
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking",
             {
             direction_count = 64,
             frame_count = 1,
@@ -75,7 +75,7 @@ local function tesla_turret_ready(inputs)
             shift = util.by_pixel(0,0+tesla_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-mask",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-mask",
             {
             flags = {"mask"},
             apply_runtime_tint = true,
@@ -85,7 +85,7 @@ local function tesla_turret_ready(inputs)
             shift = util.by_pixel( 0, 0+tesla_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-emit",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-emit",
             {
             direction_count = 64,
             frame_count = 1,
@@ -95,7 +95,7 @@ local function tesla_turret_ready(inputs)
             draw_as_glow = true,
             blend_mode = "additive"
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-shadow",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-shadow",
             {
             draw_as_shadow = true,
             direction_count = 64,
@@ -112,7 +112,7 @@ local function tesla_turret_cooldown(inputs)
     return {
         layers =
         {
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking",
             {
             direction_count = 64,
             frame_count = 1,
@@ -120,7 +120,7 @@ local function tesla_turret_cooldown(inputs)
             shift = util.by_pixel(0,0+tesla_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-mask",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-mask",
             {
             flags = {"mask"},
             apply_runtime_tint = true,
@@ -130,7 +130,7 @@ local function tesla_turret_cooldown(inputs)
             shift = util.by_pixel( 0, 0+tesla_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-emit",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-emit",
             {
             direction_count = 64,
             frame_count = 1,
@@ -140,7 +140,7 @@ local function tesla_turret_cooldown(inputs)
             draw_as_glow = true,
             blend_mode = "additive"
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-facelight",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-facelight",
             {
             direction_count = 64,
             frame_count = 1,
@@ -150,7 +150,7 @@ local function tesla_turret_cooldown(inputs)
             draw_as_glow = true,
             blend_mode = "additive"
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-head-attacking-shadow",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-head-attacking-shadow",
             {
             draw_as_shadow = true,
             direction_count = 64,
@@ -159,7 +159,7 @@ local function tesla_turret_cooldown(inputs)
             shift = util.by_pixel(96,0+tesla_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-sfx-active",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-sfx-active",
             {
             direction_count = 1,
             duplicate_first_direction = true,
@@ -179,7 +179,7 @@ function tesla_turret_LED(inputs)
     {
         layers =
         {
-        path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-LED",
+        path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-LED",
         {
             direction_count = 1,
             duplicate_first_direction = true,
@@ -197,7 +197,7 @@ data:extend({
     {
         type = "electric-turret",
         name = "tesla-turret",
-        icon = "__sei-tesla-turret__/graphics/icons/tesla-turret.png",
+        icon = "__sei-tesla-turret-2__/graphics/icons/tesla-turret.png",
         flags = {"placeable-player", "placeable-enemy", "player-creation"},
         minable = {mining_time = 0.5, result = "tesla-turret"},
         fast_replaceable_group = "tesla-turret",
@@ -217,7 +217,7 @@ data:extend({
         close_sound = sounds.turret_close,
         working_sound =
         {
-        sound = {filename = "__sei-tesla-turret__/sound/entity/tesla-turret/tesla-turret-base.ogg", volume = 0.3},
+        sound = {filename = "__sei-tesla-turret-2__/sound/entity/tesla-turret/tesla-turret-base.ogg", volume = 0.3},
         use_doppler_shift = false,
         fade_in_ticks = 4,
         fade_out_ticks = 20,
@@ -252,7 +252,7 @@ data:extend({
             {
                 layers =
                 {
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-base",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-base",
                         {
                             frame_count = 1,
                             repeat_count=30,
@@ -260,7 +260,7 @@ data:extend({
                             scale = 0.5,
                             animation_speed = 0.5
                         }),
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-base-mask",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-base-mask",
                         {
                             flags = {"mask"},
                             apply_runtime_tint = true,
@@ -269,7 +269,7 @@ data:extend({
                             shift = util.by_pixel(0, 0+tesla_turret_shift),
                             scale = 0.5
                         }),
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-base-shadow",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-base-shadow",
                         {
                             frame_count = 1,
                             repeat_count=30,
@@ -277,7 +277,7 @@ data:extend({
                             shift = util.by_pixel(32, 0+tesla_turret_shift),
                             scale = 0.5
                         }),
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-base-emit",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-base-emit",
                         {
                             frame_count = 1,
                             repeat_count=30,
@@ -297,7 +297,7 @@ data:extend({
             {
                 layers =
                 {
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-sfx-idle-2",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-sfx-idle-2",
                         {
                             frame_count = 50,
                             repeat_count = 4,
@@ -307,7 +307,7 @@ data:extend({
                             draw_as_glow = true,
                             blend_mode = "additive"
                         }),
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-sfx-idle-1",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-sfx-idle-1",
                         {
                             frame_count = 40,
                             repeat_count = 5,
@@ -328,7 +328,7 @@ data:extend({
             {
                 layers =
                 {
-                path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/tesla-turret-sfx-passive",
+                path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/tesla-turret-sfx-passive",
                 {
                     frame_count = 30,
                     shift = util.by_pixel(0, 0+tesla_turret_shift),

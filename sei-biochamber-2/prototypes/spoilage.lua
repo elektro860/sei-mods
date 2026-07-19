@@ -1,6 +1,6 @@
-if not (settings.startup["sei-biochamber-enable-spoilage"].value or SEI_FORCE_SPOILAGE) then return end
+if not (settings.startup["sei-biochamber-2-enable-spoilage"].value or SEI_FORCE_SPOILAGE) then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data.raw["assembling-machine"]["biochamber"].energy_source.burnt_inventory_size = 1
 

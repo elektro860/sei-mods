@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local explosion_animations = require("__base__.prototypes.entity.explosion-animations")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "captive-spawner-explosion-1",
-        icon = "__sei-captive-biters__/graphics/icons/captive-biter-spawner.png",
+        icon = "__sei-captive-biters-2__/graphics/icons/captive-biter-spawner.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",
@@ -16,7 +16,7 @@ data:extend({
         smoke = "smoke-fast",
         smoke_count = 2,
         smoke_slow_down_factor = 1,
-        animations = path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/captive-spawner/captive-explosion-1",
+        animations = path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/captive-spawner/captive-explosion-1",
         {
         animation_speed = 0.3,
         scale = 0.5,
@@ -151,7 +151,7 @@ data:extend({
     {
         type = "explosion",
         name = "captive-spawner-explosion-2",
-        icon = "__sei-captive-biters__/graphics/icons/captive-biter-spawner.png",
+        icon = "__sei-captive-biters-2__/graphics/icons/captive-biter-spawner.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",
@@ -160,7 +160,7 @@ data:extend({
         smoke = "smoke-fast",
         smoke_count = 1,
         smoke_slow_down_factor = 1,
-        animations = path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/captive-spawner/captive-explosion-2",
+        animations = path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/captive-spawner/captive-explosion-2",
         {
         animation_speed = 0.3,
         scale = 0.5,
@@ -257,7 +257,7 @@ data:extend({
     {
         type = "explosion",
         name = "capture-robot-explosion",
-        icon = "__sei-captive-biters__/graphics/icons/capture-bot.png",
+        icon = "__sei-captive-biters-2__/graphics/icons/capture-bot.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "capsule-explosions",

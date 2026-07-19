@@ -1,12 +1,12 @@
 if SEI_SPACE_AGE then return end
 
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "electromagnetic-plant-remnants",
-        icon = "__sei-electromagnetic-plant__/graphics/icons/electromagnetic-plant.png",
+        icon = "__sei-electromagnetic-plant-2__/graphics/icons/electromagnetic-plant.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",
@@ -21,7 +21,7 @@ data:extend({
         remove_on_tile_placement = false,
         animation =
         {
-        path_util.sa_sprite_load("__sei-electromagnetic-plant__/graphics/entity/electromagnetic-plant/remnants/electromagnetic-plant-remnants",
+        path_util.sa_sprite_load("__sei-electromagnetic-plant-2__/graphics/entity/electromagnetic-plant/remnants/electromagnetic-plant-remnants",
         {
             frame_count = 1,
             direction_count = 1,

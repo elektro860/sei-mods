@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "technology",
         name = "rocket-turret",
-        icon = "__sei-rocket-turret__/graphics/technology/rocket-turret.png",
+        icon = "__sei-rocket-turret-2__/graphics/technology/rocket-turret.png",
         icon_size = 256,
         effects = {
             {

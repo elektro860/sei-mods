@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend(
 {
@@ -29,20 +29,20 @@ data:extend(
         {
         layers =
         {
-            path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/capture-robot-rocket/capture-robot",
+            path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/capture-robot-rocket/capture-robot",
             {
             direction_count = 32,
             scale = 0.5,
             priority = "high"
             }),
-            path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/capture-robot-rocket/capture-robot-mask",
+            path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/capture-robot-rocket/capture-robot-mask",
             {
             direction_count = 32,
             scale = 0.5,
             priority = "high",
             apply_runtime_tint = true
             }),
-            path_util.sa_sprite_load("__sei-captive-biters__/graphics/entity/capture-robot-rocket/capture-robot-shadow",
+            path_util.sa_sprite_load("__sei-captive-biters-2__/graphics/entity/capture-robot-rocket/capture-robot-shadow",
             {
             direction_count = 32,
             scale = 0.5,

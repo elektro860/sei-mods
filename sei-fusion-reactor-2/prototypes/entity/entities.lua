@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -8,7 +8,7 @@ data:extend({
         type = "fusion-generator",
         name = "fusion-generator",
         factoriopedia_description = {"factoriopedia-description.fusion-generator"},
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-generator.png",
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {mining_time = 0.2, result = "fusion-generator"},
         max_health = 1000,
@@ -27,12 +27,12 @@ data:extend({
         selection_box = {{-1.5, -2.5}, {1.5, 2.5}},
         damaged_trigger_effect = hit_effects.entity(),
         fast_replaceable_group = "fusion-generator",
-        graphics_set = require ("__sei-fusion-reactor__.prototypes.entity.fusion-system-pictures").generator_graphics_set,
+        graphics_set = require ("__sei-fusion-reactor-2__.prototypes.entity.fusion-system-pictures").generator_graphics_set,
         working_sound =
         {
             sound =
             {
-                filename = "__sei-fusion-reactor__/sound/entity/fusion/fusion-generator.ogg",
+                filename = "__sei-fusion-reactor-2__/sound/entity/fusion/fusion-generator.ogg",
                 volume = 0.15,
                 speed_smoothing_window_size = 60,
                 advanced_volume_control = {attenuation = "exponential"},
@@ -93,7 +93,7 @@ data:extend({
         type = "fusion-reactor",
         name = "fusion-reactor",
         factoriopedia_description = {"factoriopedia-description.fusion-reactor"},
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-reactor.png",
         flags = {"placeable-neutral", "placeable-player", "player-creation"},
         minable = {mining_time = 0.2, result = "fusion-reactor"},
         max_health = 1000,
@@ -128,10 +128,10 @@ data:extend({
         },
 
         two_direction_only = true,
-        graphics_set = require ("__sei-fusion-reactor__.prototypes.entity.fusion-system-pictures").reactor_graphics_set,
+        graphics_set = require ("__sei-fusion-reactor-2__.prototypes.entity.fusion-system-pictures").reactor_graphics_set,
         working_sound =
         {
-            sound = {filename = "__sei-fusion-reactor__/sound/entity/fusion/fusion-reactor.ogg", volume = 0.6, modifiers = volume_multiplier("main-menu", 1.44)},
+            sound = {filename = "__sei-fusion-reactor-2__/sound/entity/fusion/fusion-reactor.ogg", volume = 0.6, modifiers = volume_multiplier("main-menu", 1.44)},
             use_doppler_shift = false,
             match_volume_to_activity = true,
             max_sounds_per_prototype = 2,

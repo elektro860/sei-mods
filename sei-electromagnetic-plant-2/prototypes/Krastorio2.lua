@@ -2,7 +2,7 @@ if SEI_SPACE_AGE then return end
 
 if not mods["Krastorio2"] then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data.raw.recipe["electromagnetic-plant"].ingredients = {
     {type = "item", name = "kr-imersium-beam", amount = 20},

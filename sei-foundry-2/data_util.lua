@@ -1,4 +1,4 @@
-local result = require("__sei-library__.data_util")
+local result = require("__sei-library-2__.data_util")
 
 function result.sub_sup_icons(icon_main, icon_left, icon_right)
     return result.sub_icons(icon_main, icon_left, {

@@ -1,14 +1,14 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__sei-library__.prototypes.item_sounds")
+local space_age_item_sounds = require("__sei-library-2__.prototypes.item_sounds")
 
 data:extend({
     {
         type = "item",
         name = "agricultural-tower",
-        icon = "__sei-agricultural-tower__/graphics/icons/agricultural-tower.png",
+        icon = "__sei-agricultural-tower-2__/graphics/icons/agricultural-tower.png",
         subgroup = "extraction-machine",
         order = "a[items]-c[agricultural-tower]-a",
         inventory_move_sound = item_sounds.mechanical_large_inventory_move,
@@ -21,13 +21,13 @@ data:extend({
         type = "item",
         name = "tree-seed",
         localised_name = {"item-name.tree-seed"},
-        icon = "__sei-agricultural-tower__/graphics/icons/tree-seed.png",
+        icon = "__sei-agricultural-tower-2__/graphics/icons/tree-seed.png",
         pictures =
         {
-            { size = 64, filename = "__sei-agricultural-tower__/graphics/icons/tree-seed-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-agricultural-tower__/graphics/icons/tree-seed-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-agricultural-tower__/graphics/icons/tree-seed-3.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-agricultural-tower__/graphics/icons/tree-seed-4.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-agricultural-tower-2__/graphics/icons/tree-seed-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-agricultural-tower-2__/graphics/icons/tree-seed-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-agricultural-tower-2__/graphics/icons/tree-seed-3.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-agricultural-tower-2__/graphics/icons/tree-seed-4.png", scale = 0.5, mipmap_count = 4 },
         },
         subgroup = "agriculture-seeds",
         order = "a[seeds]-a[tree-seed]",

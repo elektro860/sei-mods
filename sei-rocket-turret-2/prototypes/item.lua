@@ -1,11 +1,11 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
 data:extend({
     {
         type = "item",
         name = "rocket-turret",
-        icon = "__sei-rocket-turret__/graphics/icons/rocket-turret.png",
+        icon = "__sei-rocket-turret-2__/graphics/icons/rocket-turret.png",
         subgroup = "turret",
         order = "b[turret]-e[rocket-turret]-a[turret]",
         inventory_move_sound = item_sounds.turret_inventory_move,

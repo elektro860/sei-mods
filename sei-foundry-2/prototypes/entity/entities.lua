@@ -1,5 +1,5 @@
-local data_util = require("__sei-foundry__.data_util")
-local path_util = require("__sei-library__.path_util")
+local data_util = require("__sei-foundry-2__.data_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -8,7 +8,7 @@ data:extend({
 	{
 		type = "assembling-machine",
 		name = data_util.prefix.. "foundry",
-		icon = "__sei-foundry__/graphics/icons/foundry.png",
+		icon = "__sei-foundry-2__/graphics/icons/foundry.png",
 		flags = { "placeable-neutral", "player-creation" },
 		minable = { mining_time = 0.2, result = "foundry" },
 		fast_replaceable_group = "foundry",
@@ -42,12 +42,12 @@ data:extend({
 		energy_usage = "2500kW",
 		perceived_performance = { minimum = 0.25, maximum = 20 },
 		use_mirroring = true,
-		graphics_set = require("__sei-foundry__.prototypes.entity.foundry-pictures").graphics_set,
+		graphics_set = require("__sei-foundry-2__.prototypes.entity.foundry-pictures").graphics_set,
 		open_sound = sounds.steam_open,
 		close_sound = sounds.steam_close,
 		working_sound = {
 			sound = {
-				filename = "__sei-foundry__/sound/entity/foundry/foundry.ogg",
+				filename = "__sei-foundry-2__/sound/entity/foundry/foundry.ogg",
 				volume = 0.5,
 				audible_distance_modifier = 0.6,
 			},
@@ -56,7 +56,7 @@ data:extend({
 			sound_accents = {
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-pipe-out.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-pipe-out.ogg",
 						volume = 0.9,
 						audible_distance_modifier = 0.4,
 					},
@@ -64,7 +64,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-slide-close.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-slide-close.ogg",
 						volume = 0.65,
 						audible_distance_modifier = 0.3,
 					},
@@ -72,7 +72,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-clamp.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-clamp.ogg",
 						volume = 0.45,
 						audible_distance_modifier = 0.3,
 					},
@@ -80,7 +80,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-slide-stop.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-slide-stop.ogg",
 						volume = 0.7,
 						audible_distance_modifier = 0.4,
 					},
@@ -89,7 +89,7 @@ data:extend({
 				{
 					sound = {
 						variations = sound_variations(
-							"__sei-foundry__/sound/entity/foundry/foundry-fire-whoosh",
+							"__sei-foundry-2__/sound/entity/foundry/foundry-fire-whoosh",
 							3,
 							0.8
 						),
@@ -99,7 +99,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-metal-clunk.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-metal-clunk.ogg",
 						volume = 0.65,
 						audible_distance_modifier = 0.4,
 					},
@@ -107,7 +107,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-slide-open.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-slide-open.ogg",
 						volume = 0.65,
 						audible_distance_modifier = 0.3,
 					},
@@ -115,7 +115,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-pipe-in.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-pipe-in.ogg",
 						volume = 0.75,
 						audible_distance_modifier = 0.4,
 					},
@@ -123,7 +123,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-smoke-puff.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-smoke-puff.ogg",
 						volume = 0.8,
 						audible_distance_modifier = 0.3,
 					},
@@ -131,20 +131,20 @@ data:extend({
 				},
 				{
 					sound = {
-						variations = sound_variations("__sei-foundry__/sound/entity/foundry/foundry-pour", 2, 0.7),
+						variations = sound_variations("__sei-foundry-2__/sound/entity/foundry/foundry-pour", 2, 0.7),
 					},
 					frame = 110,
 				},
 				{
 					sound = {
-						filename = "__sei-foundry__/sound/entity/foundry/foundry-rocks.ogg",
+						filename = "__sei-foundry-2__/sound/entity/foundry/foundry-rocks.ogg",
 						volume = 0.65,
 						audible_distance_modifier = 0.3,
 					},
 					frame = 120,
 				},
 				{
-					sound = { filename = "__sei-foundry__/sound/entity/foundry/foundry-blade.ogg", volume = 0.7 },
+					sound = { filename = "__sei-foundry-2__/sound/entity/foundry/foundry-blade.ogg", volume = 0.7 },
 					frame = 126,
 				},
 			},
@@ -154,7 +154,7 @@ data:extend({
 			{
 				production_type = "input",
 				pipe_picture = util.empty_sprite(),
-				pipe_picture_frozen = require("__sei-foundry__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
+				pipe_picture_frozen = require("__sei-foundry-2__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
 				pipe_covers = pipecoverspictures(),
 				always_draw_covers = false,
 				enable_working_visualisations = { "input-pipe" },
@@ -166,7 +166,7 @@ data:extend({
 			{
 				production_type = "input",
 				pipe_picture = util.empty_sprite(),
-				--pipe_picture_frozen = require("__sei-foundry__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
+				--pipe_picture_frozen = require("__sei-foundry-2__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
 				pipe_covers = pipecoverspictures(),
 				always_draw_covers = false,
 				enable_working_visualisations = { "input-pipe" },
@@ -178,7 +178,7 @@ data:extend({
 			{
 				production_type = "output",
 				pipe_picture = util.empty_sprite(),
-				--pipe_picture_frozen = require("__sei-foundry__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
+				--pipe_picture_frozen = require("__sei-foundry-2__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
 				pipe_covers = pipecoverspictures(),
 				always_draw_covers = false,
 				enable_working_visualisations = { "output-pipe" },
@@ -190,7 +190,7 @@ data:extend({
 			{
 				production_type = "output",
 				pipe_picture = util.empty_sprite(),
-				pipe_picture_frozen = require("__sei-foundry__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
+				pipe_picture_frozen = require("__sei-foundry-2__.prototypes.entity.foundry-pictures").pipe_picture_frozen,
 				pipe_covers = pipecoverspictures(),
 				always_draw_covers = false,
 				enable_working_visualisations = { "output-pipe" },
@@ -202,7 +202,7 @@ data:extend({
 		},
 		fluid_boxes_off_when_no_fluid_recipe = true,
 		water_reflection = {
-			pictures = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-reflection", {
+			pictures = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-reflection", {
 				scale = 5,
 				shift = { 0, 2 },
 			}),

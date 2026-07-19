@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "sprite",
         name = "tooltip-category-fusion-plasma",
-        filename = "__sei-fusion-reactor__/graphics/icons/tooltips/tooltip-category-fusion-plasma.png",
+        filename = "__sei-fusion-reactor-2__/graphics/icons/tooltips/tooltip-category-fusion-plasma.png",
         priority = "extra-high-no-scale",
         width = 40,
         height = 40,

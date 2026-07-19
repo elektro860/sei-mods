@@ -15,7 +15,7 @@ if settings.startup["sessai-legacy-mode"].value then
         {type = "item", name = "assembling-machine-3", amount = 1}
     }
 
-    local foundry_name = (require("__sei-foundry__.data_util").prefix or "").."foundry"
+    local foundry_name = (require("__sei-foundry-2__.data_util").prefix or "").."foundry"
 
     data.raw.recipe[foundry_name].ingredients = {
         {type = "item", name = "se-heavy-composite", amount = 16},

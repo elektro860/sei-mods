@@ -1,4 +1,4 @@
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local organic_recipes = {
     "light-oil-cracking",
@@ -12,7 +12,7 @@ local organic_recipes = {
     "kr-biomass",    
 }
 
-if settings.startup["sei-biochamber-allow-space-recipes"].value then
+if settings.startup["sei-biochamber-2-allow-space-recipes"].value then
     table.insert(organic_recipes, "se-self-sealing-gel")
 end
 

@@ -4,7 +4,7 @@ data:extend({
 	{
 		type = "item",
 		name = "turbo-transport-belt",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-transport-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-transport-belt.png",
 		subgroup = "transport-belt",
 		color_hint = { text = "4" },
 		order = "a[transport-belt]-d[turbo-transport-belt]",
@@ -18,7 +18,7 @@ data:extend({
 	{
 		type = "item",
 		name = "turbo-underground-belt",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-underground-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-underground-belt.png",
 		subgroup = "underground-belt",
 		color_hint = { text = "4" },
 		order = "b[underground-belt]-d[turbo-underground-belt]",
@@ -32,7 +32,7 @@ data:extend({
 	{
 		type = "item",
 		name = "turbo-splitter",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-splitter.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-splitter.png",
 		subgroup = "splitter",
 		color_hint = { text = "4" },
 		order = "c[splitter]-d[turbo-splitter]",
@@ -46,7 +46,7 @@ data:extend({
 	{
 		type = "item",
 		name = "turbo-loader",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-loader.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-loader.png",
 		hidden = true,
 		subgroup = "belt",
 		color_hint = { text = "4" },

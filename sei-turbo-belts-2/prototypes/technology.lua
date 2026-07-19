@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "technology",
 		name = "turbo-transport-belt",
-		icon = "__sei-turbo-belts__/graphics/technology/turbo-transport-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/technology/turbo-transport-belt.png",
 		icon_size = 256,
 		effects = {
 			{

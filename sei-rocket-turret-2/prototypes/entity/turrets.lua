@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local sounds = require("__base__.prototypes.entity.sounds")
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
@@ -12,7 +12,7 @@ function rocket_turret_rising(inputs)
     {
         layers =
         {
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-rising",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-rising",
             {
             priority = "medium",
             direction_count = 4,
@@ -22,7 +22,7 @@ function rocket_turret_rising(inputs)
             line_length = 18,
             run_mode = inputs.run_mode or "forward",
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-rising-glow",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-rising-glow",
             {
             priority = "medium",
             direction_count = 4,
@@ -34,7 +34,7 @@ function rocket_turret_rising(inputs)
             blend_mode = "additive",
             draw_as_light = true,
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-rising-mask",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-rising-mask",
             {
             flags = {"mask"},
             direction_count = 4,
@@ -45,7 +45,7 @@ function rocket_turret_rising(inputs)
             apply_runtime_tint = true,
             run_mode = inputs.run_mode or "forward",
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-rising-shadow",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-rising-shadow",
             {
             direction_count = 4,
             shift = util.by_pixel( 0.0, 0.0+rocket_turret_shift),
@@ -64,14 +64,14 @@ function rocket_turret_attack(inputs)
     {
         layers =
         {
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-shooting",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-shooting",
             {
             slice = 1,
             direction_count = 64,
             shift = util.by_pixel( 0.0, 0.0+rocket_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-shooting-glow",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-shooting-glow",
             {
             slice = 1,
             direction_count = 64,
@@ -80,7 +80,7 @@ function rocket_turret_attack(inputs)
             draw_as_light = true,
             blend_mode = "additive"
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-shooting-mask",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-shooting-mask",
             {
             flags = {"mask"},
             apply_runtime_tint = true,
@@ -89,7 +89,7 @@ function rocket_turret_attack(inputs)
             shift = util.by_pixel( 0.0, 0.0+rocket_turret_shift),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-shooting-shadow",
+            path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-shooting-shadow",
             {
             draw_as_shadow = true,
             slice = 1,
@@ -105,7 +105,7 @@ data:extend({
     {
         type = "ammo-turret",
         name = "rocket-turret",
-        icon = "__sei-rocket-turret__/graphics/icons/rocket-turret.png",
+        icon = "__sei-rocket-turret-2__/graphics/icons/rocket-turret.png",
         flags = {"placeable-player", "player-creation"},
         minable = {mining_time = 0.5, result = "rocket-turret"},
         max_health = 400,
@@ -119,24 +119,24 @@ data:extend({
         preparing_speed = 0.08,
         preparing_sound =
         {
-        variations = path_util.sa_sound_variations("__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-activate", 2, 0.4),
+        variations = path_util.sa_sound_variations("__sei-rocket-turret-2__/sound/entity/rocket-turret/rocket-turret-activate", 2, 0.4),
         aggregation = {max_count = 2, remove = true, count_already_playing = true},
         },
         folding_sound =
         {
-        variations = path_util.sa_sound_variations("__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-deactivate", 2, 0.5),
+        variations = path_util.sa_sound_variations("__sei-rocket-turret-2__/sound/entity/rocket-turret/rocket-turret-deactivate", 2, 0.5),
         aggregation = {max_count = 2, remove = true, count_already_playing = true},
         },
         rotating_sound =
         {
         sound =
         {
-            variations = {filename = "__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-rotation-loop.ogg", volume = 0.15},
+            variations = {filename = "__sei-rocket-turret-2__/sound/entity/rocket-turret/rocket-turret-rotation-loop.ogg", volume = 0.15},
             aggregation = {max_count = 2, remove = true, count_already_playing = true},
         },
         stopped_sound =
         {
-            variations = {filename = "__sei-rocket-turret__/sound/entity/rocket-turret/rocket-turret-rotation-stop.ogg", volume = 0.5},
+            variations = {filename = "__sei-rocket-turret-2__/sound/entity/rocket-turret/rocket-turret-rotation-stop.ogg", volume = 0.5},
             aggregation = {max_count = 1, remove = true, count_already_playing = true},
         },
         minimal_change_per_tick = 0.001,
@@ -164,14 +164,14 @@ data:extend({
             {
             layers =
             {
-                path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-base",
+                path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-base",
                                     {
                                         priority = "high",
                                 frame_count = 1,
                                         scale = 0.5,
                                         shift = util.by_pixel( 0.0, 0.0+rocket_turret_shift),
                                     }),
-                path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-base-mask",
+                path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-base-mask",
                                     {
                                         flags = {"mask", "low-object"},
                                 frame_count = 1,
@@ -179,7 +179,7 @@ data:extend({
                                         scale = 0.5,
                                         shift = util.by_pixel( 0.0, 0.0+rocket_turret_shift),
                                     }),
-                path_util.sa_sprite_load("__sei-rocket-turret__/graphics/entity/rocket-turret/rocket-turret-base-shadow",
+                path_util.sa_sprite_load("__sei-rocket-turret-2__/graphics/entity/rocket-turret/rocket-turret-base-shadow",
                                     {
                                         frame_count = 1,
                                 scale = 0.5,
@@ -203,7 +203,7 @@ data:extend({
         range = 36,
         sound =
         {
-            variations = path_util.sa_sound_variations("__sei-rocket-turret__/sound/ammo/rocket-turret-launcher", 7, 0.7, volume_multiplier("main-menu", 1.8)),
+            variations = path_util.sa_sound_variations("__sei-rocket-turret-2__/sound/ammo/rocket-turret-launcher", 7, 0.7, volume_multiplier("main-menu", 1.8)),
             aggregation = { max_count = 4, remove = true, count_already_playing = true },
         },
         projectile_creation_offsets =

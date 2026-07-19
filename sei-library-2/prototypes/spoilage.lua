@@ -5,22 +5,22 @@ se_delivery_cannon_recipes["spoilage"] = {name = "spoilage"}
 
 if SEI_SPACE_AGE then return end
 
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
-local space_age_item_sounds = require("__sei-library__.prototypes.item_sounds")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
+local space_age_item_sounds = require("__sei-library-2__.prototypes.item_sounds")
 local item_tints = require("__base__.prototypes.item-tints")
 
 data:extend({
     {
         type = "item",
         name = "spoilage",
-        icon = "__sei-library__/graphics/icons/spoilage.png",
+        icon = "__sei-library-2__/graphics/icons/spoilage.png",
         pictures =
         {
-            { size = 64, filename = "__sei-library__/graphics/icons/spoilage.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-library__/graphics/icons/spoilage-1.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-library__/graphics/icons/spoilage-2.png", scale = 0.5, mipmap_count = 4 },
-            { size = 64, filename = "__sei-library__/graphics/icons/spoilage-3.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library-2__/graphics/icons/spoilage.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library-2__/graphics/icons/spoilage-1.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library-2__/graphics/icons/spoilage-2.png", scale = 0.5, mipmap_count = 4 },
+            { size = 64, filename = "__sei-library-2__/graphics/icons/spoilage-3.png", scale = 0.5, mipmap_count = 4 },
         },
         fuel_value = "250kJ",
         fuel_category = "chemical",
@@ -39,7 +39,7 @@ data:extend({
     {
         type = "recipe",
         name = "spoilage-reprocessing",
-        icons = data_util.sub_icons(data.raw.item["se-vitamelange-nugget"].icon, "__sei-library__/graphics/icons/spoilage.png"),
+        icons = data_util.sub_icons(data.raw.item["se-vitamelange-nugget"].icon, "__sei-library-2__/graphics/icons/spoilage.png"),
         categories = { "space-biochemical" },
         enabled = false,
         energy_required = 3,

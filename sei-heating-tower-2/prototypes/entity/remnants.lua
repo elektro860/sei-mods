@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "heating-tower-remnants",
-        icon = "__sei-heating-tower__/graphics/icons/heating-tower.png",
+        icon = "__sei-heating-tower-2__/graphics/icons/heating-tower.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "energy-remnants",
@@ -17,7 +17,7 @@ data:extend({
         expires = false,
         final_render_layer = "remnants",
         remove_on_tile_placement = false,
-        animation = path_util.sa_sprite_load("__sei-heating-tower__/graphics/entity/heating-tower/heating-tower-remnants",{
+        animation = path_util.sa_sprite_load("__sei-heating-tower-2__/graphics/entity/heating-tower/heating-tower-remnants",{
         scale = 0.5,
         direction_count = 1
         })

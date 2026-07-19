@@ -2,7 +2,7 @@ local foundry_animation_speed = 0.16
 local frames = 128
 
 local function foundry_base_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-base", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-base", {
 		animation_speed = foundry_animation_speed,
 		repeat_count = frames,
 		scale = 0.5,
@@ -10,7 +10,7 @@ local function foundry_base_pictures()
 end
 
 local function foundry_anim_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-anim", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-anim", {
 		animation_speed = foundry_animation_speed,
 		frame_count = frames,
 		scale = 0.5,
@@ -18,7 +18,7 @@ local function foundry_anim_pictures()
 end
 
 local function foundry_shadow_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-shadow", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-shadow", {
 		repeat_count = frames,
 		draw_as_shadow = true,
 		scale = 0.5,
@@ -26,28 +26,28 @@ local function foundry_shadow_pictures()
 end
 
 local function foundry_pipe_north_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-north", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-north", {
 		repeat_count = frames,
 		scale = 0.5,
 	})
 end
 
 local function foundry_pipe_east_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-east", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-east", {
 		repeat_count = frames,
 		scale = 0.5,
 	})
 end
 
 local function foundry_pipe_south_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-south", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-south", {
 		repeat_count = frames,
 		scale = 0.5,
 	})
 end
 
 local function foundry_pipe_west_pictures()
-	return util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-west", {
+	return util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-west", {
 		animation_speed = foundry_animation_speed,
 		frame_count = frames,
 		scale = 0.5,
@@ -57,7 +57,7 @@ end
 local function foundry_smoke_1_pictures()
 	return {
 		fadeout = true,
-		animation = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-smoke_1", {
+		animation = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-smoke_1", {
 			animation_speed = foundry_animation_speed,
 			frame_count = frames,
 			scale = 0.5,
@@ -68,7 +68,7 @@ end
 local function foundry_smoke_2_pictures()
 	return {
 		fadeout = true,
-		animation = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-smoke_2", {
+		animation = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-smoke_2", {
 			animation_speed = foundry_animation_speed,
 			frame_count = frames,
 			scale = 0.5,
@@ -79,7 +79,7 @@ end
 local function foundry_smoke_3_pictures()
 	return {
 		fadeout = true,
-		animation = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-smoke_3", {
+		animation = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-smoke_3", {
 			animation_speed = foundry_animation_speed,
 			frame_count = frames,
 			scale = 0.5,
@@ -91,7 +91,7 @@ local function foundry_lights_pictures()
 	return {
 		effect = "flicker",
 		fadeout = true,
-		animation = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-lights", {
+		animation = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-lights", {
 			draw_as_glow = true,
 			animation_speed = foundry_animation_speed,
 			frame_count = frames,
@@ -103,7 +103,7 @@ end
 
 local function foundry_status_lamp_pictures()
 	return {
-		animation = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-status-lamp", {
+		animation = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-status-lamp", {
 			draw_as_glow = true,
 			repeat_count = frames,
 			blend_mode = "additive",
@@ -169,24 +169,24 @@ return {
 			foundry_status_lamp_pictures(),
 			foundry_chimney_smoke(),
 		},
-		frozen_patch = util.sprite_load("__sei-foundry__/graphics/entity/foundry/foundry-frozen", { scale = 0.5 }),
+		frozen_patch = util.sprite_load("__sei-foundry-2__/graphics/entity/foundry/foundry-frozen", { scale = 0.5 }),
 		reset_animation_when_frozen = true,
 	},
 	pipe_picture_frozen = {
 		north = util.sprite_load(
-			"__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-north-frozen",
+			"__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-north-frozen",
 			{ scale = 0.5, shift = { -1, 3 } }
 		),
 		east = util.sprite_load(
-			"__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-east-frozen",
+			"__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-east-frozen",
 			{ scale = 0.5, shift = { -3, -1 } }
 		),
 		south = util.sprite_load(
-			"__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-south-frozen",
+			"__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-south-frozen",
 			{ scale = 0.5, shift = { 1, -3 } }
 		),
 		west = util.sprite_load(
-			"__sei-foundry__/graphics/entity/foundry/foundry-pipe-connections-west-frozen",
+			"__sei-foundry-2__/graphics/entity/foundry/foundry-pipe-connections-west-frozen",
 			{ scale = 0.5, shift = { 3, 1 } }
 		),
 	},

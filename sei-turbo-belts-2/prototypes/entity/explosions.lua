@@ -5,7 +5,7 @@ data:extend({
 	{
 		type = "explosion",
 		name = "turbo-transport-belt-explosion-base",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-transport-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-transport-belt.png",
 		flags = { "not-on-map" },
 		hidden = true,
 		height = 0,
@@ -80,7 +80,7 @@ data:extend({
 	{
 		type = "explosion",
 		name = "turbo-transport-belt-explosion",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-transport-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-transport-belt.png",
 		flags = { "not-on-map" },
 		hidden = true,
 		subgroup = "belt-explosions",
@@ -105,7 +105,7 @@ data:extend({
 	{
 		type = "explosion",
 		name = "turbo-underground-belt-explosion-base",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-underground-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-underground-belt.png",
 		flags = { "not-on-map" },
 		hidden = true,
 		height = 0,
@@ -168,7 +168,7 @@ data:extend({
 	{
 		type = "explosion",
 		name = "turbo-underground-belt-explosion",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-underground-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-underground-belt.png",
 		flags = { "not-on-map" },
 		hidden = true,
 		subgroup = "belt-explosions",
@@ -193,7 +193,7 @@ data:extend({
 	{
 		type = "explosion",
 		name = "turbo-splitter-explosion",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-splitter.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-splitter.png",
 		flags = { "not-on-map" },
 		hidden = true,
 		subgroup = "belt-explosions",

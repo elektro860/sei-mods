@@ -9,9 +9,9 @@ require("prototypes.technology")
 
 require("prototypes.compat.Krastorio2")
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
-if settings.startup["sei-tesla-turret-replace-tesla-gun-beam"].value then
+if settings.startup["sei-tesla-turret-2-replace-tesla-gun-beam"].value then
     data.raw["gun"]["se-tesla-gun"].attack_parameters = {
         type = "beam",
         ammo_category = Shared.tesla_ammo_category,

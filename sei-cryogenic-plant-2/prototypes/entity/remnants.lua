@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "cryogenic-plant-remnants",
-        icon = "__sei-cryogenic-plant__/graphics/technology/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant-2__/graphics/technology/cryogenic-plant.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "production-machine-remnants",
@@ -17,7 +17,7 @@ data:extend({
         expires = false,
         final_render_layer = "remnants",
         remove_on_tile_placement = false,
-        animation = path_util.sa_sprite_load("__sei-cryogenic-plant__/graphics/entity/cryogenic-plant/remnants/cryogenic-plant-remnants",{
+        animation = path_util.sa_sprite_load("__sei-cryogenic-plant-2__/graphics/entity/cryogenic-plant/remnants/cryogenic-plant-remnants",{
         scale = 0.5,
         direction_count = 1
         })

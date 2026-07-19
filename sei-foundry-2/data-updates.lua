@@ -1,4 +1,4 @@
-local data_util = require("__sei-foundry__.data_util")
+local data_util = require("__sei-foundry-2__.data_util")
 
 require("prototypes.recipe-updates")
 require("prototypes.compat.Krastorio2-updates")
@@ -102,7 +102,7 @@ local metallurgy_recipes = {
     "aai-kr-superior-loader", -- aai-loaders
 }
 
-if settings.startup["sei-foundry-allow-space-recipes"].value then
+if settings.startup["sei-foundry-2-allow-space-recipes"].value then
     table.insert(metallurgy_recipes, "se-lattice-pressure-vessel")
 end
 

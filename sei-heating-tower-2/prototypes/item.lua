@@ -1,11 +1,11 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
 data:extend({
     {
         type = "item",
         name = "heating-tower",
-        icon = "__sei-heating-tower__/graphics/icons/heating-tower.png",
+        icon = "__sei-heating-tower-2__/graphics/icons/heating-tower.png",
         subgroup = "energy",
         order = "c[heating-tower]",
         inventory_move_sound = item_sounds.steam_inventory_move,

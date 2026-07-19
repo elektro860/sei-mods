@@ -1,9 +1,9 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local function item_sound(filename, volume)
     return
     {
-        filename = "__sei-library__/sound/item/"..filename,
+        filename = "__sei-library-2__/sound/item/"..filename,
         volume = volume,
         aggregation = {max_count = 1, remove = true},
     }

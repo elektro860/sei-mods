@@ -1,11 +1,11 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data:extend({
     {
         type = "technology",
         name = "fruits-processing",
-        icon = "__sei-gleba-fruits__/graphics/technology/fruits-processing.png",
+        icon = "__sei-gleba-fruits-2__/graphics/technology/fruits-processing.png",
         icon_size = 256,
         effects =
         {
@@ -57,7 +57,7 @@ data:extend({
     {
         type = "technology",
         name = "carbon-fiber",
-        icon = "__sei-gleba-fruits__/graphics/technology/carbon-fiber.png",
+        icon = "__sei-gleba-fruits-2__/graphics/technology/carbon-fiber.png",
         icon_size = 256,
         effects =
         {
@@ -86,7 +86,7 @@ data:extend({
     {
         type = "technology",
         name = "bioflux-processing",
-        icon = "__sei-gleba-fruits__/graphics/technology/bioflux-processing.png",
+        icon = "__sei-gleba-fruits-2__/graphics/technology/bioflux-processing.png",
         icon_size = 256,
         effects =
         {
@@ -128,7 +128,7 @@ data:extend({
         type = "technology",
         name = "fruits-processing-vitalic-acid",
         icons = {
-            { icon = "__sei-gleba-fruits__/graphics/technology/fruits-processing.png" , scale = 1, icon_size = 256, shift = {12, 12} },
+            { icon = "__sei-gleba-fruits-2__/graphics/technology/fruits-processing.png" , scale = 1, icon_size = 256, shift = {12, 12} },
             { icon = "__space-exploration-graphics__/graphics/technology/vitalic-acid.png", scale = 1, icon_size = 128, shift = {-64, -64} },
         },
         icon_size = 256,
@@ -165,7 +165,7 @@ data:extend({
         name = "carbon-fiber-robot-frame",
         icons = {
             { icon = "__base__/graphics/technology/robotics.png" , scale = 1, icon_size = 256, shift = {12, 12} },
-            { icon = "__sei-gleba-fruits__/graphics/technology/carbon-fiber.png", scale = 0.5, icon_size = 256, shift = {-64, -64} },
+            { icon = "__sei-gleba-fruits-2__/graphics/technology/carbon-fiber.png", scale = 0.5, icon_size = 256, shift = {-64, -64} },
         },
         icon_size = 256,
         effects =
@@ -195,7 +195,7 @@ data:extend({
     {
         type = "technology",
         name = "overgrowth-soil",
-        icon = "__sei-gleba-fruits__/graphics/technology/overgrowth-soil.png",
+        icon = "__sei-gleba-fruits-2__/graphics/technology/overgrowth-soil.png",
         icon_size = 256,
         effects =
         {

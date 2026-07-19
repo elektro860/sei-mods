@@ -1,6 +1,6 @@
 if not mods["um-standalone-space-age-lib"] then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data_util.set_category_for_recipes("crafting", {
     "discharge-defense-equipment", -- base

@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local explosion_animations = require("__base__.prototypes.entity.explosion-animations")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "cryogenic-plant-explosion",
-        icon = "__sei-cryogenic-plant__/graphics/technology/cryogenic-plant.png",
+        icon = "__sei-cryogenic-plant-2__/graphics/technology/cryogenic-plant.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",

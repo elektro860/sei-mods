@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "tesla-turret-remnants",
-        icon = "__sei-tesla-turret__/graphics/icons/tesla-turret.png",
+        icon = "__sei-tesla-turret-2__/graphics/icons/tesla-turret.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "defensive-structure-remnants",
@@ -21,14 +21,14 @@ data:extend({
         {
         layers =
         {
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/remnant/tesla-turret-remnants",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/remnant/tesla-turret-remnants",
             {
             line_length = 1,
             direction_count = 1,
             shift = util.by_pixel(0, -26),
             scale = 0.5
             }),
-            path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/tesla-turret/remnant/tesla-turret-remnants-mask",
+            path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/tesla-turret/remnant/tesla-turret-remnants-mask",
             {
             priority = "low",
             line_length = 1,

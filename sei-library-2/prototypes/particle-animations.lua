@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local particle_animations = require("__base__/prototypes/particle-animations")
 
 particle_animations.get_lava_particle_small_pictures = function(options)
@@ -7,7 +7,7 @@ particle_animations.get_lava_particle_small_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/lava-particle/vulcanus-lava-particle.png",
+        filename = "__sei-library-2__/graphics/particle/lava-particle/vulcanus-lava-particle.png",
         line_length = 12,
         width = 32,
         height = 24,
@@ -26,7 +26,7 @@ particle_animations.get_lava_particle_big_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/lava-particle/vulcanus-lava-particle.png",
+        filename = "__sei-library-2__/graphics/particle/lava-particle/vulcanus-lava-particle.png",
         line_length = 12,
         width = 32,
         height = 24,
@@ -47,7 +47,7 @@ particle_animations.get_carbonic_asteroid_particle_small_pictures = function(opt
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-small.png",
         priority = "extra-high",
         width = 14,
         height = 16,
@@ -67,7 +67,7 @@ particle_animations.get_carbonic_asteroid_particle_medium_pictures = function(op
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-medium.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-medium.png",
         priority = "extra-high",
         width = 22,
         height = 22,
@@ -87,7 +87,7 @@ particle_animations.get_carbonic_asteroid_particle_big_pictures = function(optio
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-big.png",
         priority = "extra-high",
         width = 36,
         height = 36,
@@ -106,7 +106,7 @@ particle_animations.get_carbonic_asteroid_particle_top_small_pictures = function
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-top-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-top-small.png",
         priority = "extra-high",
         width = 58,
         height = 56,
@@ -125,7 +125,7 @@ particle_animations.get_carbonic_asteroid_particle_top_big_pictures = function(o
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-top-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/carbonic-asteroid-particle-top-big.png",
         priority = "extra-high",
         width = 82,
         height = 82,
@@ -148,7 +148,7 @@ particle_animations.get_metallic_asteroid_particle_small_pictures = function(opt
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/metallic-asteroid-particle-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/metallic-asteroid-particle-small.png",
         priority = "extra-high",
         width = 14,
         height = 16,
@@ -168,7 +168,7 @@ particle_animations.get_metallic_asteroid_particle_medium_pictures = function(op
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/metallic-asteroid-particle-medium.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/metallic-asteroid-particle-medium.png",
         priority = "extra-high",
         width = 22,
         height = 20,
@@ -188,7 +188,7 @@ particle_animations.get_metallic_asteroid_particle_big_pictures = function(optio
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/metallic-asteroid-particle-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/metallic-asteroid-particle-big.png",
         priority = "extra-high",
         width = 36,
         height = 36,
@@ -208,7 +208,7 @@ particle_animations.get_metallic_asteroid_particle_top_small_pictures = function
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/metallic-asteroid-particle-top-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/metallic-asteroid-particle-top-small.png",
         priority = "extra-high",
         width = 62,
         height = 56,
@@ -228,7 +228,7 @@ particle_animations.get_metallic_asteroid_particle_top_big_pictures = function(o
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/metallic-asteroid-particle-top-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/metallic-asteroid-particle-top-big.png",
         priority = "extra-high",
         width = 82,
         height = 86,
@@ -250,7 +250,7 @@ particle_animations.get_oxide_asteroid_particle_small_pictures = function(option
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/oxide-asteroid-particle-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/oxide-asteroid-particle-small.png",
         priority = "extra-high",
         width = 16,
         height = 18,
@@ -270,7 +270,7 @@ particle_animations.get_oxide_asteroid_particle_medium_pictures = function(optio
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/oxide-asteroid-particle-medium.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/oxide-asteroid-particle-medium.png",
         priority = "extra-high",
         width = 28,
         height = 22,
@@ -290,7 +290,7 @@ particle_animations.get_oxide_asteroid_particle_big_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/oxide-asteroid-particle-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/oxide-asteroid-particle-big.png",
         priority = "extra-high",
         width = 44,
         height = 38,
@@ -309,7 +309,7 @@ particle_animations.get_oxide_asteroid_particle_top_small_pictures = function(op
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/oxide-asteroid-particle-top-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/oxide-asteroid-particle-top-small.png",
         priority = "extra-high",
         width = 70,
         height = 52,
@@ -328,7 +328,7 @@ particle_animations.get_oxide_asteroid_particle_top_big_pictures = function(opti
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/oxide-asteroid-particle-top-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/oxide-asteroid-particle-top-big.png",
         priority = "extra-high",
         width = 90,
         height = 88,
@@ -350,7 +350,7 @@ particle_animations.get_promethium_asteroid_particle_small_pictures = function(o
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/promethium-asteroid-particle-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/promethium-asteroid-particle-small.png",
         priority = "extra-high",
         width = 12,
         height = 12,
@@ -370,7 +370,7 @@ particle_animations.get_promethium_asteroid_particle_medium_pictures = function(
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/promethium-asteroid-particle-medium.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/promethium-asteroid-particle-medium.png",
         priority = "extra-high",
         width = 18,
         height = 16,
@@ -390,7 +390,7 @@ particle_animations.get_promethium_asteroid_particle_big_pictures = function(opt
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/promethium-asteroid-particle-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/promethium-asteroid-particle-big.png",
         priority = "extra-high",
         width = 38,
         height = 36,
@@ -409,7 +409,7 @@ particle_animations.get_promethium_asteroid_particle_top_small_pictures = functi
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/promethium-asteroid-particle-top-small.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/promethium-asteroid-particle-top-small.png",
         priority = "extra-high",
         width = 32,
         height = 36,
@@ -428,7 +428,7 @@ particle_animations.get_promethium_asteroid_particle_top_big_pictures = function
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/asteroid-particle/promethium-asteroid-particle-top-big.png",
+        filename = "__sei-library-2__/graphics/particle/asteroid-particle/promethium-asteroid-particle-top-big.png",
         priority = "extra-high",
         width = 82,
         height = 84,
@@ -452,7 +452,7 @@ particle_animations.get_pentpod_entrails_particles = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/pentapod-particle/pentapod-entrails-particles.png",
+        filename = "__sei-library-2__/graphics/particle/pentapod-particle/pentapod-entrails-particles.png",
         priority = "extra-high",
         width = 86,
         height = 90,
@@ -473,7 +473,7 @@ particle_animations.get_pentpod_skin_particles_small = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/pentapod-particle/pentapod-skin-particles-small.png",
+        filename = "__sei-library-2__/graphics/particle/pentapod-particle/pentapod-skin-particles-small.png",
         priority = "extra-high",
         width = 24,
         height = 26,
@@ -494,7 +494,7 @@ particle_animations.get_pentpod_skin_particles_medium = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/pentapod-particle/pentapod-skin-particles-medium.png",
+        filename = "__sei-library-2__/graphics/particle/pentapod-particle/pentapod-skin-particles-medium.png",
         priority = "extra-high",
         width = 50,
         height = 56,
@@ -515,7 +515,7 @@ particle_animations.get_pentpod_skin_particles_big = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/pentapod-particle/pentapod-skin-particles-big.png",
+        filename = "__sei-library-2__/graphics/particle/pentapod-particle/pentapod-skin-particles-big.png",
         priority = "extra-high",
         width = 84,
         height = 86,
@@ -536,7 +536,7 @@ particle_animations.get_pentpod_shell_particles_small = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/pentapod-particle/pentapod-shell-particles-small.png",
+        filename = "__sei-library-2__/graphics/particle/pentapod-particle/pentapod-shell-particles-small.png",
         priority = "extra-high",
         width = 18,
         height = 20,
@@ -557,7 +557,7 @@ particle_animations.get_pentpod_shell_particles_big = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/pentapod-particle/pentapod-shell-particles-big.png",
+        filename = "__sei-library-2__/graphics/particle/pentapod-particle/pentapod-shell-particles-big.png",
         priority = "extra-high",
         width = 66,
         height = 58,
@@ -581,7 +581,7 @@ particle_animations.get_demolisher_skin_particles_small = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/demolisher-particle/demolisher-skin-particles-small.png",
+        filename = "__sei-library-2__/graphics/particle/demolisher-particle/demolisher-skin-particles-small.png",
         priority = "extra-high",
         width = 30,
         height = 32,
@@ -602,7 +602,7 @@ particle_animations.get_demolisher_skin_particles_medium = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/demolisher-particle/demolisher-skin-particles-medium.png",
+        filename = "__sei-library-2__/graphics/particle/demolisher-particle/demolisher-skin-particles-medium.png",
         priority = "extra-high",
         width = 62,
         height = 68,
@@ -623,7 +623,7 @@ particle_animations.get_demolisher_skin_particles_big = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/demolisher-particle/demolisher-skin-particles-big.png",
+        filename = "__sei-library-2__/graphics/particle/demolisher-particle/demolisher-skin-particles-big.png",
         priority = "extra-high",
         width = 92,
         height = 104,
@@ -644,7 +644,7 @@ particle_animations.get_demolisher_shell_particles_small = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/demolisher-particle/demolisher-shell-particles-small.png",
+        filename = "__sei-library-2__/graphics/particle/demolisher-particle/demolisher-shell-particles-small.png",
         priority = "extra-high",
         width = 50,
         height = 50,
@@ -665,7 +665,7 @@ particle_animations.get_demolisher_shell_particles_big = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/demolisher-particle/demolisher-shell-particles-big.png",
+        filename = "__sei-library-2__/graphics/particle/demolisher-particle/demolisher-shell-particles-big.png",
         priority = "extra-high",
         width = 200,
         height = 200,
@@ -686,7 +686,7 @@ particle_animations.get_gleba_tree_sap_particle_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/gleba-tree-particle/gleba-tree-sap-particle.png",
+        filename = "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-tree-sap-particle.png",
         line_length = 12,
         width = 32,
         height = 24,
@@ -708,7 +708,7 @@ particle_animations.get_slipstack_sap_particle_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/gleba-tree-particle/gleba-tree-sap-particle.png",
+        filename = "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-tree-sap-particle.png",
         line_length = 12,
         width = 32,
         height = 24,
@@ -732,7 +732,7 @@ particle_animations.get_gleba_tree_leaf_particle_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/gleba-tree-particle/gleba-leaf-particle.png",
+        filename = "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-leaf-particle.png",
         priority = "extra-high",
         width = 48,
         height = 50,
@@ -754,7 +754,7 @@ particle_animations.get_gleba_tree_leaf_particle_2_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/gleba-tree-particle/gleba-leaf-particle-2.png",
+        filename = "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-leaf-particle-2.png",
         priority = "extra-high",
         width = 56,
         height = 54,
@@ -776,7 +776,7 @@ particle_animations.get_gleba_tree_crop_particle_pictures = function(options)
     {
         sheet =
         {
-        filename =  "__sei-library__/graphics/particle/gleba-tree-particle/gleba-crop-particle.png",
+        filename =  "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-crop-particle.png",
         priority = "extra-high",
         width = 38,
         height = 38,
@@ -798,7 +798,7 @@ particle_animations.get_gleba_tree_wooden_particle_pictures = function(options)
     {
         sheet =
         {
-        filename = "__sei-library__/graphics/particle/gleba-tree-particle/gleba-wooden-particle.png",
+        filename = "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-wooden-particle.png",
         priority = "extra-high",
         width = 54,
         height = 64,
@@ -820,7 +820,7 @@ particle_animations.get_gleba_tree_spongy_particle_pictures = function(options)
     {
         sheet =
         {
-        filename =  "__sei-library__/graphics/particle/gleba-tree-particle/gleba-spongy-particle.png",
+        filename =  "__sei-library-2__/graphics/particle/gleba-tree-particle/gleba-spongy-particle.png",
         priority = "extra-high",
         width = 40,
         height = 38,

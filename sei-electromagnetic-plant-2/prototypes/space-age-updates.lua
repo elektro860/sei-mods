@@ -1,6 +1,6 @@
 if not SEI_SPACE_AGE then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local electronics_recipes = {
     "se-addon-power-pole",
@@ -58,7 +58,7 @@ local electronics_with_fluid_recipes = {
     "electric-engine-unit",
 }
 
-if settings.startup["sei-electromagnetic-plant-allow-space-recipes"].value then
+if settings.startup["sei-electromagnetic-plant-2-allow-space-recipes"].value then
     for _,result in pairs(data.raw["recipe"]["se-superconductive-cable"].results) do
         if result.name == "se-space-coolant-warm" then result.ignored_by_productivity = result.amount end
     end

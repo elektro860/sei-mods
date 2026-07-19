@@ -1,13 +1,13 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__sei-library__.prototypes.item_sounds")
+local space_age_item_sounds = require("__sei-library-2__.prototypes.item_sounds")
 local item_tints = require("__base__.prototypes.item-tints")
 
 data:extend({
     {
         type = "item",
         name = "tesla-turret",
-        icon = "__sei-tesla-turret__/graphics/icons/tesla-turret.png",
+        icon = "__sei-tesla-turret-2__/graphics/icons/tesla-turret.png",
         subgroup = "turret",
         order = "b[turret]-f[tesla-turret]-a[turret]",
         inventory_move_sound = item_sounds.turret_inventory_move,

@@ -1,14 +1,14 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
 
-local biochamber_pictures = require("__sei-biochamber__.prototypes.entity.biochamber-pictures")
+local biochamber_pictures = require("__sei-biochamber-2__.prototypes.entity.biochamber-pictures")
 
 data:extend({
     {
         type = "assembling-machine",
         name = "biochamber",
-        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
+        icon = "__sei-biochamber-2__/graphics/icons/biochamber.png",
         flags = {"placeable-neutral","placeable-player", "player-creation"},
         minable = {mining_time = 0.1, result = "biochamber"},
         fast_replaceable_group = "biochamber",
@@ -24,15 +24,15 @@ data:extend({
         drawing_box_vertical_extension = 0.4,
         module_slots = 4,
         allowed_effects = {"consumption", "speed", "productivity", "pollution", "quality"},
-        effect_receiver = { base_effect = { productivity = settings.startup["sei-biochamber-base-production-bonus"].value / 100 }},
+        effect_receiver = { base_effect = { productivity = settings.startup["sei-biochamber-2-base-production-bonus"].value / 100 }},
 
-        graphics_set = require("__sei-biochamber__.prototypes.entity.biochamber-pictures").graphics_set,
+        graphics_set = require("__sei-biochamber-2__.prototypes.entity.biochamber-pictures").graphics_set,
         impact_category = "metal-large",
         open_sound = {filename = "__base__/sound/open-close/fluid-open.ogg", volume = 0.55},
         close_sound = {filename = "__base__/sound/open-close/fluid-close.ogg", volume = 0.54},
         working_sound =
         {
-        sound = {filename = "__sei-biochamber__/sound/entity/biochamber/biochamber-loop.ogg", volume = 0.4},
+        sound = {filename = "__sei-biochamber-2__/sound/entity/biochamber/biochamber-loop.ogg", volume = 0.4},
         max_sounds_per_prototype = 3,
         fade_in_ticks = 4,
         fade_out_ticks = 20
@@ -46,7 +46,7 @@ data:extend({
         burner_usage = "nutrients",
         fuel_inventory_size = 1,
         emissions_per_minute = { pollution = -1 },
-        light_flicker = require("__sei-biochamber__.prototypes.entity.biochamber-pictures").light_flicker
+        light_flicker = require("__sei-biochamber-2__.prototypes.entity.biochamber-pictures").light_flicker
         },
         energy_usage = "200kW",
         heating_energy = "100kW",

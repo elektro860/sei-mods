@@ -1,5 +1,5 @@
 {
-  "name": "sei-heating-tower",
+  "name": "sei-heating-tower-2",
   "version": "1.1.0",
   "title": "Space Exploration Integration: Heating Tower",
   "author": "xkyouchoux",
@@ -8,7 +8,7 @@
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
     "(?) space-exploration-postprocess",
-    "sei-library >= 1.1.0",
+    "sei-library-2 >= 1.1.0",
     "! HeatingTower",
     "! space-age"
   ],

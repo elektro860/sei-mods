@@ -1,14 +1,14 @@
 data:extend({
     {
         type = "bool-setting",
-        name = "sei-electromagnetic-plant-allow-space-recipes",
+        name = "sei-electromagnetic-plant-2-allow-space-recipes",
         setting_type = "startup",
         default_value = false,
         order = "a",
     },
     {
         type = "int-setting",
-        name = "sei-electromagnetic-plant-base-production-bonus",
+        name = "sei-electromagnetic-plant-2-base-production-bonus",
         setting_type = "startup",
         default_value = 20,
         minimum_value = 0,

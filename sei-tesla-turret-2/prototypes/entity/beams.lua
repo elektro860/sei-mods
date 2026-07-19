@@ -1,13 +1,13 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local beam_blend_mode = "additive"
 local beam_non_light_flags = { "trilinear-filtering" }
-local space_age_sounds = require("__sei-tesla-turret__.prototypes.sounds")
+local space_age_sounds = require("__sei-tesla-turret-2__.prototypes.sounds")
 
 function get_beam_sprite(token)
     return
     {
-        path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/tesla-body-"..token.."",
+        path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/tesla-body-"..token.."",
         {
             frame_count = 20,
             repeat_count = 4,
@@ -17,7 +17,7 @@ function get_beam_sprite(token)
             tint = beam_tint,
             blend_mode = blend_mode or beam_blend_mode
         }),
-        path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/lightning-loop-"..token.."",
+        path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/lightning-loop-"..token.."",
         {
             frame_count = 80,
             draw_as_glow = true,
@@ -32,7 +32,7 @@ end
 function get_chain_sprite(token)
     return
     {
-        path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/chain-body-0",
+        path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/chain-body-0",
         {
             frame_count = 1,
             repeat_count = 40,
@@ -42,7 +42,7 @@ function get_chain_sprite(token)
             tint = beam_tint,
             blend_mode = blend_mode or beam_blend_mode
         }),
-        path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/chain-body-"..token.."",
+        path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/chain-body-"..token.."",
         {
             frame_count = 40,
             draw_as_glow = true,
@@ -60,7 +60,7 @@ function make_tesla_electric_beam_graphics(blend_mode, beam_flags, beam_tint, li
     {
         --render_layer = "projectile",
 
-        start = path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/tesla-beam-START",
+        start = path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/tesla-beam-START",
         {
         flags = beam_flags or beam_non_light_flags,
         frame_count = 20,
@@ -70,7 +70,7 @@ function make_tesla_electric_beam_graphics(blend_mode, beam_flags, beam_tint, li
         scale = 0.5
         }),
 
-        ending = path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/tesla-beam-END",
+        ending = path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/tesla-beam-END",
         {
         flags = beam_flags or beam_non_light_flags,
         frame_count = 20,
@@ -80,7 +80,7 @@ function make_tesla_electric_beam_graphics(blend_mode, beam_flags, beam_tint, li
         scale = 0.5
         }),
 
-        head = path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/tesla-head",
+        head = path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/tesla-head",
         {
         flags = beam_flags or beam_non_light_flags,
         frame_count = 20,
@@ -91,7 +91,7 @@ function make_tesla_electric_beam_graphics(blend_mode, beam_flags, beam_tint, li
         blend_mode = blend_mode or beam_blend_mode
         }),
 
-        tail = path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/tesla-tail",
+        tail = path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/tesla-tail",
         {
         flags = beam_flags or beam_non_light_flags,
         frame_count = 20,
@@ -165,7 +165,7 @@ function make_tesla_electric_beam_chain_graphics(blend_mode, beam_flags, beam_ti
     {
         --render_layer = "projectile",
 
-        start = path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/chain-beam-START",
+        start = path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/chain-beam-START",
         {
         flags = beam_flags or beam_non_light_flags,
         frame_count = 20,
@@ -175,7 +175,7 @@ function make_tesla_electric_beam_chain_graphics(blend_mode, beam_flags, beam_ti
         scale = 0.5
         }),
 
-        ending = path_util.sa_sprite_load("__sei-tesla-turret__/graphics/entity/beam/chain-beam-END",
+        ending = path_util.sa_sprite_load("__sei-tesla-turret-2__/graphics/entity/beam/chain-beam-END",
         {
         flags = beam_flags or beam_non_light_flags,
         frame_count = 20,
@@ -296,7 +296,7 @@ function make_tesla_beam(name, sound, damage, token)
 
         working_sound =
         sound and {
-        sound = {category = "weapon", filename = "__sei-tesla-turret__/sound/entity/tesla-turret/tesla-turret-beam.ogg", volume = 1.0},
+        sound = {category = "weapon", filename = "__sei-tesla-turret-2__/sound/entity/tesla-turret/tesla-turret-beam.ogg", volume = 1.0},
         max_sounds_per_prototype = 4
         } or nil,
     }
@@ -348,7 +348,7 @@ function make_tesla_beam_chain(name, sound, damage, token)
 
         working_sound =
         sound and {
-        sound = {category = "weapon", filename = "__sei-tesla-turret__/sound/entity/tesla-turret/tesla-turret-chain-beam.ogg", volume = 0.8},
+        sound = {category = "weapon", filename = "__sei-tesla-turret-2__/sound/entity/tesla-turret/tesla-turret-chain-beam.ogg", volume = 0.8},
         max_sounds_per_prototype = 4
         } or nil,
     }

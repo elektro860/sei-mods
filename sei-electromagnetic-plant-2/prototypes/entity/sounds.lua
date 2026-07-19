@@ -5,7 +5,7 @@ sounds.electromagnetic_plant = {
 	main_sounds = {
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/electromagnetic-plant-warmup.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/electromagnetic-plant-warmup.ogg",
 				volume = 0.6,
 				audible_distance_modifier = 0.6,
 			},
@@ -13,7 +13,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/electromagnetic-plant-loop.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/electromagnetic-plant-loop.ogg",
 				volume = 0.6,
 				audible_distance_modifier = 0.6,
 			},
@@ -23,7 +23,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/electromagnetic-plant-cooldown.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/electromagnetic-plant-cooldown.ogg",
 				volume = 0.8,
 				audible_distance_modifier = 0.6,
 			},
@@ -33,7 +33,7 @@ sounds.electromagnetic_plant = {
 	sound_accents = {
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-arm-retract.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-arm-retract.ogg",
 				volume = 0.35,
 				audible_distance_modifier = 0.4,
 			},
@@ -43,7 +43,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-coil",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-coil",
 					2,
 					0.6
 				),
@@ -55,7 +55,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-coil",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-coil",
 					2,
 					0.6
 				),
@@ -67,7 +67,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-coil",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-coil",
 					2,
 					0.4
 				),
@@ -79,7 +79,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-riser-stop",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-riser-stop",
 					2,
 					0.6
 				),
@@ -90,7 +90,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-bridge-close.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-bridge-close.ogg",
 				volume = 0.4,
 				audible_distance_modifier = 0.4,
 			},
@@ -99,7 +99,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-bridge-open.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-bridge-open.ogg",
 				volume = 0.4,
 				audible_distance_modifier = 0.4,
 			},
@@ -109,7 +109,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-electric",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-electric",
 					5,
 					0.4
 				),
@@ -121,7 +121,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-electric",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-electric",
 					5,
 					0.5
 				),
@@ -133,7 +133,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-slide-stop",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-slide-stop",
 					2,
 					0.4
 				),
@@ -145,7 +145,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-riser-stop",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-riser-stop",
 					2,
 					0.4
 				),
@@ -157,7 +157,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-slide-stop",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-slide-stop",
 					2,
 					0.4
 				),
@@ -169,7 +169,7 @@ sounds.electromagnetic_plant = {
 		{
 			sound = {
 				variations = sound_variations(
-					"__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-riser-stop",
+					"__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-riser-stop",
 					2,
 					0.2
 				),
@@ -180,7 +180,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-arm-stop.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-arm-stop.ogg",
 				volume = 0.45,
 				audible_distance_modifier = 0.4,
 			},
@@ -189,7 +189,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-arm-extend.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-arm-extend.ogg",
 				volume = 0.5,
 				audible_distance_modifier = 0.4,
 			},
@@ -198,7 +198,7 @@ sounds.electromagnetic_plant = {
 		},
 		{
 			sound = {
-				filename = "__sei-electromagnetic-plant__/sound/entity/electromagnetic-plant/emp-arm-weld.ogg",
+				filename = "__sei-electromagnetic-plant-2__/sound/entity/electromagnetic-plant/emp-arm-weld.ogg",
 				volume = 0.9,
 				audible_distance_modifier = 0.4,
 			},

@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = "fusion-reactor-remnants",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-reactor.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "energy-remnants",
@@ -17,7 +17,7 @@ data:extend({
         expires = false,
         final_render_layer = "remnants",
         remove_on_tile_placement = false,
-        animation = path_util.sa_sprite_load("__sei-fusion-reactor__/graphics/entity/fusion-reactor/fusion-reactor-remnants",{
+        animation = path_util.sa_sprite_load("__sei-fusion-reactor-2__/graphics/entity/fusion-reactor/fusion-reactor-remnants",{
         scale = 0.5,
         direction_count = 1
         })
@@ -25,7 +25,7 @@ data:extend({
     {
         type = "corpse",
         name = "fusion-generator-remnants",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-generator.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "energy-remnants",
@@ -38,7 +38,7 @@ data:extend({
         expires = false,
         final_render_layer = "remnants",
         remove_on_tile_placement = false,
-        animation = path_util.sa_sprite_load("__sei-fusion-reactor__/graphics/entity/fusion-generator/fusion-generator-remnants",
+        animation = path_util.sa_sprite_load("__sei-fusion-reactor-2__/graphics/entity/fusion-generator/fusion-generator-remnants",
         {
         scale = 0.5,
         direction_count = 4

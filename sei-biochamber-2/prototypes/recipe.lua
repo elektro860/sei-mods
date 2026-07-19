@@ -1,5 +1,5 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data:extend({
     {
@@ -128,7 +128,7 @@ data:extend({
     {
         type = "recipe",
         name = "fish-breeding",
-        icon = "__sei-biochamber__/graphics/icons/fish-breeding.png",
+        icon = "__sei-biochamber-2__/graphics/icons/fish-breeding.png",
         categories = { "organic" },
         subgroup = "agriculture-processes",
         order = "b[agriculture]-a[fish-breeding]",

@@ -1,11 +1,11 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local item_sounds = require("__base__.prototypes.item_sounds")
 
 data:extend({
     {
         type = "item",
         name = "fusion-power-cell",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-power-cell.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-power-cell.png",
         subgroup = "chemical",
         order = "a[chemical]-g[fusion-power-cell]",
         inventory_move_sound = item_sounds.reactor_inventory_move,
@@ -19,7 +19,7 @@ data:extend({
     {
         type = "item",
         name = "fusion-reactor",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-reactor.png",
         subgroup = "energy",
         order = "g[fusion-energy]-a[reactor]",
         inventory_move_sound = item_sounds.reactor_inventory_move,
@@ -32,7 +32,7 @@ data:extend({
     {
         type = "item",
         name = "fusion-generator",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-generator.png",
         subgroup = "energy",
         order = "g[fusion-energy]-b[generator]",
         inventory_move_sound = item_sounds.reactor_inventory_move,

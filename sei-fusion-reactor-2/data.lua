@@ -9,7 +9,7 @@ require("prototypes.item")
 require("prototypes.recipe")
 require("prototypes.technology")
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 for _, connection in pairs(data.raw["infinity-pipe"]["infinity-pipe"].fluid_box.pipe_connections) do
     if connection.connection_category then

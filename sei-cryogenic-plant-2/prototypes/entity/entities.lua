@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local hit_effects = require("__base__.prototypes.entity.hit-effects")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -7,7 +7,7 @@ data:extend({
 	{
 		type = "assembling-machine",
 		name = "cryogenic-plant",
-		icon = "__sei-cryogenic-plant__/graphics/icons/cryogenic-plant.png",
+		icon = "__sei-cryogenic-plant-2__/graphics/icons/cryogenic-plant.png",
 		flags = { "placeable-neutral", "player-creation" },
 		minable = { mining_time = 0.2, result = "cryogenic-plant" },
 		fast_replaceable_group = "cryogenic-plant",
@@ -37,12 +37,12 @@ data:extend({
 		energy_usage = "1500kW",
 		perceived_performance = { minimum = 0.25, maximum = 10 },
 		use_mirroring = true,
-		graphics_set = require("__sei-cryogenic-plant__.prototypes.entity.cryogenic-plant-pictures").graphics_set,
+		graphics_set = require("__sei-cryogenic-plant-2__.prototypes.entity.cryogenic-plant-pictures").graphics_set,
 		open_sound = sounds.metal_large_open,
 		close_sound = sounds.metal_large_close,
 		working_sound = {
 			sound = {
-				filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cryogenic-plant.ogg",
+				filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cryogenic-plant.ogg",
 				volume = 0.8,
 			},
 			--idle_sound = { filename = "__base__/sound/idle1.ogg", volume = 0.3 },
@@ -52,7 +52,7 @@ data:extend({
 				{
 					sound = {
 						variations = sound_variations(
-							"__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-smoke-mask-puff",
+							"__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-smoke-mask-puff",
 							2,
 							0.35
 						),
@@ -63,7 +63,7 @@ data:extend({
 				{
 					sound = {
 						variations = sound_variations(
-							"__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-smoke-mask-puff",
+							"__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-smoke-mask-puff",
 							2,
 							0.3
 						),
@@ -73,7 +73,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim3-bubbles-rise.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim3-bubbles-rise.ogg",
 						volume = 0.9,
 						audible_distance_modifier = 0.3,
 					},
@@ -81,7 +81,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim3-bubbles-fall.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim3-bubbles-fall.ogg",
 						volume = 0.7,
 						audible_distance_modifier = 0.3,
 					},
@@ -89,7 +89,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim3-bubbles-rise.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim3-bubbles-rise.ogg",
 						volume = 0.9,
 						audible_distance_modifier = 0.3,
 					},
@@ -97,7 +97,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim3-bubbles-fall.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim3-bubbles-fall.ogg",
 						volume = 0.7,
 						audible_distance_modifier = 0.3,
 					},
@@ -105,7 +105,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim5-gears.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim5-gears.ogg",
 						volume = 0.25,
 						audible_distance_modifier = 0.4,
 					},
@@ -113,7 +113,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim5-gears.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim5-gears.ogg",
 						volume = 0.2,
 						audible_distance_modifier = 0.4,
 					},
@@ -122,7 +122,7 @@ data:extend({
 				{
 					sound = {
 						variations = sound_variations(
-							"__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim6-open",
+							"__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim6-open",
 							2,
 							0.6
 						),
@@ -132,7 +132,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim6-close.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim6-close.ogg",
 						volume = 0.7,
 						audible_distance_modifier = 0.4,
 					},
@@ -140,7 +140,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim6-slide-down.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim6-slide-down.ogg",
 						volume = 0.55,
 						audible_distance_modifier = 0.4,
 					},
@@ -148,7 +148,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim6-slide-up.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim6-slide-up.ogg",
 						volume = 0.6,
 						audible_distance_modifier = 0.4,
 					},
@@ -156,7 +156,7 @@ data:extend({
 				},
 				{
 					sound = {
-						filename = "__sei-cryogenic-plant__/sound/entity/cryogenic-plant/cp-anim6-slide-stop.ogg",
+						filename = "__sei-cryogenic-plant-2__/sound/entity/cryogenic-plant/cp-anim6-slide-stop.ogg",
 						volume = 0.4,
 						audible_distance_modifier = 0.4,
 					},
@@ -176,8 +176,8 @@ data:extend({
 			},
 			{
 				production_type = "input",
-				pipe_picture = require("__sei-cryogenic-plant__.prototypes.entity.cryogenic-plant-pictures").pipe_picture,
-				pipe_picture_frozen = require("__sei-cryogenic-plant__.prototypes.entity.cryogenic-plant-pictures").pipe_picture_frozen,
+				pipe_picture = require("__sei-cryogenic-plant-2__.prototypes.entity.cryogenic-plant-pictures").pipe_picture,
+				pipe_picture_frozen = require("__sei-cryogenic-plant-2__.prototypes.entity.cryogenic-plant-pictures").pipe_picture_frozen,
 				always_draw_covers = true, -- fighting against FluidBoxPrototype::always_draw_covers crazy default
 				pipe_covers = pipecoverspictures(),
 				volume = 1000,
@@ -203,8 +203,8 @@ data:extend({
 			},
 			{
 				production_type = "output",
-				pipe_picture = require("__sei-cryogenic-plant__.prototypes.entity.cryogenic-plant-pictures").pipe_picture,
-				pipe_picture_frozen = require("__sei-cryogenic-plant__.prototypes.entity.cryogenic-plant-pictures").pipe_picture_frozen,
+				pipe_picture = require("__sei-cryogenic-plant-2__.prototypes.entity.cryogenic-plant-pictures").pipe_picture,
+				pipe_picture_frozen = require("__sei-cryogenic-plant-2__.prototypes.entity.cryogenic-plant-pictures").pipe_picture_frozen,
 				always_draw_covers = true, -- fighting against FluidBoxPrototype::always_draw_covers crazy default
 				pipe_covers = pipecoverspictures(),
 				volume = 100,
@@ -224,7 +224,7 @@ data:extend({
 		fluid_boxes_off_when_no_fluid_recipe = true,
 		water_reflection = {
 			pictures = {
-				filename = "__sei-cryogenic-plant__/graphics/entity/cryogenic-plant/cryogenic-plant-reflection.png",
+				filename = "__sei-cryogenic-plant-2__/graphics/entity/cryogenic-plant/cryogenic-plant-reflection.png",
 				width = 74,
 				height = 74,
 				scale = 5,

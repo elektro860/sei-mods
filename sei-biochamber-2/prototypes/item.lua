@@ -1,14 +1,14 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local item_sounds = require("__base__.prototypes.item_sounds")
-local space_age_item_sounds = require("__sei-library__.prototypes.item_sounds")
+local space_age_item_sounds = require("__sei-library-2__.prototypes.item_sounds")
 
 data:extend({
     {
         type = "item",
         name = "biochamber",
-        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
+        icon = "__sei-biochamber-2__/graphics/icons/biochamber.png",
         subgroup = "chemistry",
         order = "f[biochamber]-[biochamber]",
         inventory_move_sound = item_sounds.fluid_inventory_move,
@@ -20,7 +20,7 @@ data:extend({
     {
         type = "item",
         name = "nutrients",
-        icon = "__sei-biochamber__/graphics/icons/nutrients.png",
+        icon = "__sei-biochamber-2__/graphics/icons/nutrients.png",
         subgroup = "agriculture-processes",
         order = "c[nutrients]-b[nutrients]",
         inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,

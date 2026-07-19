@@ -1,6 +1,6 @@
 if not mods["sei-stack-inserters"] then return end
 
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data_util.replace_or_add_ingredient("stack-inserter", "low-density-structure", "carbon-fiber", 1)
 

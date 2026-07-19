@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local util = require('util')
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -99,7 +99,7 @@ local function gleba_tree_variations(name, variation_count, per_row, scale_multi
         local y = math.floor((i-1)/per_row) * height
         local variation = {
         trunk = {
-            filename = "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-trunk.png",
+            filename = "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-trunk.png",
             flags = { "mipmap" },
             surface = "gleba",
             width = width,
@@ -111,7 +111,7 @@ local function gleba_tree_variations(name, variation_count, per_row, scale_multi
             scale = 0.33 * scale_multiplier
         },
         leaves = {
-            filename = "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-harvest.png",
+            filename = "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-harvest.png",
             flags = { "mipmap" },
             surface = "gleba",
             width = width,
@@ -123,7 +123,7 @@ local function gleba_tree_variations(name, variation_count, per_row, scale_multi
             scale = 0.33 * scale_multiplier
         },
         normal = {
-            filename = "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-normal.png",
+            filename = "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-normal.png",
             surface = "gleba",
             width = width,
             height = height,
@@ -141,8 +141,8 @@ local function gleba_tree_variations(name, variation_count, per_row, scale_multi
             surface = "gleba",
             filenames =
             {
-            "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-harvest-shadow.png",
-            "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-shadow.png"
+            "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-harvest-shadow.png",
+            "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-shadow.png"
             },
             width = width,
             height = height,
@@ -157,7 +157,7 @@ local function gleba_tree_variations(name, variation_count, per_row, scale_multi
 
         water_reflection = {
             pictures = {
-            filename = "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-effect-map.png",
+            filename = "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-effect-map.png",
             --flags = { "mipmap" },
             surface = "gleba",
             width = width,
@@ -519,7 +519,7 @@ local function gleba_tree_variations(name, variation_count, per_row, scale_multi
             {
             variation.leaves,
             {
-                filename = "__sei-gleba-fruits__/graphics/entity/plant/"..name.."/"..name.."-harvest-glow.png",
+                filename = "__sei-gleba-fruits-2__/graphics/entity/plant/"..name.."/"..name.."-harvest-glow.png",
                 flags = { "mipmap" },
                 surface = "gleba",
                 width = width,
@@ -555,7 +555,7 @@ data:extend({
     {
         type = "plant",
         name = "yumako-tree", -- food
-        icon = "__sei-gleba-fruits__/graphics/icons/yumako-tree.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/yumako-tree.png",
         flags = plant_flags,
         minable =
         {
@@ -576,8 +576,8 @@ data:extend({
             }
         }
         },
-        mining_sound = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/mining/axe-mining-yumako-tree", 5, 0.6),
-        mined_sound = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/mining/mined-yumako-tree", 6, 0.3),
+        mining_sound = path_util.sa_sound_variations("__sei-gleba-fruits-2__/sound/mining/axe-mining-yumako-tree", 5, 0.6),
+        mined_sound = path_util.sa_sound_variations("__sei-gleba-fruits-2__/sound/mining/mined-yumako-tree", 6, 0.3),
         growth_ticks = 5 * minutes,
         harvest_emissions = plant_harvest_emissions,
         emissions_per_second = plant_emissions,
@@ -606,7 +606,7 @@ data:extend({
         {
         sound =
         {
-            variations = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/world/plants/yumako-tree", 6, 0.5),
+            variations = path_util.sa_sound_variations("__sei-gleba-fruits-2__/sound/world/plants/yumako-tree", 6, 0.5),
             advanced_volume_control =
             {
             fades = {fade_in = {curve_type = "cosine", from = {control = 0.5, volume_percentage = 0.0}, to = {1.5, 100.0}}}
@@ -623,7 +623,7 @@ data:extend({
     {
         type = "plant",
         name = "jellystem", -- in water. science
-        icon = "__sei-gleba-fruits__/graphics/icons/jellystem.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/jellystem.png",
         flags = plant_flags,
         minable =
         {
@@ -631,8 +631,8 @@ data:extend({
         mining_time = 0.5,
         results = {{type = "item", name = "jellynut", amount = 50}},
         },
-        mining_sound = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/mining/axe-mining-jellystem", 5, 0.4),
-        mined_sound = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/mining/mined-jellystem", 6, 0.35),
+        mining_sound = path_util.sa_sound_variations("__sei-gleba-fruits-2__/sound/mining/axe-mining-jellystem", 5, 0.4),
+        mined_sound = path_util.sa_sound_variations("__sei-gleba-fruits-2__/sound/mining/mined-jellystem", 6, 0.35),
         growth_ticks = 5 * minutes,
         emissions_per_second = plant_emissions,
         harvest_emissions = plant_harvest_emissions,
@@ -672,7 +672,7 @@ data:extend({
         {
         sound =
         {
-            variations = path_util.sa_sound_variations("__sei-gleba-fruits__/sound/world/plants/jellystem", 8, 0.5),
+            variations = path_util.sa_sound_variations("__sei-gleba-fruits-2__/sound/world/plants/jellystem", 8, 0.5),
             advanced_volume_control =
             {
             fades = {fade_in = {curve_type = "cosine", from = {control = 0.5, volume_percentage = 0.0}, to = {1.5, 100.0}}}

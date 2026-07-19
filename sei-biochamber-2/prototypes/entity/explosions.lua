@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 local explosion_animations = require("__base__.prototypes.entity.explosion-animations")
 local sounds = require("__base__.prototypes.entity.sounds")
 
@@ -6,7 +6,7 @@ data:extend({
     {
         type = "explosion",
         name = "biochamber-explosion",
-        icon = "__sei-biochamber__/graphics/icons/biochamber.png",
+        icon = "__sei-biochamber-2__/graphics/icons/biochamber.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "production-machine-explosions",

@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "technology",
         name = "captivity",
-        icon = "__sei-captive-biters__/graphics/technology/captivity.png",
+        icon = "__sei-captive-biters-2__/graphics/technology/captivity.png",
         icon_size = 256,
         effects =
         {
@@ -52,7 +52,7 @@ data:extend({
     {
         type = "technology",
         name = "captive-biter-spawner",
-        icon = "__sei-captive-biters__/graphics/technology/captive-biter-spawner.png",
+        icon = "__sei-captive-biters-2__/graphics/technology/captive-biter-spawner.png",
         icon_size = 256,
         effects =
         {

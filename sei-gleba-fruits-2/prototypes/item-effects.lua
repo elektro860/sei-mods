@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local sounds = require("__base__.prototypes.entity.sounds")
 local math3d = require "math3d"
@@ -27,7 +27,7 @@ local make_sticker_data = function()
         duration_in_ticks = jelly_duration,
         target_movement_modifier = jelly_speed_modifier,
         animation =
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/jellynut-speed/whirl_front",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/jellynut-speed/whirl_front",
             {
                 priority = "high",
                 frame_count = 50,
@@ -46,7 +46,7 @@ local make_sticker_data = function()
         duration_in_ticks = jelly_duration,
         render_layer = "object-under",
         animation =
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/jellynut-speed/whirl_back",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/jellynut-speed/whirl_back",
             {
                 priority = "high",
                 frame_count = 50,
@@ -68,7 +68,7 @@ local make_sticker_data = function()
         damage_interval = yumako_regen_interval,
         damage_per_tick = { amount = -yumako_regen_health, type = "poison" },
         animation =
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/yumako-regen/regen-front",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/yumako-regen/regen-front",
             {
                 priority = "high",
                 frame_count = 50,
@@ -89,14 +89,14 @@ local make_sticker_data = function()
         {
             layers =
             {
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/yumako-regen/regen-ground",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/yumako-regen/regen-ground",
                 {
                 priority = "high",
                 frame_count = 50,
                 scale = 0.5,
                 draw_as_glow = true
                 }),
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/yumako-regen/regen",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/yumako-regen/regen",
                 {
                 priority = "high",
                 frame_count = 50,
@@ -122,14 +122,14 @@ local make_sticker_data = function()
         {
             layers =
             {
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/yumako-regen/regen-front",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/yumako-regen/regen-front",
             {
                 priority = "high",
                 frame_count = 50,
                 scale = 0.5,
                 draw_as_glow = true
             }),
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/jellynut-speed/whirl_front",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/jellynut-speed/whirl_front",
             {
                 priority = "high",
                 frame_count = 50,
@@ -152,21 +152,21 @@ local make_sticker_data = function()
         {
             layers =
             {
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/yumako-regen/regen-ground",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/yumako-regen/regen-ground",
             {
                 priority = "high",
                 frame_count = 50,
                 scale = 0.5,
                 draw_as_glow = true
             }),
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/yumako-regen/regen",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/yumako-regen/regen",
             {
                 priority = "high",
                 frame_count = 50,
                 scale = 0.5,
                 draw_as_glow = true
             }),
-            path_util.sa_sprite_load("__sei-gleba-fruits__/graphics/sticker/jellynut-speed/whirl_back",
+            path_util.sa_sprite_load("__sei-gleba-fruits-2__/graphics/sticker/jellynut-speed/whirl_back",
             {
                 priority = "high",
                 frame_count = 50,

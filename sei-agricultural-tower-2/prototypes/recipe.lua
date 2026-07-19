@@ -1,7 +1,7 @@
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 local categories = { "crafting-with-fluid" }
-if mods['sei-biochamber'] then
+if mods['sei-biochamber-2'] then
   table.insert(categories, 'organic')
 end
 

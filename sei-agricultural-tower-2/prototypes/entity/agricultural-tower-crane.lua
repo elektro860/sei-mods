@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local default_dying_effect =
 {
@@ -49,7 +49,7 @@ return {
     {
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-1",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-1",
         {
             priority = "very-low",
             dice = 4,
@@ -57,7 +57,7 @@ return {
             scale = 0.5
         }),
         rotated_sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-1-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-1-shadow",
         {
             priority = "very-low",
             direction_count = 64,
@@ -65,7 +65,7 @@ return {
             draw_as_shadow = true
         }),
         rotated_sprite_reflection =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-1-reflection",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-1-reflection",
         {
             priority = "very-low",
             direction_count = 64,
@@ -84,14 +84,14 @@ return {
         },
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-3",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-3",
         {
             priority = "very-low",
             direction_count = 128,
             scale = 0.5
         }),
         rotated_sprite_shadow =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-3-shadow",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-3-shadow",
             {
             priority = "very-low",
             direction_count = 32,
@@ -99,7 +99,7 @@ return {
             draw_as_shadow = true
         }),
         rotated_sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-3-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-3-reflection",
             {
             priority = "very-low",
             direction_count = 8,
@@ -117,14 +117,14 @@ return {
         },
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-4",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-4",
         {
             priority = "very-low",
             direction_count = 128,
             scale = 0.5
         }),
         rotated_sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-4-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-4-shadow",
         {
             priority = "very-low",
             direction_count = 32,
@@ -132,7 +132,7 @@ return {
             draw_as_shadow = true
         }),
         rotated_sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-4-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-4-reflection",
             {
             priority = "very-low",
             direction_count = 8,
@@ -151,14 +151,14 @@ return {
         },
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-5",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-5",
         {
             priority = "very-low",
             direction_count = 128,
             scale = 0.5
         }),
         rotated_sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-5-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-5-shadow",
         {
             priority = "very-low",
             direction_count = 32,
@@ -166,7 +166,7 @@ return {
             draw_as_shadow = true
         }),
         rotated_sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-5-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-5-reflection",
             {
             priority = "very-low",
             direction_count = 8,
@@ -183,14 +183,14 @@ return {
         },
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-6",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-6",
         {
             priority = "very-low",
             direction_count = 128,
             scale = 0.5
         }),
         rotated_sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-6-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-6-shadow",
         {
             priority = "very-low",
             direction_count = 32,
@@ -198,7 +198,7 @@ return {
             draw_as_shadow = true
         }),
         rotated_sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-6-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-6-reflection",
             {
             priority = "very-low",
             direction_count = 8,
@@ -217,14 +217,14 @@ return {
         },
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-7",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-7",
         {
             priority = "very-low",
             direction_count = 128,
             scale = 0.5
         }),
         rotated_sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-7-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-7-shadow",
         {
             priority = "very-low",
             direction_count = 32,
@@ -232,7 +232,7 @@ return {
             draw_as_shadow = true
         }),
         rotated_sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-7-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-7-reflection",
             {
             priority = "very-low",
             direction_count = 8,
@@ -250,14 +250,14 @@ return {
         },
         {
         rotated_sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-8",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-8",
         {
             priority = "very-low",
             direction_count = 64,
             scale = 0.5
         }),
         rotated_sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-8-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-8-shadow",
         {
             priority = "very-low",
             direction_count = 32,
@@ -265,7 +265,7 @@ return {
             draw_as_shadow = true
         }),
         sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-8-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-8-reflection",
             {
             priority = "very-low",
             scale = 5
@@ -278,20 +278,20 @@ return {
         },
         {
         sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-9",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-9",
         {
             priority = "very-low",
             scale = 0.5
         }),
         sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-9-shadow",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-9-shadow",
         {
             priority = "very-low",
             scale = 1,
             draw_as_shadow = true
         }),
         sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-9-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-9-reflection",
             {
             priority = "very-low",
             scale = 5
@@ -306,20 +306,20 @@ return {
         },
         {
         sprite =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-10",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-10",
         {
             priority = "very-low",
             scale = 0.5
         }),
         sprite_shadow =
-        path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-10",
+        path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-10",
         {
             priority = "very-low",
             scale = 0.5,
             draw_as_shadow = true
         }),
         sprite_reflection =
-            path_util.sa_sprite_load("__sei-agricultural-tower__/graphics/entity/agricultural-tower/agricultural-tower-crane-10-reflection",
+            path_util.sa_sprite_load("__sei-agricultural-tower-2__/graphics/entity/agricultural-tower/agricultural-tower-crane-10-reflection",
             {
             priority = "very-low",
             scale = 5

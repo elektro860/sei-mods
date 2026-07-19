@@ -1,5 +1,5 @@
 {
-  "name": "sei-captive-biters",
+  "name": "sei-captive-biters-2",
   "version": "0.2.0",
   "title": "Space Exploration Integration: Captive Biters and Biter Eggs",
   "author": "xkyouchoux",
@@ -7,8 +7,8 @@
   "dependencies": [
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
-    "sei-library >= 1.1.0",
-    "sei-heating-tower >= 1.0.2",
+    "sei-library-2 >= 1.1.0",
+    "sei-heating-tower-2 >= 1.0.2",
     "? Krastorio2 >= 2.0",
     "! space-age"
   ],

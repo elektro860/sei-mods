@@ -1,6 +1,6 @@
-local data_util = require('__sei-library__.data_util')
+local data_util = require('__sei-library-2__.data_util')
 
-data.raw["reactor"]["heating-tower"].energy_source.effectivity = settings.startup["sei-heating-tower-effectivity"].value
+data.raw["reactor"]["heating-tower"].energy_source.effectivity = settings.startup["sei-heating-tower-2-effectivity"].value
 
 sei_fuel_categories = sei_fuel_categories or {}
 for k,v in pairs({

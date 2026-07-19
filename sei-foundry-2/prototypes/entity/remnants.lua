@@ -1,11 +1,11 @@
-local data_util = require("__sei-foundry__.data_util")
-local path_util = require("__sei-library__.path_util")
+local data_util = require("__sei-foundry-2__.data_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "corpse",
         name = data_util.prefix.."foundry-remnants",
-        icon = "__sei-foundry__/graphics/icons/foundry.png",
+        icon = "__sei-foundry-2__/graphics/icons/foundry.png",
         flags = {"placeable-neutral", "not-on-map"},
         hidden_in_factoriopedia = true,
         subgroup = "smelting-machine-remnants",
@@ -20,7 +20,7 @@ data:extend({
         remove_on_tile_placement = false,
         animation =
         {
-        filename = "__sei-foundry__/graphics/entity/foundry/foundry-remnants.png",
+        filename = "__sei-foundry-2__/graphics/entity/foundry/foundry-remnants.png",
         line_length = 1,
         width = 494,
         height = 478,

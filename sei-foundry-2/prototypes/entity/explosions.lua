@@ -1,5 +1,5 @@
-local data_util = require("__sei-foundry__.data_util")
-local path_util = require("__sei-library__.path_util")
+local data_util = require("__sei-foundry-2__.data_util")
+local path_util = require("__sei-library-2__.path_util")
 local explosion_animations = require("__base__.prototypes.entity.explosion-animations")
 local sounds = require("__base__.prototypes.entity.sounds")
 
@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = data_util.prefix.."foundry-explosion",
-        icon = "__sei-foundry__/graphics/icons/foundry.png",
+        icon = "__sei-foundry-2__/graphics/icons/foundry.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "smelting-machine-explosions",

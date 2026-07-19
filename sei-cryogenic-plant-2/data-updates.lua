@@ -1,4 +1,4 @@
-local data_util = require("__sei-library__.data_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data_util.add_categories_to_machines({
     "cryogenics"
@@ -8,7 +8,7 @@ data_util.add_categories_to_machines({
     "kr-advanced-chemical-plant",
 })
 
-if settings.startup["sei-cryogenic-plant-required-for-progression"].value then
+if settings.startup["sei-cryogenic-plant-2-required-for-progression"].value then
     local cryogenics_recipes = {
         "se-cryonite-lubricant",
         "se-cryonite-crystal",

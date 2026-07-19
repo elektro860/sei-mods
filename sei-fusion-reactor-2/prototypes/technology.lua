@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "technology",
         name = "fusion-reactor",
-        icon = "__sei-fusion-reactor__/graphics/technology/fusion-reactor.png",
+        icon = "__sei-fusion-reactor-2__/graphics/technology/fusion-reactor.png",
         icon_size = 256,
         effects =
         {

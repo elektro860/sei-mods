@@ -1,5 +1,5 @@
 {
-  "name": "sei-biochamber",
+  "name": "sei-biochamber-2",
   "version": "0.2.0",
   "title": "Space Exploration Integration: Biochamber",
   "author": "xkyouchoux",
@@ -7,9 +7,9 @@
   "dependencies": [
     "base >= 2.1.0",
     "space-exploration >= 0.7.60",
-    "sei-library >= 1.1.0",
-    "sei-heating-tower >= 1.1.0",
-    "? sei-captive-biters >= 0.2.0",
+    "sei-library-2 >= 1.1.0",
+    "sei-heating-tower-2 >= 1.1.0",
+    "? sei-captive-biters-2 >= 0.2.0",
     "? Krastorio2 >= 2.0",
     "! space-age"
   ],

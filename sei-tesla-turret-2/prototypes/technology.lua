@@ -1,10 +1,10 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "technology",
         name = "tesla-turret",
-        icon = "__sei-tesla-turret__/graphics/technology/tesla-weapons.png",
+        icon = "__sei-tesla-turret-2__/graphics/technology/tesla-weapons.png",
         icon_size = 256,
         effects = {
             {

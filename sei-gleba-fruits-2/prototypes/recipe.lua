@@ -1,5 +1,5 @@
-local path_util = require("__sei-library__.path_util")
-local data_util = require("__sei-library__.data_util")
+local path_util = require("__sei-library-2__.path_util")
+local data_util = require("__sei-library-2__.data_util")
 
 data:extend({
     {
@@ -81,7 +81,7 @@ data:extend({
     {
         type = "recipe",
         name = "yumako-processing",
-        icon = "__sei-gleba-fruits__/graphics/icons/yumako-mash.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/yumako-mash.png",
         categories = {"organic"},
         subgroup = "agriculture-products",
         order = "a[organic-processing]-b[yumako-mash]-b[processing]",
@@ -103,7 +103,7 @@ data:extend({
     {
         type = "recipe",
         name = "jellynut-processing",
-        icon = "__sei-gleba-fruits__/graphics/icons/jelly.png",
+        icon = "__sei-gleba-fruits-2__/graphics/icons/jelly.png",
         categories = {"organic"},
         subgroup = "agriculture-products",
         order = "a[organic-processing]-c[jelly]-b[processing]",
@@ -151,7 +151,7 @@ data:extend({
     {
         type = "recipe",
         name = "yumako-processing-vita",
-        icons = data_util.sub_icons("__sei-gleba-fruits__/graphics/icons/yumako-mash.png", data.raw["fluid"]["se-vitalic-acid"]),
+        icons = data_util.sub_icons("__sei-gleba-fruits-2__/graphics/icons/yumako-mash.png", data.raw["fluid"]["se-vitalic-acid"]),
         categories = { "crafting-with-fluid", "organic" },
         subgroup = "agriculture-products",
         order = "a[organic-processing]-b[yumako-mash]-c[processing-vita]",
@@ -177,7 +177,7 @@ data:extend({
     {
         type = "recipe",
         name = "jellynut-processing-vita",
-        icons = data_util.sub_icons("__sei-gleba-fruits__/graphics/icons/jelly.png", data.raw["fluid"]["se-vitalic-acid"]),
+        icons = data_util.sub_icons("__sei-gleba-fruits-2__/graphics/icons/jelly.png", data.raw["fluid"]["se-vitalic-acid"]),
         categories = { "crafting-with-fluid", "organic" },
         subgroup = "agriculture-products",
         order = "a[organic-processing]-c[jelly]-c[processing-vita]",

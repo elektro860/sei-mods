@@ -2,7 +2,7 @@ data:extend({
 	{
 		type = "corpse",
 		name = "turbo-transport-belt-remnants",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-transport-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-transport-belt.png",
 		flags = { "placeable-neutral", "not-on-map" },
 		hidden_in_factoriopedia = true,
 		subgroup = "belt-remnants",
@@ -16,7 +16,7 @@ data:extend({
 		final_render_layer = "remnants",
 		remove_on_tile_placement = false,
 		animation = make_rotated_animation_variations_from_sheet(2, {
-			filename = "__sei-turbo-belts__/graphics/entity/turbo-transport-belt/remnants/turbo-transport-belt-remnants.png",
+			filename = "__sei-turbo-belts-2__/graphics/entity/turbo-transport-belt/remnants/turbo-transport-belt-remnants.png",
 			line_length = 1,
 			width = 106,
 			height = 102,
@@ -28,7 +28,7 @@ data:extend({
 	{
 		type = "corpse",
 		name = "turbo-splitter-remnants",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-splitter.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-splitter.png",
 		flags = { "placeable-neutral", "not-on-map" },
 		hidden_in_factoriopedia = true,
 		subgroup = "belt-remnants",
@@ -42,7 +42,7 @@ data:extend({
 		final_render_layer = "remnants",
 		remove_on_tile_placement = false,
 		animation = {
-			filename = "__sei-turbo-belts__/graphics/entity/turbo-splitter/remnants/turbo-splitter-remnants.png",
+			filename = "__sei-turbo-belts-2__/graphics/entity/turbo-splitter/remnants/turbo-splitter-remnants.png",
 			line_length = 1,
 			width = 190,
 			height = 190,
@@ -54,7 +54,7 @@ data:extend({
 	{
 		type = "corpse",
 		name = "turbo-underground-belt-remnants",
-		icon = "__sei-turbo-belts__/graphics/icons/turbo-underground-belt.png",
+		icon = "__sei-turbo-belts-2__/graphics/icons/turbo-underground-belt.png",
 		flags = { "placeable-neutral", "not-on-map", "building-direction-8-way" },
 		hidden_in_factoriopedia = true,
 		subgroup = "belt-remnants",
@@ -68,7 +68,7 @@ data:extend({
 		final_render_layer = "remnants",
 		remove_on_tile_placement = false,
 		animation = {
-			filename = "__sei-turbo-belts__/graphics/entity/turbo-underground-belt/remnants/turbo-underground-belt-remnants.png",
+			filename = "__sei-turbo-belts-2__/graphics/entity/turbo-underground-belt/remnants/turbo-underground-belt-remnants.png",
 			line_length = 1,
 			width = 156,
 			height = 144,

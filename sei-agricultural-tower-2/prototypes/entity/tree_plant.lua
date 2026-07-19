@@ -53,7 +53,7 @@ tree_plant.autoplace =
     }
 }
 
-if settings.startup["sei-agricultural-tower-allow-landfill"].value then
+if settings.startup["sei-agricultural-tower-2-allow-landfill"].value then
     table.insert(tree_plant.autoplace.tile_restriction, "landfill")
 end
 

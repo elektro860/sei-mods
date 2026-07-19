@@ -1,4 +1,4 @@
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 local explosion_animations = require("__base__.prototypes.entity.explosion-animations")
 local sounds = require("__base__.prototypes.entity.sounds")
@@ -7,7 +7,7 @@ data:extend({
     {
         type = "explosion",
         name = "fusion-reactor-explosion",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-reactor.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-reactor.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "energy-explosions",
@@ -85,7 +85,7 @@ data:extend({
     {
         type = "explosion",
         name = "fusion-generator-explosion",
-        icon = "__sei-fusion-reactor__/graphics/icons/fusion-generator.png",
+        icon = "__sei-fusion-reactor-2__/graphics/icons/fusion-generator.png",
         flags = {"not-on-map"},
         hidden = true,
         subgroup = "energy-explosions",

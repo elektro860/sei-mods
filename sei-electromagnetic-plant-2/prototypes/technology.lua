@@ -1,14 +1,14 @@
 if SEI_SPACE_AGE then return end
 
-local path_util = require("__sei-library__.path_util")
+local path_util = require("__sei-library-2__.path_util")
 
 data:extend({
     {
         type = "technology",
         name = "electromagnetic-plant",
-        localised_name = {"technology-name.sei-electromagnetic-plant"},
-        localised_description = {"technology-description.sei-electromagnetic-plant"},
-        icon = "__sei-electromagnetic-plant__/graphics/technology/electromagnetic-plant.png",
+        localised_name = {"technology-name.sei-electromagnetic-plant-2"},
+        localised_description = {"technology-description.sei-electromagnetic-plant-2"},
+        icon = "__sei-electromagnetic-plant-2__/graphics/technology/electromagnetic-plant.png",
         icon_size = 256,
         effects =
         {
