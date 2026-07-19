@@ -1,6 +1,6 @@
 {
   "name": "se-ssa-i-2",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "title": "Space Exploration Integration: Space Age 2.1",
   "author": "Elektro860",
   "description": "Currently adds: \nStack inserters and belt stacking\nCryogenic plant\nElectromagnetic plant\nFoundry\nTesla turret (optional)\nRocket turret (optional)\nAgricultural tower (optional)\nBiochamber (optional)\nCaptive biter spawners (optional)\nYumako and jellynut (optional)\nHeating tower (optional)\nTurbo belts (optional)\nFusion reactors (optional)\n\nto space exploration. Original from xkyouchoux.",
