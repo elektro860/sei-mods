@@ -23,7 +23,9 @@ data:extend({
     circuit_wire_max_distance = assembling_machine_circuit_wire_max_distance,
     circuit_connector = circuit_connector_definitions["electromagnetic-plant"],
     heating_energy = "100kW",
-    effect_receiver = { base_effect = { productivity = 0.5 } },
+    effect_receiver = {
+      base_effect = { productivity = settings.startup["sei-electromagnetic-plant-2-base-production-bonus"].value / 100 },
+    },
     resistances = {
       {
         type = "fire",

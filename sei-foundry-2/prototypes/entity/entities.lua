@@ -22,7 +22,9 @@ data:extend({
     heating_energy = "300kW",
     damaged_trigger_effect = hit_effects.entity(),
     drawing_box_vertical_extension = 1.3,
-    effect_receiver = { base_effect = { productivity = 0.5 } },
+    effect_receiver = {
+      base_effect = { productivity = settings.startup["sei-foundry-2-base-production-bonus"].value / 100 },
+    },
     module_slots = 4,
     icon_draw_specification = { scale = 2, shift = { 0, -0.3 } },
     icons_positioning = {
