@@ -1,12 +1,12 @@
 {
   "name": "sei-library-2",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "title": "Space Exploration Integration: Library 2.1",
   "author": "Elektro860",
   "description": "Base library for my space exploration integration mods.",
   "dependencies": [
     "base >= 2.1.0",
-    "space-exploration >= 0.7.60",
+    "space-exploration >= 0.7.62",
     "? um-standalone-space-age-lib",
     "? Krastorio2 >= 2.0",
     "! sei-spoilage",

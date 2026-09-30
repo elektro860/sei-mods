@@ -12,7 +12,7 @@ data:extend({
     pick_sound = item_sounds.reactor_inventory_pickup,
     drop_sound = item_sounds.reactor_inventory_move,
     fuel_value = "20GJ",
-    fuel_category = "fusion",
+    fuel_categories = { "fusion" },
     stack_size = 50,
     weight = 20 * kg,
   },

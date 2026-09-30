@@ -26,7 +26,7 @@ data:extend({
     inventory_move_sound = space_age_item_sounds.agriculture_inventory_move,
     pick_sound = space_age_item_sounds.agriculture_inventory_pickup,
     drop_sound = space_age_item_sounds.agriculture_inventory_move,
-    fuel_category = "nutrients",
+    fuel_categories = { "nutrients" },
     fuel_value = "2MJ",
     stack_size = 100,
     weight = 0.5 * kg,

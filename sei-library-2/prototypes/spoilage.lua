@@ -26,7 +26,7 @@ data:extend({
       { size = 64, filename = "__sei-library-2__/graphics/icons/spoilage-3.png", scale = 0.5, mipmap_count = 4 },
     },
     fuel_value = "250kJ",
-    fuel_category = "chemical",
+    fuel_categories = { "chemical" },
     fuel_acceleration_multiplier = 0.5,
     fuel_top_speed_multiplier = 0.5,
     subgroup = "agriculture-processes",

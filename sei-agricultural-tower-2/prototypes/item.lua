@@ -57,7 +57,7 @@ data:extend({
     drop_sound = item_sounds.wood_inventory_move,
     stack_size = 10,
     weight = 10 * kg,
-    fuel_category = "chemical",
+    fuel_categories = { "chemical" },
     fuel_value = "100kJ",
   },
 })
