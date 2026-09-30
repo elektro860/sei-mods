@@ -1,12 +1,12 @@
 {
   "name": "sei-fusion-reactor-2",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "title": "Space Exploration Integration: Fusion Reactor 2.1",
   "author": "Elektro860",
   "description": "Adds fusion reactor into space exploration.",
   "dependencies": [
     "base >= 2.1.0",
-    "space-exploration >= 0.7.60",
+    "space-exploration >= 0.7.62",
     "sei-cryogenic-plant-2 >= 1.1.0",
     "! space-age"
   ],

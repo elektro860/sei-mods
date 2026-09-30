@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 1.1.1
-Date: 24 February 2026
+Date: 30 September 2026
   Changes:
     - Updated locales
     - Updated to 2.1.20

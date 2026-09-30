@@ -1,12 +1,12 @@
 {
   "name": "sei-captive-biters-2",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "title": "Space Exploration Integration: Captive Biters and Biter Eggs 2.1",
   "author": "Elektro860",
   "description": "Adds captive biters, biter eggs, and bioflux into space exploration.",
   "dependencies": [
     "base >= 2.1.0",
-    "space-exploration >= 0.7.60",
+    "space-exploration >= 0.7.62",
     "sei-library-2 >= 1.1.0",
     "sei-heating-tower-2 >= 1.0.2",
     "? Krastorio2 >= 2.0",
